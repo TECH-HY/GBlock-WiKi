@@ -70,7 +70,7 @@ Double-check the destination address. Crypto transfers cannot be recalled.
 Your request enters the operator's payout queue:
 
 - **First response within 1 business day.**
-- **Approved payouts are sent within 3 business days.**
+- **Approved payouts are sent within 20 business days.**
 
 "Business day" means a working day, not a clock-hour or calendar-day count —
 a request filed late on Friday gets its first response on the next working
