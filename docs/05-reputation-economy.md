@@ -6,39 +6,38 @@ page explains how reputation is measured, how it grows, and what it unlocks.
 
 ---
 
-## The two units: Volume and Power
+## Volume: your reputation
 
-GBlock reputation has two units. They do different things and you need to
-understand both.
+**Volume is your long-term reputation.** It is a ledger of reputation events:
 
-### Volume
-
-**Volume is your long-term reputation.**
-
-- It is an **append-only ledger**: it only grows, it never resets, and it is
-  never spent on productive actions.
+- Positive events grow it: good conduct, vouches you receive, and referral
+  outcomes.
+- Negative events reduce it: stakes you put up, penalties, clawbacks, and a share
+  of the negative events of members you back.
 - Volume determines your **Reputation Tier**, which sets your reward rate and
-  your Power recharge speed.
-- Volume is earned through responsible conduct: successful guarantees,
-  well-maintained blocks, contributions to the network, and (where applicable)
-  referral outcomes.
+  how much you can back others.
 - The single most important rule: **you cannot buy Volume.** It is only earned.
 
-### Power
+Earlier versions of this guide described a second unit called _Power_. It is
+not part of the member experience: invitations and vouches are paid for in
+reputation points directly, as described below.
 
-**Power is your operational capacity.**
+### Two views of Volume
 
-- Power is what you spend to take productive actions that grow the network:
-  sending invitations and issuing guarantees.
-- Each invitation reserves 10 Power. Each guarantee reserves 10 Power.
-- Reserved Power returns when the invitation activates or expires, or when the
-  guarantee's probation completes.
-- Your Power ceiling is `power_max = max(Volume, status_floor)`. This means
-  earning Volume raises your Power ceiling, and so does qualifying for a higher
-  status.
+Your **Reputation** page in the cabinet shows your Volume in two views:
 
-Think of it this way: Volume is your track record, Power is the working budget
-that track record lets you deploy.
+| View | What it is | What it drives |
+|---|---|---|
+| **V_capacity** | Your operational capacity: all reputation events | Your Reputation Tier, your access, and how many vouches you can give |
+| **V_rate** | The part of your Volume that counts toward rewards (it excludes deal-outcome events) | Your reward rate |
+
+Your **reward rate is locked once a week**, from a snapshot of your V_rate taken
+at the start of the week. Events that arrive mid-week change your tier and
+access at once, but never the rate you have already locked. The next snapshot
+date is shown on the page.
+
+Think of it this way: Volume is your track record, V_capacity is the budget that
+track record lets you deploy, and V_rate is the part of it that pays.
 
 ---
 
@@ -47,7 +46,7 @@ that track record lets you deploy.
 Reputation Tier is derived from Volume. The canonical catalog
 (`tier-catalog-2026-07-v1`) is:
 
-| Tier | Volume range | Reward rate | Power recharge time |
+| Tier | Volume range | Reward rate | Recovery window |
 |---|---|---|---|
 | **Verified** | 0 - 49 | 10% | 168 hours |
 | **Core** | 50 - 149 | 13% | 120 hours |
@@ -56,9 +55,9 @@ Reputation Tier is derived from Volume. The canonical catalog
 | **Vanguard** | 750+ | 25% | 12 hours |
 
 The ladder has no ceiling: Vanguard starts at 750 Volume and 25% is the
-maximum direct reward rate. The recharge times double as the reputation
-recovery cooldown after a penalty or a reworked vouch (168/120/72/24/12 hours
-by tier).
+maximum direct reward rate. The recovery window is the catalog's waiting time
+after a penalty or a reworked vouch (168/120/72/24/12 hours by tier). It is
+defined in the catalog and is being switched on in stages. _Rolling out._
 
 ### How to read the catalog
 
@@ -66,9 +65,9 @@ by tier).
   allocated to the member when a rewardable event occurs. Higher tiers earn a
   larger share. Rewards are never paid from transaction volume, because GBlock
   does not settle transactions.
-- **Power recharge time** is how long it takes a unit of spent Power to return.
-  At Verified tier, a unit takes a week to recharge; at Vanguard, half a day.
-  Higher tiers can invite and guarantee far more often.
+- **Free Data Room allowance.** A full Resident gets more free secondary-market
+  Data Rooms at higher tiers (1 / 2 / 3 / 5 / 8 by reward-rate tier). See
+  [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
 
 ### The two "Verified" labels
 
@@ -85,38 +84,36 @@ context.
 
 ---
 
-## How Power is spent and returned
+## What backing someone costs
 
-Two productive actions reserve Power.
+Three actions put your own reputation behind another person.
 
 ### Invitations
 
-- You reserve **10 Power** when you send an invitation.
-- The Power returns when the invitation **activates** (the recipient onboards)
-  or **expires** (they never used the magic link).
-- If the invitee misbehaves, you may face reputation impact beyond the Power
+- Sending an invitation **reserves 10 reputation points** from you.
+- The points return when the invitation **activates** (the recipient onboards)
+  or **expires** (30 days, with no penalty).
+- The person you invite starts with a welcome grant: 30 points, plus 10 on top
+  when they come through an invitation (40 in total), and 1 vouch gift.
+- If the invitee misbehaves, you may face a reputation impact beyond the
   reserve. This is why you should only invite people you can stand behind.
+
+An Ambassador starts with the 30-point floor, so a new Ambassador can have 3
+invitations open at once.
 
 ### Guarantees
 
-- You reserve **10 Power** when you accept a guarantee request.
-- The Power returns when the ward's **probation completes** successfully.
-- If the ward violates trust during probation, both of you are penalized.
-  Three or more violations lead to revocation of the guarantee.
+- Accepting a guarantee request does **not** lock any reputation up front.
+- While the guarantee is active, **50% of the ward's negative reputation events
+  also land on you.**
+- If the ward violates trust during probation, the probation is extended; three
+  violations lead to revocation of the guarantee. See
+  [User roles and statuses - Probation](02-user-roles-and-statuses.md#probation).
 
-Because Power is reserved (not destroyed), taking a productive action does not
-permanently shrink your capacity. It temporarily lowers your available Power
-until the action resolves. As you climb tiers, Power recharges faster, so your
-effective throughput grows.
-
----
-
-## Vouches
+### Vouches
 
 Vouches are the second backing instrument. They are how waitlist candidates
 reach **Resident** status, and they move real reputation.
-
-### How vouching works
 
 - Vouching for a member credits **+10 reputation to them** and **+5 to you**.
 - Creating a vouch stakes **10 of your Volume capacity**. Net of your +5
@@ -128,18 +125,17 @@ reach **Resident** status, and they move real reputation.
   member**; the decisive second vouch — the one that completes Resident
   status — must come from a **KYC-verified Resident**.
 
-### If a vouch goes wrong
+**If a vouch goes wrong.** A vouch can be revoked (withdrawn because the
+vouched member violated trust):
 
-A vouch can be reworked (withdrawn because the vouched member violated
-trust):
-
-- The staked Volume capacity is **not** returned.
-- The vouched member's gained reputation is clawed back, plus an extra 1-point
+- The staked Volume is **not** returned, and revoking costs a further **5
+  Volume**, also never returned.
+- The reputation granted to both sides is clawed back, plus an extra 1-point
   penalty for the voucher.
 - Negative reputation events of the member you vouched for propagate to you at
   **50%** while your vouch is active.
-- Two or more reworks in a rolling 30 days put your vouching on hold and queue
-  the case for operator review.
+- Two or more revocations in a rolling 30 days put your vouching on hold and
+  queue the case for operator review.
 
 The rules are deliberately asymmetric: vouching earns modestly, but backing
 the wrong person costs you real reputation.
@@ -150,8 +146,9 @@ the wrong person costs you real reputation.
 
 The reward rate from the tier catalog is the **direct** (first-level) share of
 confirmed non-transactional TECH HY revenue allocated to you when a
-rewardable event occurs — a scoring purchase, development or consulting work,
-or any other sale attributable to your referral.
+rewardable event occurs — a scoring purchase, a Data Room subscription, a
+voucher purchase, or another sale attributable to your referral. Fees on deals
+between members are not part of it.
 
 On top of the direct ladder:
 
@@ -168,14 +165,18 @@ an internal accounting figure, not a member-facing number.
 
 ### How rewards reach you
 
+- Rewards become releasable **30 days after the revenue** they come from. If the
+  payment is refunded inside that window, the reward is cancelled; after the
+  window a refund is recovered from you as a debt against future rewards.
 - Reward accruals are credited to your **reward balance** in a monthly batch
   on the **1st of the month**.
 - There is no self-service withdrawal: moving rewards off-platform happens
   through a reviewed **payout request** (minimum $50, USDT BEP-20; without KYC
   a single request is capped at $150). See
   [Payouts and rewards](10-payouts-and-rewards.md).
-- You can move rewards into your payment balance yourself (a 3% fee applies);
-  moving payment balance back into rewards is an operator-reviewed request.
+- You can move rewards into your payment balance yourself: the transfer **adds a
+  3% bonus** on top of the amount you move. Moving payment balance back into
+  rewards is an operator-reviewed request.
 - Balances are reconciled daily against the reward ledger; any discrepancy
   alerts the operator before anything is paid out.
 
@@ -183,11 +184,10 @@ an internal accounting figure, not a member-facing number.
 
 ## How Volume grows
 
-Volume is an append-only ledger of positive contributions. The exact accrual
-events are governed by operator policy, but the categories are stable:
+Volume is a ledger. The exact accrual events are governed by operator policy,
+but the categories are stable:
 
-- **Successful guarantees.** When a ward completes probation in good standing,
-  the guarantor may receive a Volume bonus.
+- **Vouches you receive and give**, within the rules above.
 - **Well-maintained blocks.** Active, fresh, accurately described blocks
   contribute to seller reputation.
 - **Referral outcomes.** When an invitee contributes positively to the network,
@@ -215,9 +215,9 @@ Reputation is not a vanity score. It translates directly into capability.
 
 | Capability | Driver |
 |---|---|
-| Higher reward rate on non-transactional revenue | Reputation Tier |
-| Faster Power recharge, so more invites and guarantees per period | Reputation Tier |
-| More vouches you can give (capacity divided by ten) | Volume (Reputation Tier) |
+| Higher reward rate on non-transactional revenue | Reputation Tier (weekly snapshot) |
+| More vouches you can give (capacity divided by ten) | Volume capacity (V_capacity) |
+| More free secondary-market Data Rooms (full Residents) | Reward-rate tier |
 | Shorter operator review SLA | Trust Tier (Verified at 24h, Vouched at 48h, Anonymous at 72h) |
 | Higher reputation accrual rate | Trust Tier + 2FA |
 | Eligibility to act as guarantor on the Vouched path | Trust Tier (Verified only) |
@@ -228,7 +228,7 @@ Reputation is not a vanity score. It translates directly into capability.
 Notice that some capabilities are driven by **Trust Tier** (identity assurance)
 and others by **Reputation Tier** (accumulated conduct). They work together.
 A Verified member with Vanguard-tier Volume has the best of both: full market
-access, the highest reward rate, the fastest recharge, and the shortest SLA.
+access, the highest reward rate, and the shortest SLA.
 
 ---
 
@@ -238,9 +238,10 @@ access, the highest reward rate, the fastest recharge, and the shortest SLA.
 No. Volume cannot be purchased. The only way to climb tiers is to accumulate
 reputation through conduct over time.
 
-**"Power is spent and gone."**
-No. Power is reserved for the duration of an action and returns when the action
-resolves. Your ceiling grows with Volume and status.
+**"Volume only ever goes up."**
+No. Stakes, penalties, clawbacks and the liability for people you back all
+reduce it. Sanctions follow the person, not the account, so a new account does
+not wipe the slate.
 
 **"A higher Reputation Tier lets me place blocks."**
 Not by itself. Block placement is gated by **Trust Tier** (Vouched or
@@ -258,7 +259,7 @@ KYC). See [Payouts and rewards](10-payouts-and-rewards.md).
 
 **"Vouching is free reputation."**
 No. A vouch stakes your Volume capacity, is limited by that capacity, and a
-reworked vouch costs you the stake plus a penalty.
+revoked vouch costs you the stake plus a penalty.
 
 ---
 

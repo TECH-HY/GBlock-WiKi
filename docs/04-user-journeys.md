@@ -26,21 +26,24 @@ time; jump to the journey you are trying to complete.
 
 ## Onboarding
 
-The first session after you receive an invitation.
+The first session after you register by email or receive an invitation.
 
 ```text
-Invitation email
+Registration form or invitation email
   └─ Magic link (click within 30 minutes)
        └─ Profile incomplete?
-            ├─ Yes → Complete profile → Pick market interests → Cabinet home
+            ├─ Yes → Complete profile → Choose your paths → Cabinet home
             └─ No  → Cabinet home
 ```
 
 **What you do:**
 
-1. Click the magic link in the invitation email.
-2. If prompted, complete your profile and select your market interests.
-3. Arrive at the cabinet home.
+1. Click the magic link in the email.
+2. If prompted, complete your profile.
+3. Choose your paths: **Data Room & Scoring**, **Ambassador**, **Apply for
+   Residency**. You can take one, two or all three, and each path asks for its
+   own consent.
+4. Arrive at the cabinet home.
 
 **What the platform does:**
 
@@ -52,15 +55,16 @@ Invitation email
 At the end of onboarding you are a **Registered** member, **Anonymous** trust
 tier, **Verified** reputation tier (0-49 Volume), with the welcome grant in
 your pocket: 30 starting reputation, or 40 plus a vouch gift if you arrived
-through an invitation. What you can do next depends on which statuses and
-tiers you add. See [User roles and statuses](02-user-roles-and-statuses.md).
+through an invitation. What you can do next depends on which paths, statuses
+and tiers you add. See [User roles and statuses](02-user-roles-and-statuses.md).
 
 ---
 
 ## Browse the dealflow
 
-Finding opportunities as a buyer. Available to anyone who can view dealflow
-(Anonymous, Vouched, and Verified tiers all qualify).
+Finding opportunities as a buyer. Available to Residents (Anonymous, Vouched,
+and Verified trust tiers all qualify). Ambassadors can look at the Secondary
+Market and the Demand Board read-only, but do not see the dealflow.
 
 **Step 1. Open Dealflow.**
 
@@ -105,9 +109,10 @@ Dealflow overview → Block detail → Request access → Express interest
 Offering an opportunity to the network as a seller. This journey is gated by
 the **Trust Gate**, which is why your Trust Tier matters.
 
-**Precondition:** You must be at least **Vouched** (two guarantees from
-Verified members) or **Verified** (KYC passed). Anonymous members cannot place
-blocks. See the [access matrix](02-user-roles-and-statuses.md#the-full-access-matrix).
+**Precondition:** You must be a Resident and at least **Vouched** (two
+guarantees from Verified members) or **Verified** (KYC passed). Anonymous
+members cannot place blocks. See the
+[access matrix](02-user-roles-and-statuses.md#the-full-access-matrix).
 
 **Step 1. Open the Seller Dashboard.**
 
@@ -133,8 +138,8 @@ When you submit, the **Trust Gate** evaluates you:
 
 **Step 4. Manage the block.**
 
-While the block is active, you can renew it (extend freshness) or close it.
-Both actions require **re-authentication** (a fresh magic-link confirmation
+Creating, editing, submitting, renewing (extending freshness) and closing a
+block all require **re-authentication** (a fresh magic-link confirmation
 within the last 10 minutes). See
 [Trust and safety - Re-authentication](07-trust-and-safety.md#re-authentication).
 
@@ -179,21 +184,22 @@ your cabinet.
 
 Accepting requires re-authentication. When you accept:
 
-- 10 Power is reserved from your account as collateral.
 - The member enters a probation period (Standard 30 days, Founding 14 days,
-  Extended operator-set).
+  Extended 60 days). No reputation is locked up front, but while the guarantee
+  is active **50% of the ward's negative reputation events land on you too**.
 
 **Step 3. Probation.**
 
 During probation the ward is under supervised observation. If the ward commits
-trust violations, both of you are penalized.
+a trust violation, the ward is penalized and the probation is extended.
 
 **Outcomes:**
 
-- **Success:** the ward completes probation in good standing. Your Power
-  returns. You may receive a Volume bonus for backing a trustworthy member.
-- **Violation:** three or more violations by the ward lead to revocation of the
-  guarantee and reputation impact for you.
+- **Success:** the ward completes probation in good standing and the guarantee
+  is recorded as completed. For a Residency applicant, this completes their
+  admission as a Resident.
+- **Violation:** three violations by the ward lead to revocation of the
+  guarantee and a reputation impact for you.
 
 ### Vouches (Resident path)
 
@@ -203,13 +209,15 @@ that completes Resident status — must come from a **KYC-verified Resident**.
 
 **How it works:**
 
-1. A waitlist candidate receives your vouch. You stake part of your reputation
-   capacity, and the candidate gains +10 reputation while you gain +5.
+1. A waitlist candidate receives your vouch. You stake 10 of your Volume
+   capacity, and the candidate gains +10 reputation while you gain +5. How many
+   vouches you can hold is your Volume capacity divided by ten.
 2. When the candidate holds two qualifying vouches (at least one from a
    Resident), their Resident status completes.
-3. If a vouch is later reworked, the staked capacity is not returned, the
-   candidate's gained reputation is clawed back plus a penalty, and repeated
-   reworks flag the case for operator review. Vouch responsibly.
+3. If a vouch is later revoked, the stake is not returned, revoking costs a
+   further 5 Volume, the reputation granted to both sides is clawed back plus a
+   penalty for you, and two revocations within 30 days put your vouching on hold
+   for operator review. Vouch responsibly.
 
 This is the core of shared accountability. Do not back someone you cannot
 stand behind.
@@ -243,10 +251,11 @@ off-platform contact is not part of the flow; the thread is the channel.
 The thread progresses toward an outcome (interest confirmed, terms discussed,
 declined, or no longer relevant). Once resolved, the thread is archived.
 
-**Step 5. Withdrawal requires re-auth.**
+**Step 5. Raise a problem.**
 
-If you need to withdraw from a deal thread, that action requires
-re-authentication, because it changes the state of a governed relationship.
+If something goes wrong in a deal, you can file a complaint about that deal or
+open a dispute from the thread itself. The thread stays open while the
+operator looks into it. See [Trust and safety](07-trust-and-safety.md#complaints).
 
 What GBlock does not do here: it does not settle any transaction, move funds,
 or custody assets. The thread exists to mediate the introduction and the
@@ -258,21 +267,24 @@ conversation, nothing further.
 
 The member-controlled Virtual Data Room (VDR). This is the project axis of
 GBlock: a place to consolidate diligence materials for an opportunity you are
-representing.
+representing or backing. Pricing, allowances and scoring are covered in
+[Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
 
 **Step 1. Create or open a data room.**
 
-Each data room is tied to a company/project. You open it from the cabinet.
-Creating your first Data Room is also what activates your
-[founder functions](02-user-roles-and-statuses.md#founder-functions-rolling-out)
-— the creation flow and the scoring form share one dataset, so your room
-starts with a scoring draft for the same company.
+Any onboarded member in good standing can open a Data Room, including an
+investor who holds a stake in a company. The room belongs to **you, its
+creator**. The company record behind it is shared, so different people can open
+their own rooms for the same company. Your first room is free.
 
 **Step 2. Upload documents.**
 
 You upload diligence documents (financials, legal, cap table, commercial,
 reports). Files are stored through signed cloud URLs; access is controlled by
-you as the room owner.
+you as the room owner. Uploads require re-authentication. When you, as owner,
+upload the first document to a room of your own company, your
+[Data Room functions](02-user-roles-and-statuses.md#data-room-functions-the-founder-extension)
+switch on silently.
 
 **Step 3. Grant access.**
 
@@ -282,41 +294,50 @@ You grant access to specific members. Access can be:
 - **Unlisted token:** a shareable token that lets a holder view the room
   without you naming them individually.
 
+Granting and revoking access require re-authentication. You can also invite
+teammates to the room by email with one of the team roles (Owner, Editor,
+Member); the invited person gets a "this is not me" option if the invitation
+reached the wrong address.
+
 Any link that leads to your room doubles as a referral link — see
 [Silent Data Room referrals](11-silent-dr-referral.md).
 
 **Step 4. Control capabilities.**
 
-You can toggle download permissions, revoke access, and view the scoring report
-for the project.
+You can toggle download permissions, revoke access, set document visibility,
+and view the scoring report for the project.
 
 **Step 5. Scoring and the public catalog.**
 
 Each project has a deterministic scoring report combining two dimensions:
-**Potential** (0-150) and **Readiness** (0-150).
+**Potential** (0-150) and **Readiness** (0-150). A scoring is started from the
+company's Data Room, which collects the project information the scoring is
+based on.
 
 Publication to the public project catalog requires **a valid scoring and a
 completed company profile** (description, sector, and similar public fields).
 Without them, the room still works exactly as before for investors you granted
 direct access to — it just does not appear in the catalog.
 
-**Scoring expiry.** If your scoring expires, the room keeps working: grants
+**Scoring validity.** A scoring does not expire with time. It stays valid while
+it was produced by the current scoring engine version and the company still has
+an active Data Room. If it stops being valid, the room keeps working: grants
 stay live, content stays available. What changes is visibility — the room
-leaves the catalog and the scoring placeholder is marked as expired until you
-renew. Your room limits are never recalculated retroactively.
+leaves the catalog and the scoring placeholder is marked until you renew.
 
 **Step 6. Closing a room — two different doors.**
 
 When you are done with a room, you choose:
 
-- **Delete permanently** — documents are removed, investor grants are revoked,
-  and the room's slot is freed. If it was your one free primary-market room,
-  you can create a new one in its place.
-- **Archive** — investors keep read access to the materials, and the room
-  **does not** free its slot. Archiving is a soft close, not a removal.
+- **Delete permanently** — documents are removed and investor grants are
+  revoked.
+- **Archive** — investors keep read access to the materials, and the room's
+  subscription (if it has one) is paused while it is archived. Archiving is a
+  soft close, not a removal.
 
-Rooms belong to the **company**, not to you personally: if company ownership
-changes hands, the room (and its scoring) follows the company automatically.
+**Handing a room over.** You can offer a room to another member. The transfer
+only happens if the recipient accepts, and both the offer and the acceptance
+require re-authentication.
 
 <p align="center">
   <img src="../images/dataroom.png" alt="Data room interface" width="720" />
@@ -337,7 +358,7 @@ From the cabinet, open the **Send Invite** page.
 
 **Step 2. Enter the recipient's email.**
 
-The system reserves 10 Power from your account as a stake.
+The system reserves 10 reputation points from you as a stake.
 
 **Step 3. The recipient receives a magic link.**
 
@@ -346,16 +367,17 @@ become a Registered member.
 
 **Step 4. Stake returns.**
 
-When the invitation activates or expires, your 10 Power returns
-(automatically, at the latest 30 days after the invite was sent). If the
-invitee misbehaves, you may face reputation impact. This is shared
-accountability applied to invitations.
+When the invitation activates or expires, your 10 points return (automatically,
+at the latest 30 days after the invite was sent). If the invitee misbehaves,
+you may face a reputation impact. This is shared accountability applied to
+invitations.
 
 Referral rewards, where applicable, are tracked under **Referrals** in the
 cabinet. Reward candidates move through pending, locked, approved, released,
 and suppressed states. Rewards are paid only from confirmed non-transactional
-TECH HY revenue, and reward balances are credited in a monthly batch on the
-1st of the month. See [Payouts and rewards](10-payouts-and-rewards.md).
+TECH HY revenue, become releasable 30 days after the revenue they come from,
+and reward balances are credited in a monthly batch on the 1st of the month.
+See [Payouts and rewards](10-payouts-and-rewards.md).
 
 ---
 
@@ -377,7 +399,7 @@ single request is capped at **$150**; with KYC there is no cap.
 **Step 3. Operator review.**
 
 The operator reviews your request in a queue. First response within one
-business day; approved payouts are sent within three business days.
+business day; approved payouts are sent within 20 business days.
 
 **Step 4. Notification with the transaction hash.**
 
@@ -393,23 +415,27 @@ in [Payouts and rewards](10-payouts-and-rewards.md).
 ## File a complaint
 
 Reporting misconduct or quality issues. The complaint flow is designed to be
-safe for the reporter.
+safe for the reporter. Filing a report goes through the operator.
 
 **Step 1. Open Report.**
 
 From the cabinet, open **Report**.
 
-**Step 2. Pick a complaint type.**
+**Step 2. Pick a category.**
 
-Available types include abusive behavior, suspicious activity, block quality
-issue, referral abuse, reputation dispute, marketplace abuse, and manual
-report.
+The categories are KYB / KYC, Misrepresentation, Off-platform, Harassment,
+Privacy, Fraud, and Other. The category helps the operator route your report.
 
-**Step 3. Submit.**
+**Step 3. Contact the operator.**
 
-Provide what you can. Evidence and operator notes are kept internal and are
-never visible to other members. The reporter's identity is not exposed to the
-subject of the complaint.
+The Report page shows the operator contact address (`start@techhy.me`). Write
+to it quoting the category and include identifiers, dates, and any supporting
+context. Evidence and operator notes are kept internal and are never visible to
+other members. The reporter's identity is not exposed to the subject of the
+complaint.
+
+If the problem is about a specific deal, you can also file a complaint or open
+a dispute directly from that deal's thread.
 
 **Step 4. Operator review.**
 
@@ -450,5 +476,6 @@ bonus. See [Trust and safety - 2FA](07-trust-and-safety.md#two-factor-authentica
 
 - **The rules behind every gate above:** [User roles and statuses](02-user-roles-and-statuses.md)
 - **What the cabinet looks like, page by page:** [Platform tour](06-platform-tour.md)
-- **The numbers behind Volume and Power:** [Reputation economy](05-reputation-economy.md)
+- **The numbers behind Volume and the tier catalog:** [Reputation economy](05-reputation-economy.md)
 - **Payout rules in detail:** [Payouts and rewards](10-payouts-and-rewards.md)
+- **Data Room pricing, scoring and subscriptions:** [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md)

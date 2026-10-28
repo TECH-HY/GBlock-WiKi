@@ -25,23 +25,26 @@ self-contained, so you can also jump straight to the topic you need.
 |---|---|---|
 | 1 | [What is GBlock](docs/01-what-is-gblock.md) | The product, the promise, what GBlock is **not**, and the rules of the space. |
 | 2 | [User roles and statuses](docs/02-user-roles-and-statuses.md) | The three independent axes of membership: **Status**, **Trust Tier**, and **Reputation Tier**. The full access matrix. |
-| 3 | [Getting access](docs/03-getting-access.md) | Invitation, magic link, ambassador self-registration, founding grant, community request. |
+| 3 | [Getting access](docs/03-getting-access.md) | Registration by email, invitation, the routes to Resident, founding grant, community request. |
 | 4 | [User journeys](docs/04-user-journeys.md) | Step-by-step flows: onboarding, browsing dealflow, placing a block, guaranteeing a member, deal threads, data room. |
-| 5 | [Reputation economy](docs/05-reputation-economy.md) | Volume, Power, tier catalog, reward rates, how reputation grows and what it unlocks. |
+| 5 | [Reputation economy](docs/05-reputation-economy.md) | Volume (capacity and rate views), the tier catalog, reward rates, what backing someone costs, and what reputation unlocks. |
 | 6 | [Platform tour](docs/06-platform-tour.md) | Page-by-page walk-through of the member cabinet, with screenshots. |
-| 7 | [Trust and safety](docs/07-trust-and-safety.md) | KYC, re-authentication, complaints, probation, device alerts, 2FA. |
+| 7 | [Trust and safety](docs/07-trust-and-safety.md) | KYC, re-authentication, complaints, probation, device alerts, 2FA, inactivity and deletion. |
 | 8 | [Glossary](docs/08-glossary.md) | Plain-language definitions of every GBlock term. |
 | 9 | [Roadmap and stage](docs/09-roadmap-and-stage.md) | Current stage, what is live, what is planned, what is explicitly out of scope. |
-| 10 | [Payouts and rewards](docs/10-payouts-and-rewards.md) | Reward and payment balances, how payouts work (operator-reviewed requests), limits, SLA, and the monthly reward schedule. |
+| 10 | [Payouts and rewards](docs/10-payouts-and-rewards.md) | Reward and payment balances, top-up bonuses, how payouts work (operator-reviewed requests), limits, SLA, and the monthly reward schedule. |
 | 11 | [Silent Data Room referrals](docs/11-silent-dr-referral.md) | How sharing a Data Room link grows the network, and what silent referral attribution means for you. |
+| 12 | [Data Rooms, scoring and subscriptions](docs/12-data-rooms-scoring-and-subscriptions.md) | Who owns a Data Room, free and paid rooms, subscriptions and what happens when one lapses, scoring and vouchers. |
 
 ---
 
 ## Quick orientation
 
-**GBlock is an invitation-only B2B private market club.** Members discover
-private-market opportunities (primary raises, secondary blocks, pre-IPO, M&A,
-OTC, institutional mandates), place their own sale blocks, request mediated
+**GBlock is a sponsorship-based B2B private market club.** Anyone can register
+with an email address; full membership (the Resident status) and the dealflow
+require sponsorship from current members. Members discover private-market
+opportunities (primary raises, secondary blocks, pre-IPO, M&A, OTC,
+institutional mandates), place their own sale blocks, request mediated
 introductions, and build reputation through responsible behavior.
 
 Access is earned, not bought. It is gated by reputation and operator review.
@@ -96,7 +99,8 @@ Read the full compliance boundary in
 │   ├── 08-glossary.md
 │   ├── 09-roadmap-and-stage.md
 │   ├── 10-payouts-and-rewards.md
-│   └── 11-silent-dr-referral.md
+│   ├── 11-silent-dr-referral.md
+│   └── 12-data-rooms-scoring-and-subscriptions.md
 ├── images/                ← platform screenshots used in the guide
 └── brand/                 ← logo and brand reference assets
 ```
@@ -106,16 +110,18 @@ Read the full compliance boundary in
 ## Status of this document
 
 GBlock is currently in the **PRE_MARKET_INTERNAL_UAT** stage: a controlled,
-invitation-only, pre-market phase. Functionality described here reflects the
-live product unless a section is explicitly marked as _planned_, _roadmap_, or
-_rolling out_.
+pre-market phase with sponsorship-based market access. Functionality described
+here reflects the current product unless a section is explicitly marked as
+_planned_, _roadmap_, or _rolling out_.
 
 Where the product model has recently changed, this wiki describes the target
-model: entries marked _rolling out_ are canon policy that is being switched on
-in stages, and entries marked _planned_ are not yet available to members. See
+model: entries marked _rolling out_ are confirmed policy that is being switched
+on in stages, and entries marked _planned_ are not yet available to members. See
 [Roadmap and stage](docs/09-roadmap-and-stage.md) for the live/planned split.
+Some limits and prices may change when the next edition of the internal product
+specification is accepted; this wiki will be updated then.
 
 This wiki describes the member experience. It intentionally omits internal
 architecture, source code, deployment, and operational procedures.
 
-_Last updated: August 2026._
+_Last updated: October 2026._

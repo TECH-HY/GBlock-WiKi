@@ -15,12 +15,12 @@ reviewed-by-design model that governs access and introductions.
 | Balance | What it holds | What it is for |
 |---|---|---|
 | **Reward balance** | Referral rewards and other reputation-linked rewards | Accumulation and withdrawal via payout request |
-| **Payment balance** | Funds you top up by card | Platform purchases, such as project scoring |
+| **Payment balance** | Funds you top up by card | Platform purchases, such as project scoring and Data Room subscriptions |
 
 Balances are **not interchangeable in both directions**:
 
 - **Reward → payment** is self-service. Moving rewards into your payment
-  balance costs a **3% fee**.
+  balance **adds a 3% bonus**: you receive the amount you move plus 3% of it.
 - **Payment → reward** is not self-service. If you need to move value the
   other way, it goes through an operator-reviewed request.
 
@@ -32,8 +32,11 @@ Rewards are earned through the referral economy — your tier's direct rate
 (10-25% by Reputation Tier), multi-level overrides (6% / 3% / 1%), and pool
 distributions. See [Reputation economy](05-reputation-economy.md).
 
-Two scheduling facts to calibrate expectations:
+Three scheduling facts to calibrate expectations:
 
+- A reward becomes releasable **30 days after the revenue** it comes from. If
+  the payment is refunded inside that window, the reward is cancelled; after the
+  window, a refund is recovered from you as a debt against future rewards.
 - Rewards are credited to your reward balance in a **monthly batch on the
   1st of the month**. Activity during a month is paid out in the following
   batch.
@@ -43,7 +46,10 @@ Two scheduling facts to calibrate expectations:
   integrity of everyone's balances.
 
 There is no condition like "rewards unlock after your first deal": rewards
-accumulate on the reward balance as they are approved.
+accumulate on the reward balance as they are approved. Rewards come from
+scoring purchases, Data Room subscriptions and voucher purchases — not from fees
+on deals between members. Reward accrual stops while your account is sleeping
+(see [Trust and safety](07-trust-and-safety.md#inactivity-deletion-and-your-data)).
 
 ---
 
@@ -55,6 +61,8 @@ accumulate on the reward balance as they are approved.
   payout request is not available.
 - Without verified KYC, a single request is capped at **$150**. With KYC,
   there is no cap on a request.
+- If your KYC was revoked, or your account carries a sanction, you cannot open a
+  payout request until the situation is resolved.
 
 **Step 2. Submit the request.**
 
@@ -91,6 +99,15 @@ were, and you can see the reason. Common reasons include a payout address that
 does not match the required network (USDT BEP-20), a flagged referral chain
 under review, or an account restriction. You can fix the issue and request
 again.
+
+---
+
+## Topping up the payment balance
+
+You top up the payment balance by card. A top-up of exactly $150 earns no bonus;
+a top-up **above $150 earns +5%**, and a top-up of **$500 or more earns +10%**.
+An automatic top-up earns a 1% bonus. Where more than one bonus could apply, the
+larger one applies — they do not stack.
 
 ---
 

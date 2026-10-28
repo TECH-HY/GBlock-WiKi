@@ -5,9 +5,10 @@ do not have to configure anything, label anything, or manage a separate
 program: sharing diligence materials naturally grows the network, and this
 page explains what that means for you and for the people who click your links.
 
-> **Status note.** The attribution model below is the confirmed product
-> direction. The referral engine and founder-facing link analytics are being
-> built — see [Roadmap and stage](09-roadmap-and-stage.md).
+> **Status note.** The attribution engine described below is part of the
+> product. Founder-facing link analytics are still being extended, and the
+> follow and ambassador-code features at the end of this page are planned — see
+> [Roadmap and stage](09-roadmap-and-stage.md).
 
 ---
 
@@ -45,15 +46,20 @@ room of yours and then registered, that is a touch.
 
 ## How attribution works
 
-Attribution follows the **last-touch** rule across all channels:
+Attribution follows the **last-click** rule across all channels:
 
 - A click on any of your Data Room links is recorded as a touch on that
-  visitor.
+  visitor. A click on an invitation link is a touch as well; an invitation that
+  was sent but never clicked is not.
 - If the visitor **registers**, they are attributed to the member whose touch
-  came **last before registration** — whether that touch was a Data Room link
-  or a classic ambassador invitation.
-- There are no channel conflicts to arbitrate: the most recent touch wins,
-  everywhere, and the attribution is **lifetime**.
+  came **last before registration** — whether that touch was a Data Room link,
+  an invitation link or an ambassador's referral link. A touch stays valid for
+  about 30 days.
+- The one exception is a tie inside a single visit: if the same click carries
+  both a Data Room link and an ambassador's referral link, the **ambassador
+  wins**. A Data Room link without an ambassador's link stays a silent referral
+  for the room's owner.
+- Once a member is attributed to you, the attribution does not expire.
 
 In practice: share your room widely. Whoever registers through your share
 belongs to your referral tree like any other referral.
@@ -69,7 +75,7 @@ the ambassador ladder:
   [tier catalog](05-reputation-economy.md#the-canonical-tier-catalog)) when a
   referred member generates rewardable revenue.
 - **Multi-level overrides** for downstream referrals (6% / 3% / 1%, with KYC).
-- **Lifetime attribution** — the referral does not expire.
+- **No expiry** — once attributed, the referral stays in your tree.
 
 What silent referrals deliberately do **not** do:
 
@@ -80,7 +86,7 @@ What silent referrals deliberately do **not** do:
   reserved for deliberate, personal backing.
 - **No liability.** You bear no responsibility for a silent lead's conduct.
 
-Compare: an *invitation* stakes your Power and makes you accountable. A
+Compare: an *invitation* reserves your reputation and makes you accountable. A
 *silent referral* only credits your referral tree. That asymmetry is the
 design.
 
@@ -101,6 +107,22 @@ rest of the reputation economy:
 
 The practical guidance: share your rooms with real audiences. The economics
 reward reach, not registration farming.
+
+---
+
+## Planned: following a Data Room and ambassador codes
+
+Two additions are accepted but not yet in the product. _Planned._
+
+- **Follow a Data Room.** Ambassadors and above will be able to follow a Data
+  Room that is published at least to GBlock members (never their own). Updates
+  would appear in the cabinet feed at once, with one weekly digest email and at
+  most one notification per room per day. The room owner would see how many
+  ambassadors follow the room and their codes — not names, emails or tiers — and
+  could choose to make the count public.
+- **Public ambassador code.** Each ambassador would get a short, unguessable
+  public code of the form AMB-XXXX, used in referral links instead of an email
+  address or an internal id.
 
 ---
 

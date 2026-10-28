@@ -31,10 +31,10 @@ accounts are not merged, and re-verifying under a duplicate is not a way
 around it.
 
 **If KYC is revoked.** Losing verified status does not destroy your history.
-Data Rooms beyond what your remaining status allows are archived (investors
-with existing grants keep reading; new grants are not issued), your existing
-welcome grant and earned reputation stay as they are, and new
-verification-gated actions are paused until you re-verify.
+Your existing Data Rooms and the access you have already granted stay live, and
+your welcome grant and earned reputation stay as they are. What stops is
+anything new: new access grants, new Data Rooms and payouts are paused until you
+re-verify.
 
 For projects, KYB (Know Your Business) and project-level KYC are required for
 primary-market listings.
@@ -49,12 +49,15 @@ confirmation within the last 10 minutes.
 
 Actions that require re-authentication:
 
-- Creating a sale block.
+- Creating, editing, submitting, renewing or closing a sale block.
 - Accepting a guarantee.
-- Publishing a primary listing.
-- Granting or revoking Data Room access.
-- Withdrawing from a deal thread.
-- Enabling, verifying, or disabling 2FA.
+- Enabling, verifying, or disabling 2FA, and revoking a trusted device.
+- Exporting your data.
+- Data Room actions: uploading documents, granting or revoking access (direct or
+  unlisted), toggling downloads, changing document visibility or the public
+  tier, editing sections, archiving, restoring or deleting a room, managing team
+  invitations and roles, and offering, accepting or cancelling an ownership
+  transfer.
 
 If you try one of these actions without a recent re-authentication, the
 platform prompts you to confirm via a new magic link. This keeps a stolen
@@ -71,23 +74,25 @@ activated.
 |---|---|---|
 | Standard | 30 days | A normal guarantee. |
 | Founding | 14 days | Founding-grant Residents. |
-| Extended | Set by operator | Members under conduct review. |
+| Extended | 60 days | Members under conduct review. |
 
 **During probation:**
 
-- The guarantor's 10 Power is held as collateral.
 - The ward is under supervised observation.
-- Trust violations by the ward penalize both the ward and the guarantor.
+- Trust violations by the ward penalize the ward, and while the guarantee is
+  active the guarantor carries 50% of the ward's negative reputation events.
+- Each violation extends the probation by another 30 days.
 
 **Outcomes:**
 
-- **Success:** the ward completes probation in good standing. The guarantor's
-  Power returns. A Volume bonus may be awarded to the guarantor.
-- **Violation:** three or more violations lead to revocation of the guarantee
-  and reputation impact for the guarantor.
+- **Success:** the ward completes probation in good standing and the guarantee
+  is recorded as completed. For a Residency applicant this completes admission
+  as a Resident.
+- **Violation:** three violations lead to revocation of the guarantee and a
+  reputation impact for the guarantor.
 
-Probation is why a guarantee is more than a formality. When you vouch for
-someone, you are genuinely staking your reputation on their conduct for the
+Probation is why a guarantee is more than a formality. When you guarantee
+someone, you are genuinely putting your reputation behind their conduct for the
 duration of the probation window.
 
 ---
@@ -95,25 +100,31 @@ duration of the probation window.
 ## Complaints
 
 The complaint flow lets any member report misconduct or quality issues
-securely.
+securely. Filing a report goes through the operator.
 
-**Complaint types:**
+**Report categories:**
 
-- Abusive behavior.
-- Suspicious activity.
-- Block quality issue.
-- Referral abuse.
-- Reputation dispute.
-- Marketplace abuse.
-- Manual report.
+- KYB / KYC.
+- Misrepresentation.
+- Off-platform.
+- Harassment.
+- Privacy.
+- Fraud.
+- Other.
 
 **How it works:**
 
-1. You open **Report** from the cabinet and pick a type.
-2. You submit what you can. Evidence and operator notes are stored internally.
+1. You open **Report** from the cabinet and pick a category.
+2. You write to the operator at the address shown on the page, quoting the
+   category, with identifiers, dates and any supporting context. Evidence and
+   operator notes are stored internally.
 3. The operator reviews and may act: warn, restrict, revoke a guarantee, remove
    a block, or adjust reputation.
 4. You may receive status updates through notifications.
+
+**Inside a deal.** A deal thread has its own complaint and dispute actions, so
+you can raise a problem about that specific deal without leaving it. The thread
+stays open while the operator looks into it.
 
 **What is protected:**
 
@@ -199,21 +210,40 @@ explains the nature of the restriction and what it affects. Restrictions are
 not secret; the goal is for you to always know where you stand and what to do
 to recover.
 
+**Sanctions and the person.** GBlock is rolling out a record that ties
+sanctions to the underlying identity rather than the account, so that closing an
+account, letting it go dormant or registering again does not clear a sanction or
+improve standing. _Rolling out._ Already today, a restricted account cannot
+vouch for others, cannot open a payout request, and an account carrying an
+active sanction cannot use deletion to shed it (see below).
+
 ---
 
 ## Inactivity, deletion, and your data
 
 **Sleep lifecycle.** Accounts that go quiet move through an inactivity
-lifecycle: a warning phase, then deactivation (your public profile and
-artifacts are unpublished), then deletion if you stay inactive. Founder
-functions are frozen while an account sleeps — payments and new Data Rooms
-pause, existing rooms keep working for people who already have access. Logging
-back in stops the clock.
+lifecycle, measured from your last login:
 
-**Deleting your account.** You can request account deletion from Settings.
-Deletion is **cascading**: Data Rooms you own are removed with your account.
-Deletion is **blocked while you have active deals or unresolved payouts** —
-settle or close those first.
+| Stage | When | What happens |
+|---|---|---|
+| **Warning** | After 14 days without a login | You receive a warning email. |
+| **Sleeping** | After 30 days without a login | Reward accrual stops. Payments, top-ups, scoring purchases and new Data Rooms are frozen. Existing rooms keep working for people who already have access, and any Data Room subscriptions keep charging until you cancel them. |
+| **Deactivated** | After 180 days of sleeping | Your public listings are unpublished. Nothing is deleted. To come back you go through full KYC again. |
+
+Logging back in wakes a warning or sleeping account and stops the clock. If you
+return from deactivation more than 30 days after it started, your positive
+reputation restarts from the new-account baseline of 30; negative reputation and
+sanctions are never reset.
+
+**Deleting your account.** Nothing is erased automatically: deactivation is an
+archive. Your personal data is erased only when you ask for it, from Settings or
+the **My data** page (where you can also export your data). The operator
+processes the request within 30 days. Deletion is **cascading**: Data Rooms you
+own are removed with your account, while companies and financial records stay
+(financial records are kept for accounting and disputes without your name or
+identifiers). Deletion is **blocked while you have active deals or unpaid
+withdrawals**, and is **deferred while you carry an active sanction** — settle or
+close those first.
 
 **Brand-styled error pages.** Platform errors (403/404/500) surface as
 brand-styled pages with guidance, not raw framework errors. _Rolling out._

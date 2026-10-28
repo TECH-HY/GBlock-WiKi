@@ -1,10 +1,12 @@
 # 1. What is GBlock
 
-GBlock is an **invitation-only B2B private market club** and the dealflow layer
+GBlock is a **sponsorship-based B2B private market club** and the dealflow layer
 of the TECH HY Venture Club ecosystem. It is a closed, reputation-governed
 space where members discover private-market opportunities, place their own sale
 blocks, request operator-mediated introductions, and build long-term reputation
-through responsible conduct.
+through responsible conduct. Anyone can register with an email address, but full
+membership (the Resident status) and the dealflow require sponsorship from
+current members.
 
 > _Where your reputation becomes your strongest asset._
 
@@ -39,13 +41,14 @@ private terminal, not a public marketplace.
 |---|---|
 | **Buyer** | Browse the dealflow, review block previews, request access, express interest, and enter mediated deal threads. |
 | **Seller** | Place sale blocks (a private package of assets or an opportunity), manage freshness, and review incoming access requests. |
-| **Guarantor** | Stake reputation to vouch for another member and bring them into the Resident status or Vouched trust tier. |
+| **Guarantor** | Put your reputation behind another member and bring them into the Resident status or Vouched trust tier. |
 | **Ambassador** | Grow the community by sending invitations and earning referral rewards. |
-| **Founder functions** | The selling side of a project: a payment account for top-ups and scoring purchases, plus Data Rooms for your company. Activated silently when you create your first Data Room. _Rolling out._ See [User roles and statuses](02-user-roles-and-statuses.md#founder-functions-rolling-out). |
+| **Data Room functions** | The selling side of a project: a payment account for top-ups and scoring purchases, plus Data Rooms for your company. Activated silently when you upload the first document to a Data Room of your own. _Rolling out._ See [User roles and statuses](02-user-roles-and-statuses.md#data-room-functions-the-founder-extension) and [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md). |
 
 A single account holds all of these modes. You are not a "buyer account" or a
-"seller account"; you are a member who can act in any mode your status and trust
-tier permit. See [User roles and statuses](02-user-roles-and-statuses.md).
+"seller account"; you are a member who can act in any mode your paths, status
+and trust tier permit. Buying and selling in the dealflow are Resident
+functions. See [User roles and statuses](02-user-roles-and-statuses.md).
 
 ---
 
@@ -58,8 +61,8 @@ The landing page frames the product around three commitments.
 </p>
 
 1. **Reputation is the currency.** Volume (long-term reputation) is the only
-   thing that unlocks tier upgrades, higher reward rates, and faster operator
-   service levels. It cannot be bought, only earned.
+   thing that unlocks tier upgrades, higher reward rates, and a larger capacity
+   to back others. It cannot be bought, only earned, and it can be lost.
 2. **Access is governed.** Nothing in the dealflow is public. Every block, every
    introduction, every data room grant is a deliberate, reviewable action.
 3. **Accountability is shared.** Guarantors and inviters carry partial
@@ -91,11 +94,13 @@ promise things they cannot deliver. GBlock is deliberately narrower.
 - Endorse the accuracy of seller-provided block information. Members must do
   their own diligence.
 - Pay rewards from transaction volume. Monetary rewards, when applicable, are
-  paid only from confirmed non-transactional TECH HY revenue.
+  paid only from confirmed non-transactional TECH HY revenue (scoring,
+  subscriptions and voucher purchases), never from fees on deals between
+  members.
 
 If any communication from anyone claims GBlock offers guaranteed profit,
 risk-free returns, passive income, or instant payouts, it is not from GBlock.
-Report it through the in-platform complaint flow.
+Report it through the in-platform Report page.
 
 ---
 
@@ -122,4 +127,5 @@ jurisdiction.
 - **How to get in:** [Getting access](03-getting-access.md)
 - **What the experience feels like:** [User journeys](04-user-journeys.md)
 - **How rewards and payouts work:** [Payouts and rewards](10-payouts-and-rewards.md)
+- **How Data Rooms, scoring and subscriptions work:** [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md)
 - **Definitions of every term used above:** [Glossary](08-glossary.md)
