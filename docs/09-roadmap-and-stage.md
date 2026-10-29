@@ -133,12 +133,18 @@ described throughout this wiki with a _rolling out_ marker.
   [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms-rolling-out).
 - **Top-up vouchers.** A top-up of $500 or more gives three bonus scoring
   vouchers instead of the +5% and +10% cash bonus (automatic top-ups keep their
-  1%); a refund of topped-up funds keeps 15% and deducts the price of used bonus
-  vouchers.
+  1%); a refund of topped-up funds carries a 15% refund fee and deducts the
+  price of used bonus vouchers.
 - **Payout limits with KYC.** Up to $1,500 per month (one request per calendar
   month) and a 72-hour hold on the first payout to a new address.
 - **Recovery window** after a penalty or reworked vouch, by tier.
 - **Sanctions tied to the person** rather than the account.
+- **Following a Data Room and your gallery.** Ambassadors and above can follow
+  published Data Rooms. A followed room goes to a personal gallery that can be
+  shared, with a cabinet feed and a weekly digest; a visit through a shared
+  gallery counts as a referral touch. A short public identifier replaces email
+  addresses and internal ids in referral links. See
+  [Silent Data Room referrals](11-silent-dr-referral.md#following-a-data-room-and-your-gallery-rolling-out).
 
 ---
 
@@ -148,10 +154,6 @@ The following are in active development or design and are **not** yet live.
 They are described here so members know what is coming, but they should not be
 relied on today.
 
-- **Following a Data Room and public ambassador codes.** Ambassadors would be
-  able to follow published Data Rooms (cabinet feed, weekly digest), and share
-  them under a public AMB-XXXX code. See
-  [Silent Data Room referrals](11-silent-dr-referral.md#planned-following-a-data-room-and-ambassador-codes).
 - **Silent Data Room referral analytics.** The engine is live (see
   [Silent Data Room referrals](11-silent-dr-referral.md)); deeper analytics
   and reporting continue to expand.

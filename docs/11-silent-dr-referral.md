@@ -7,7 +7,7 @@ page explains what that means for you and for the people who click your links.
 
 > **Status note.** The attribution engine described below is part of the
 > product. Founder-facing link analytics are still being extended, and the
-> follow and ambassador-code features at the end of this page are planned — see
+> follow and gallery features at the end of this page are rolling out — see
 > [Roadmap and stage](09-roadmap-and-stage.md).
 
 ---
@@ -110,19 +110,27 @@ reward reach, not registration farming.
 
 ---
 
-## Planned: following a Data Room and ambassador codes
+## Following a Data Room and your gallery _(rolling out)_
 
-Two additions are accepted but not yet in the product. _Planned._
+These additions are accepted and are being built; they are not yet in the
+product for everyone. _Rolling out._
 
-- **Follow a Data Room.** Ambassadors and above will be able to follow a Data
-  Room that is published at least to GBlock members (never their own). Updates
-  would appear in the cabinet feed at once, with one weekly digest email and at
-  most one notification per room per day. The room owner would see how many
-  ambassadors follow the room and their codes — not names, emails or tiers — and
-  could choose to make the count public.
-- **Public ambassador code.** Each ambassador would get a short, unguessable
-  public code of the form AMB-XXXX, used in referral links instead of an email
-  address or an internal id.
+- **Follow a Data Room.** Ambassadors and above can follow a Data Room that is
+  published at least to GBlock members (never their own). A followed room is
+  added to **your gallery** (up to 100 rooms). Updates the room owner has made
+  visible to you, such as new documents, description changes, new scorings and
+  traction updates, appear in your cabinet feed at once, with one weekly digest
+  email and at most one notification per room per day. The room owner sees how
+  many ambassadors follow the room and their public identifiers — not names,
+  emails or tiers — and can choose to make the count public.
+- **Your gallery as a link.** You can share your gallery. A visit through it is
+  recorded as a touch under the usual last-click rule (30 days). If the visitor
+  registers and pays, you earn the reward at your tier under the general rules;
+  the room owner earns no reward from a gallery visit. Gallery visibility
+  settings are being finalized.
+- **Public identifier.** Each ambassador gets a short public identifier, used in
+  referral links instead of an email address or an internal id. Its final format
+  is being decided.
 
 ---
 

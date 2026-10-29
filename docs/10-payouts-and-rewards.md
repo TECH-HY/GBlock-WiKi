@@ -133,9 +133,9 @@ applies, the card amount is returned and the matching share of the top-up bonus
 is taken back with it. After it, remaining payment-balance funds can only leave
 through an operator-reviewed request.
 
-_Rolling out:_ a refund of topped-up funds, of any amount, keeps 15% of the
-refunded amount and deducts the price of each bonus voucher you have already
-used. Unused bonus vouchers are cancelled.
+_Rolling out:_ a refund of topped-up funds, of any amount, carries a **15%
+refund fee** on the refunded amount, and the price of each bonus voucher you have
+already used is deducted. Unused bonus vouchers are cancelled.
 
 **Bonus funds cannot be withdrawn.** The top-up bonus (the cash bonus today,
 bonus vouchers when they replace it) and the 3% bonus on a reward transfer can
