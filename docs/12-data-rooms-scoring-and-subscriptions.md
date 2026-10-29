@@ -40,7 +40,7 @@ silent Data Room functions (payment account and scoring purchases). See
 |---|---|
 | Your **first** Data Room | Free, in any market |
 | **Free secondary-market rooms** | A **full Resident** (KYC approved, two active vouches, approved waitlist request) gets a number of free rooms for companies they do not own, on top of the first room, set by their reward-rate tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
-| Every other room | A **monthly subscription** (currently $35 per month), charged automatically from your payment balance, with any shortfall taken from your saved card |
+| Every other room | A **Pro subscription** (currently $35 per month), charged automatically from your payment balance, with any shortfall taken from your saved card |
 
 Good to know:
 
@@ -55,6 +55,41 @@ Good to know:
 - A subscription **includes one scoring voucher per month**. Vouchers are valid
   for 3 months.
 - **Archiving** a room pauses its subscription: no charges while it is archived.
+
+---
+
+## Free and Pro rooms _(rolling out)_
+
+A room is either **Free** or **Pro**. Documents, sections, team members, access
+grants, watermarks, the access log, the public card and the referral funnel work
+the same in both. Four things need Pro:
+
+- ordering a scoring (and answering its questionnaire),
+- appearing in the public project catalog,
+- a primary-market block,
+- the monthly scoring voucher.
+
+A room is Pro while it is active and at least one of these applies:
+
+- **a paid subscription** is running (currently $35 per month);
+- **an operator promotion** is running: free Pro months granted by the operator,
+  after which normal billing starts;
+- **a voucher window** is open: applying a scoring voucher to a Free room gives
+  30 days of Pro and one scoring.
+
+Pro is never free because of your tier. Your first room and the free rooms from
+your tier allowance stay Free rooms.
+
+Good to know:
+
+- A voucher window needs no card and does not renew. When it ends, the room goes
+  back to Free and its scoring is hidden, not deleted, until the room is Pro
+  again. You can set up a subscription during the window; the paid period then
+  starts after the window ends and the rest of the window is not lost.
+- A voucher applied to a room that is already Pro gives one scoring and does not
+  extend Pro.
+- A scoring order you already paid for, and a scoring credit you already hold,
+  still complete if the room is no longer Pro.
 
 ---
 
@@ -88,18 +123,20 @@ cancel a subscription you no longer want before you go quiet.
 A scoring is a deterministic evaluation of a project on two axes: **Potential**
 (0-150) and **Readiness** (0-150).
 
-- **It needs a Data Room.** A scoring cannot exist without the company's Data
+- **It needs a Pro Data Room.** A scoring cannot exist without the company's Data
   Room. The room collects the project information the scoring uses, and you
-  start the scoring from there.
+  start the scoring from there. Ordering a scoring requires the room to be Pro
+  _(rolling out)_; see [Free and Pro rooms](#free-and-pro-rooms-rolling-out).
 - **Price.** A scoring costs $35 (the current catalog price), paid from your
   payment balance or with a scoring voucher.
 - **It does not expire with time.** A scoring stays valid while it was produced
-  by the current scoring engine version and the company has an active Data
-  Room.
+  by the current scoring engine version. It is shown publicly only while the
+  room is Pro _(rolling out)_: if the room goes back to Free, the scoring is
+  hidden, not deleted, and shows again when the room is Pro again.
 - **Public catalog.** A room appears in the public project catalog only with a
-  valid scoring **and** a completed company profile (description, sector and
-  similar public fields). Without them the room still works for investors you
-  granted access to.
+  valid scoring, a completed company profile (description, sector and similar
+  public fields) **and** a Pro room. Without them the room still works for
+  investors you granted access to.
 
 ### Scoring vouchers
 

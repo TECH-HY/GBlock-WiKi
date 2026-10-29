@@ -218,23 +218,30 @@ revokes grants.
 
 **Listing State**
 A Data Room's publication status in the public project catalog. Listed only
-with a valid scoring and a completed company profile; if the scoring stops
-being valid, the room leaves the catalog (with a placeholder) while it keeps
-working for existing grantees.
+with a valid scoring, a completed company profile and a Pro room; if the
+scoring stops being valid or the room goes back to Free, the room leaves the
+catalog (with a placeholder) while it keeps working for existing grantees.
 
 **Scoring Report**
 A deterministic evaluation of a project on two axes: Potential (0-150) and
 Readiness (0-150). It does not expire with time; it stays valid while it was
-made by the current scoring engine version and the company has an active Data
-Room.
+made by the current scoring engine version, and it is shown publicly while the
+room is Pro.
 
 **Data Room Subscription**
 The monthly charge for a Data Room that is not covered by a free allowance. It
 includes one scoring voucher per month. If it lapses, the room is frozen, not
 deleted.
 
+**Free Room / Pro Room**
+Every Data Room is Free or Pro. Pro (a paid subscription, an operator promotion
+or a 30-day voucher window) is needed to order a scoring, to appear in the
+public catalog and to list a primary-market block. _Rolling out._ See
+[Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms-rolling-out).
+
 **Scoring Voucher**
-A prepaid scoring. Vouchers are valid for 3 months. See
+A prepaid scoring. Vouchers are valid for 3 months. Applying one to a Free room
+opens a 30-day Pro window with one scoring. See
 [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
 
 **Primary Market**

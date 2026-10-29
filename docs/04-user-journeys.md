@@ -317,16 +317,20 @@ Each project has a deterministic scoring report combining two dimensions:
 company's Data Room, which collects the project information the scoring is
 based on.
 
-Publication to the public project catalog requires **a valid scoring and a
-completed company profile** (description, sector, and similar public fields).
+Ordering a scoring and publishing to the public project catalog require a
+**Pro** room _(rolling out; see
+[Free and Pro rooms](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms-rolling-out))_.
+Publication to the catalog requires **a valid scoring and a completed company
+profile** (description, sector, and similar public fields).
 Without them, the room still works exactly as before for investors you granted
 direct access to — it just does not appear in the catalog.
 
 **Scoring validity.** A scoring does not expire with time. It stays valid while
-it was produced by the current scoring engine version and the company still has
-an active Data Room. If it stops being valid, the room keeps working: grants
-stay live, content stays available. What changes is visibility — the room
-leaves the catalog and the scoring placeholder is marked until you renew.
+it was produced by the current scoring engine version, and it is shown publicly
+while the room is Pro. If it stops being valid or the room goes back to Free,
+the room keeps working: grants stay live, content stays available. What changes
+is visibility — the room leaves the catalog and the scoring placeholder is
+marked until you renew or the room is Pro again.
 
 **Step 6. Closing a room — two different doors.**
 

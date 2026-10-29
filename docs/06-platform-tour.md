@@ -220,9 +220,10 @@ layer) so leaked material can be traced. _Rolling out._
 ### Project catalog
 
 The public catalog of published projects. A room appears here only with a
-**valid scoring and a completed company profile**. If the scoring stops being
-valid, the room leaves the catalog and its report placeholder is marked until
-renewed — the room itself keeps working for investors who already have access.
+**valid scoring, a completed company profile and a Pro room**. If the scoring
+stops being valid or the room goes back to Free, the room leaves the catalog and
+its report placeholder is marked until renewed — the room itself keeps working
+for investors who already have access.
 
 ### Wallet
 

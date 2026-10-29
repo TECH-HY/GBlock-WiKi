@@ -81,8 +81,7 @@ The following are part of the current product for members:
   cancellation flow with a retention offer. See
   [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
 - **Scoring that does not expire.** A scoring stays valid while it matches the
-  current engine version and the company has an active Data Room; the scoring
-  starts from the company's Data Room.
+  current engine version; the scoring starts from the company's Data Room.
 - Wallet: reward and payment balances, card top-ups with bonuses, reward-to-payment
   transfers with a 3% bonus, monthly reward crediting on the 1st, and daily
   balance reconciliation against the reward ledger.
@@ -127,6 +126,11 @@ described throughout this wiki with a _rolling out_ marker.
 - **Layered document watermarking** (visible + forensic) in Data Rooms.
 - **Referral tree and reward history** in the cabinet (the tree itself is
   live; history views are being expanded).
+- **Free and Pro Data Rooms.** Ordering a scoring, the public catalog and
+  primary-market blocks require a Pro room (paid subscription, operator
+  promotion or a 30-day voucher window); the scoring is hidden while the room is
+  Free. See
+  [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms-rolling-out).
 - **Payout limits with KYC.** Up to $1,500 per month (one request per calendar
   month) and a 72-hour hold on the first payout to a new address.
 - **Recovery window** after a penalty or reworked vouch, by tier.
