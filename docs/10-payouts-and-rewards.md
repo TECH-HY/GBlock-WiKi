@@ -63,9 +63,13 @@ on deals between members. Reward accrual stops while your account is sleeping
   payout request is not available.
 - Without verified KYC, payouts are limited to **$150 within any 30 days**,
   counted together for the same payout address and any linked accounts. A
-  request above that needs KYC. With KYC, there is no cap on a request.
+  request above that needs KYC.
+- With verified KYC, a request can be up to **$1,500**. Because only one request
+  is allowed per calendar month, this is also your monthly limit _(rolling
+  out)_.
 - One payout request is allowed per calendar month; a rejected request does
   not count.
+- The first payout to a new address is held for 72 hours _(rolling out)_.
 - If your KYC was revoked, or your account carries a sanction, you cannot open a
   payout request until the situation is resolved.
 

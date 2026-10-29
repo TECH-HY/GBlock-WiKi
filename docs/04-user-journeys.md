@@ -398,8 +398,9 @@ Your reward balance shows what is available to request.
 From the wallet, submit a payout request. The minimum request is **$50**. You
 provide a **USDT (BEP-20)** destination address. Without verified KYC, payouts
 are limited to **$150 within any 30 days** for the same payout address and any
-linked accounts, and a request above that needs KYC. One payout request is
-allowed per calendar month.
+linked accounts, and a request above that needs KYC. With KYC a request can be
+up to $1,500 _(rolling out)_. One payout request is allowed per calendar month,
+so that is also the monthly limit.
 
 **Step 3. Operator review.**
 

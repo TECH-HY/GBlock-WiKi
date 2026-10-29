@@ -127,6 +127,8 @@ described throughout this wiki with a _rolling out_ marker.
 - **Layered document watermarking** (visible + forensic) in Data Rooms.
 - **Referral tree and reward history** in the cabinet (the tree itself is
   live; history views are being expanded).
+- **Payout limits with KYC.** Up to $1,500 per month (one request per calendar
+  month) and a 72-hour hold on the first payout to a new address.
 - **Recovery window** after a penalty or reworked vouch, by tier.
 - **Sanctions tied to the person** rather than the account.
 

@@ -307,7 +307,7 @@ request.
 
 **Payout Request**
 The only way to withdraw rewards: a reviewed request to the operator.
-Minimum $50, USDT (BEP-20) destination, one request per calendar month, and without KYC up to $150 within 30 days.
+Minimum $50, USDT (BEP-20) destination, one request per calendar month, without KYC up to $150 within 30 days, with KYC up to $1,500 per month (_rolling out_).
 See [Payouts and rewards](10-payouts-and-rewards.md).
 
 **Business-Day SLA**

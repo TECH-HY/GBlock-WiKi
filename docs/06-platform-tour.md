@@ -238,7 +238,7 @@ Your balances and money movements:
 - **Payout requests:** withdrawals are requested from the wallet and reviewed
   by the operator — there is no self-service withdrawal. Minimum $50, USDT
   BEP-20, one request per calendar month, and without KYC up to $150 within
-  30 days. The operator pays approved requests
+  30 days (with KYC up to $1,500 per month, _rolling out_). The operator pays approved requests
   within 20 business days. See [Payouts and rewards](10-payouts-and-rewards.md).
 
 If your Data Room functions are not active yet, the payment block is visible
