@@ -231,7 +231,8 @@ Your balances and money movements:
 
 - **Reward balance:** released referral rewards land here (releases are manual
   at launch). You can move rewards into your payment balance; the
-  transfer **adds a 3% bonus** on top of the amount you move.
+  transfer **adds a 3% bonus** on top of the amount you move. Bonus funds can
+  only be spent on platform services; they cannot be withdrawn.
 - **Payment balance:** funds for platform purchases such as project scoring and
   Data Room subscriptions, topped up by card. A top-up above $150 earns a +5%
   bonus, and a top-up of $500 or more earns +10%. You can also set up an

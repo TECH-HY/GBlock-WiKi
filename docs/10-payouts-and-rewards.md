@@ -126,8 +126,13 @@ larger one applies — they do not stack.
 
 Payment-balance funds are not refunded to your card after you have completed
 your first scoring purchase. Before that point, the standard refund window
-applies. After it, remaining payment-balance funds can only leave through an
-operator-reviewed request.
+applies, the card amount is returned and the matching share of the top-up bonus
+is taken back with it. After it, remaining payment-balance funds can only leave
+through an operator-reviewed request.
+
+**Bonus funds cannot be withdrawn.** The top-up bonus and the 3% bonus on a
+reward transfer can only be spent on platform services. They cannot be paid out,
+refunded to a card or moved back to the reward balance.
 
 ---
 
