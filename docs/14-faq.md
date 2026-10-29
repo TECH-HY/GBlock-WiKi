@@ -235,7 +235,7 @@ reporter is not shown to the person you report. See
 [Report a problem](04-user-journeys.md#report-a-problem).
 
 **Where are the terms and disclaimers?**
-On the [Legal documents](13-legal-documents.md) page, with links to the full texts.
+On the [Legal documents](13-legal-documents.md) page, with the full texts.
 
 ---
 
