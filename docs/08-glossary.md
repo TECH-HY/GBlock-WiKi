@@ -1,320 +1,122 @@
 # 8. Glossary
 
-Plain-language definitions of the terms used across GBlock. Terms are grouped
-by theme to make them easier to scan.
-
----
+Short definitions of the terms used across GBlock, in alphabetical order.
 
-## Membership and identity
-
-**Registered**
-The base status of anyone who arrives via magic link, invitation, or a
-member's Data Room link. Starts with the welcome grant (30 reputation, or 40
-plus a vouch gift via invitation). Can apply for other statuses. Cannot see
-dealflow or place blocks on its own.
+**Ambassador.** The starting status of every member. Can invite people, earn
+referral rewards, open Data Rooms and look at the Secondary Market and the Demand
+Board read-only. Does not give dealflow access.
 
-**Welcome Grant**
-The starting reputation every new member receives: 30, or 40 plus one vouch
-gift when the registration came through an invitation. The inviter's stake is
-restored on activation.
+**Anonymous.** The default trust level: browse the dealflow and express interest
+as a buyer. Cannot place sale blocks.
 
-**Ambassador**
-The default starting role, also available by open self-application. Grants the
-right to send invitations and earn referral rewards. Does **not** grant
-dealflow access.
+**Block (sale block).** A private package of assets or an opportunity placed by
+the founder of a scored company. Not a blockchain or crypto concept.
 
-**Resident**
-A status for market participants. Reached only through the **waitlist**, by
-collecting two vouches from KYC-verified members (at least one from a
-Resident). Grants dealflow access, the right to place blocks, mediated
-introductions, and the right to vouch others into Resident. Does **not** grant
-referral rewards by itself.
-
-**Ambassador-Resident**
-A member who holds both Ambassador and Resident. Has the full combined rights of
-both. Not a separate application.
-
-**Founder Functions**
-A silent, lifelong extension of your account — payment account (top-ups,
-scoring purchases) and Data Rooms. Activated automatically when you create
-your first Data Room. No badge, no application. _Rolling out._
-
-**Waitlist**
-The only path to Resident status, open to every registered member who has
-completed KYC, including Ambassadors.
-
-**Founding Grant**
-An operator-granted path to Resident status, used to bootstrap the network.
-Limited to 50 grants or until 100 active Residents exist. Founding Residents
-must pass KYC and serve a 14-day probation.
-
-**Canonical Identity**
-The rule that one real person maps to one `person_id`, one member account, and
-one GBlock profile. Buyer and Seller are modes inside the same account, not
-separate registrations.
+**Bonus vouchers.** Three scoring vouchers given with a top-up of $500 or more.
+Valid 90 days, for scoring only, not transferable or withdrawable. _Rolling out._
 
----
-
-## Trust Tier
+**Dealflow.** The set of active sale blocks visible to Residents.
 
-**Trust Tier**
-An independent axis from Status and Reputation Tier. Determines market access
-based on identity assurance. Values: Anonymous, Vouched, Verified.
+**Deal thread.** The private, in-platform channel between buyer and seller after
+a mediated introduction.
 
-**Anonymous**
-The default Trust Tier. Can view dealflow and act as a buyer (with one
-guarantor, any tier). **Cannot create sale blocks.**
+**Demand Board.** Anonymous, aggregated buyer demand per asset. Signals only.
 
-**Vouched**
-A Trust Tier reached by collecting at least two active guarantees from Verified
-members (a minimum threshold, not a cap — guarantors are unlimited). Grants
-full secondary-market access, including sale block creation.
+**Data Room (VDR).** A member-controlled virtual room for a project: documents,
+access grants, teammates and the scoring report. Belongs to its creator.
 
-**Verified**
-A Trust Tier reached by completing KYC. Grants full access with no guarantor
-requirement, primary-listing eligibility, faster operator SLA, and a 1.2x
-reputation accrual rate (1.3x with 2FA).
+**Data Room functions.** The silent, lifelong founder-side extension of your
+account (payment balance, scoring purchases), switched on when you upload the
+first document to a Data Room of your own company.
 
-> Note: _Verified_ appears as both a Trust Tier (KYC passed) and a Reputation
-> Tier (0-49 Volume). They are different. Always check the context.
-
----
+**Founder of record.** The member recorded as the representative of a company in
+its official Data Room, by default the person who created it. Only the founder
+of record can order a scoring or place a block for the company.
 
-## Reputation
-
-**Volume**
-Long-term reputation. An append-only ledger that only grows. Determines
-Reputation Tier. Cannot be bought.
-
-**Power**
-Operational capacity. Spent on productive actions (invitations, guarantees) and
-recharged over time. Ceiling is `max(Volume, status_floor)`.
-
-**Reputation Tier**
-A tier derived from Volume. Canonical catalog (`tier-catalog-2026-07-v1`):
-Verified, Core, Principal, Partner, Vanguard (750+, no ceiling). Determines
-reward rate and Power recharge speed.
-
-**Canonical Tier Catalog**
-The authoritative mapping of Volume ranges to tiers, reward rates, and
-recharge schedules. See [Reputation economy](05-reputation-economy.md).
-
-**Reward Rate**
-The share of confirmed non-transactional TECH HY revenue allocated to a member
-when a rewardable event occurs. Higher Reputation Tiers earn a higher rate.
-Never paid from transaction volume.
-
-**Accrual Rate**
-The multiplier applied to reputation earned from activity. Set by Trust Tier
-(1.0x / 1.0x / 1.2x) and raised by 0.1x when 2FA is enabled.
-
----
-
-## Guarantees, vouches, and probation
+**Free room / Pro room.** Every Data Room is Free or Pro. Scoring, the public
+catalog and primary-market blocks need Pro. _Rolling out._
 
-**Guarantee**
-An act where a Verified member vouches for another member on the Vouched trust
-path. Reserves 10 Power as collateral. Starts a probation period.
+**Freshness.** How long an active block stays current before it must be renewed:
+72 hours for Verified sellers, 24 hours for Vouched sellers.
 
-**Guarantor**
-The member who issues a guarantee. Shares accountability for the ward's
-conduct during probation.
-
-**Ward**
-The member who receives a guarantee and enters probation.
-
-**Vouch**
-A backing on the Resident path, delivered through the waitlist. Credits +10
-reputation to the candidate and +5 to the voucher, and stakes 10 of the
-voucher's Volume capacity. The first vouch of a candidate can come from any
-KYC-approved member; the decisive second vouch must come from a KYC-verified
-Resident. A member's vouch limit is their Volume capacity divided by ten
-(rounded down).
-
-**Rework**
-The withdrawal of a vouch or guarantee because the backed member violated
-trust. The staked capacity is not returned; reputation is clawed back with an
-additional penalty; repeated reworks trigger operator review.
-
-**Probation**
-The supervised observation period after a guarantee activates. Standard 30
-days, Founding 14 days, Extended operator-set. Violations during probation
-penalize both ward and guarantor.
-
-**Trust Gate**
-The check that determines whether a member can place a sale block based on
-their Trust Tier. Anonymous is blocked; Vouched is allowed with two Verified
-guarantors and 24-hour freshness; Verified is allowed with no guarantors and
-72-hour freshness.
+**Gallery.** Your personal collection of followed Data Rooms, optionally public.
+_Rolling out._
 
----
+**Guarantee.** A Verified member backs another member toward the Vouched trust
+level. Locks nothing up front, but the guarantor carries half of the ward's
+negative reputation events while it is active, during a 30-day probation.
 
-## Market and dealflow
+**KYC / KYB.** Identity verification of a person (KYC) or a company (KYB) by an
+external provider. KYC gives the Verified trust level.
 
-**Block (Sale Block)**
-A private package of assets or an opportunity placed by a member. Explicitly
-**not** a blockchain or crypto concept.
+**Mediated introduction.** The connection between buyer and seller that runs
+through GBlock. Names and contact details stay hidden until both sides agree to
+disclose them.
 
-**Dealflow**
-The set of active sale blocks visible to members who have dealflow rights.
-
-**Buyer**
-A mode inside a member account. Browses dealflow, requests access, expresses
-interest, enters deal threads.
-
-**Seller**
-A mode inside a member account. Places and manages sale blocks.
+**One-time code.** The code sent to your email to sign in. There are no
+passwords. _Rolling out._
 
-**Mediated Introduction**
-The governed connection between a buyer and a seller after access is approved.
-GBlock never hands out direct seller contact.
+**Payment balance.** Funds for scoring and subscriptions, topped up by card.
 
-**Deal Thread**
-The private in-platform channel between a buyer and a seller in a mediated
-introduction. Where the conversation happens. Not a transaction channel.
-
-**Freshness**
-The window during which an active block is current before it must be renewed.
-Verified sellers get 72 hours; Vouched sellers get 24 hours. After the window,
-the block moves through `stale_warning` to `expired`.
+**Payout request.** The only way to withdraw rewards: a reviewed request to the
+operator. Minimum $50, USDT (BEP-20), one per calendar month.
 
-**Data Room (VDR)**
-A member-controlled Virtual Data Room for a project. Owner uploads diligence
-documents, grants and revokes access, toggles download, and views the scoring
-report. A Data Room belongs to the **company**: if company ownership changes,
-the room follows the company.
+**Primary market.** The surface for primary raises. A block needs a founder of
+record with a valid scoring on a Pro Data Room, and at least the Vouched trust
+level.
 
-**Archive (Data Room)**
-A soft close. Investors keep read access; the room does **not** free its slot.
-Only "delete permanently" removes documents, revokes grants, and frees the
-room's slot.
+**Pro trial.** Pro status for a set term on one specific room, granted by the
+operator as a Pro voucher. No card needed. _Rolling out._
 
-**Listing State**
-A Data Room's publication status in the public project catalog. Listed only
-with a valid scoring and a completed company profile; an expired scoring moves
-the room out of the catalog (with an "expired" placeholder) while the room
-keeps working for existing grantees.
-
-**Scoring Report**
-A deterministic evaluation of a project on two axes: Potential (0-150) and
-Readiness (0-150).
+**Probation.** A 30-day observation period after a guarantee.
 
-**Primary Market**
-The surface for primary raises. Listing requires Verified Trust Tier, KYB, and
-project-level KYC.
+**Recovery window.** A waiting period after a penalty or withdrawn vouch before
+you can back anyone new: 7 days at Member down to 12 hours at Vanguard. _Rolling
+out._
 
-**Secondary Market**
-The surface for blocks of existing assets (secondary blocks, pre-IPO, OTC,
-M&A). Access depends on Trust Tier.
+**Reputation (Volume).** Your long-term track record. Cannot be bought.
 
----
+**Reputation tier.** Member, Core, Principal, Partner or Vanguard, from your
+reputation. Sets your reward rate.
 
-## Security
+**Resident.** The market status. Reached through the waitlist with two vouches,
+the decisive one from a Resident. Gives dealflow, blocks, deal threads and the
+right to vouch.
 
-**Magic Link**
-A signed, single-use authentication link sent to your email. Expires after 30
-minutes. The login response is generic to prevent email enumeration.
+**Reward balance.** Where released referral rewards land.
 
-**Re-authentication**
-A fresh magic-link confirmation within the last 10 minutes, required for
-sensitive actions (creating blocks, accepting guarantees, granting Data Room
-access, withdrawing from deal threads, managing 2FA).
+**Reward rate.** Your share of TECH HY's non-transactional revenue from people
+you brought in: 10% to 25% by tier, plus overrides of 6%, 3% and 1%.
 
-**KYC**
-Know Your Customer. Identity verification performed by an external provider.
-Documents never leave the provider. Grants the Verified Trust Tier. One
-identity verifies exactly one active account; a duplicate identity is
-declined, not merged.
+**Scoring.** A deterministic evaluation of a project on Potential (0-150) and
+Readiness (0-150). Costs $35.
 
-**KYB**
-Know Your Business. Business-level verification required for primary-market
-listings.
+**Scoring voucher.** A prepaid scoring, valid three months, usable only in a Pro
+room. A Pro subscription gives one at the start and one with each monthly
+renewal; extra vouchers can be bought only with a Pro subscription.
 
-**2FA (TOTP)**
-Voluntary two-factor authentication using a Time-based One-Time Password app.
-Adds a 0.1x reputation accrual bonus and strengthens account security.
+**Secondary market.** The surface for blocks of existing assets (secondary
+blocks, pre-IPO, OTC, M&A).
 
-**Device Alert**
-An email sent when GBlock detects a login from an unrecognized device.
+**Silent referral.** A member who registered after opening a link to your Data
+Room. Credited to your referral tree with no obligations on either side.
 
-**Standing**
-A member's current good-standing or restricted status, visible on the cabinet
-home.
+**Standing.** Your current good-standing or restricted status.
 
----
+**Subscription (Data Room).** The monthly Pro charge for a room, $35, including
+one scoring voucher per month. A lapsed room is frozen, not deleted.
 
-## Balances and payouts
+**Trust level.** Anonymous, Vouched or Verified; how proven your identity is.
 
-**Reward Balance**
-The balance where referral rewards land, credited in a monthly batch on the
-1st of the month. Withdrawals happen through payout requests only.
+**Verified.** The trust level reached by passing KYC. Not a reputation tier.
 
-**Payment Balance**
-The balance used for platform purchases (such as project scoring), funded by
-card top-ups. Rewards can be moved into it (a 3% fee applies); moving it back
-to rewards is an operator-reviewed request.
+**Vouch.** A backing on the road to Resident: +10 reputation to the candidate,
++5 to the voucher, with part of the voucher's reputation staked.
 
-**Payout Request**
-The only way to withdraw rewards: a reviewed request to the operator.
-Minimum $50, USDT (BEP-20) destination, $150 per-request cap without KYC.
-See [Payouts and rewards](10-payouts-and-rewards.md).
+**Vouched.** The trust level reached with two guarantees from Verified members.
 
-**Business-Day SLA**
-Payout clocks measured in working days: the operator responds to a payout
-request within 1 business day, and approved payouts are sent within 3
-business days.
+**Waitlist.** The route to Resident status, joined with the Apply for Residency
+path.
 
-**Transaction Hash (tx-hash)**
-The on-chain identifier of a sent payout, delivered to you in the completion
-notification so you can verify the transfer.
-
-**Reconcile**
-The daily automated check that reward balances on accounts never exceed
-accrued-minus-withdrawn rewards. A discrepancy alerts the operator before any
-payout moves.
-
----
-
-## Deal communication
-
-**Contact Verification Check**
-The automated check on deal-thread messages for direct contact data (emails,
-phones, messenger handles, external messenger links).
-
-**Quarantine**
-The state of a message held by the contact verification check: the recipient
-sees a neutral cover, the sender sees their own text and its status, and the
-operator can review everything. Quarantine applies until the deal contract is
-signed; afterwards, exchanging contacts is legitimate. _Rolling out._
-
-**Silent Referral**
-A member who registered after clicking a link to your Data Room. Attributed
-to you like any other referral (last touch, all channels), with no reputation,
-vouch, or accountability obligations for either side. See
-[Silent Data Room referrals](11-silent-dr-referral.md).
-
----
-
-## Operator and governance
-
-**Operator**
-The internal role that runs GBlock: reviewing blocks, moderating complaints,
-running eligibility checks, and granting founding status.
-
-**Complaint**
-A member-submitted report of misconduct or quality issues. Evidence and
-operator notes stay internal; reporter identity is not exposed to the subject.
-
-**SLA (Operator Review)**
-The target time for the operator to review a submission. Set by Trust Tier:
-Verified 24h, Vouched 48h, Anonymous 72h. Payout requests use a separate
-business-day SLA (see above).
-
----
-
-## Where to go next
-
-- **The full role and access model:** [User roles and statuses](02-user-roles-and-statuses.md)
-- **Every flow that uses these terms:** [User journeys](04-user-journeys.md)
-- **The numbers behind Volume and Power:** [Reputation economy](05-reputation-economy.md)
-- **Balances and payouts in detail:** [Payouts and rewards](10-payouts-and-rewards.md)
+**Welcome grant.** Starting reputation: 30 points, or 40 plus a vouch gift
+through an invitation.

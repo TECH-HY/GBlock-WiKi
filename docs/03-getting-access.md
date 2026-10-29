@@ -1,204 +1,114 @@
 # 3. Getting access
 
-GBlock is invitation-only. There is no open registration form that drops you
-into the dealflow. This page lists every legitimate path in, how each one works,
-and what to do if you do not have an invitation yet.
-
----
-
-## The five paths into GBlock
+Anyone can register with an email address. Registration opens the cabinet, the
+Ambassador path and your own Data Rooms; it does not open the dealflow. Full
+market participation (the **Resident** status) comes through vouches from
+current members. This page lists every legitimate way in.
 
 | Path | Who it is for | What it gets you |
 |---|---|---|
-| **Member invitation** | People invited by an existing member | Registered status, the invite welcome grant (40 reputation + 1 vouch), onboarding |
-| **Ambassador self-registration** | Community builders who want to grow the network | Ambassador role (invitations + referral rewards, no dealflow) |
-| **Resident waitlist** | Members ready to enter dealflow | Resident status (dealflow, blocks, vouching) |
-| **Founding operator grant** | The bootstrap cohort, selected by the operator | Resident status, Verified Trust Tier, 14-day probation |
-| **Community request** | Anyone without an invitation | A way to ask the community for one |
+| **Register by email** | Anyone | An account, the Ambassador path and a welcome grant of 30 reputation points |
+| **Member invitation** | People invited by a member | An account with 40 reputation points and one vouch gift |
+| **Become a Resident** | Members ready for the market | Dealflow, blocks, deal threads and the right to vouch |
+| **Launch grants** | Appointed by the operator, one-time stage | Resident status to start the network (not open for requests) |
+| **Community request** | Anyone without an invitation | A way to ask the community for an invitation or a vouch |
 
-There is also an informal sixth door: clicking a member's **Data Room link**
-and registering. That route attributes you to the member who shared the room
-(silently, with no obligations for either side) — see
+An informal door also exists: opening a member's **Data Room link** and
+registering. You are then attributed to the member who shared the room, silently
+and with no obligations on either side. See
 [Silent Data Room referrals](11-silent-dr-referral.md).
 
-The first two are open to anyone who can reach them. The third requires you to
-already be inside GBlock. The fourth is operator-driven and not openly
-requestable. The fifth is the fallback if you have no contact inside.
+Registration and invitations are free.
 
 ---
 
-## Path 1: Member invitation
+## Register by email
 
-This is the most common entry. An existing member with the right to invite
-(Resident, Ambassador, or Ambassador-Resident) sends you an invitation by email.
+1. Open <https://gblock.club> and enter your work email.
+2. Accept the Terms of Service and the Privacy Policy.
+3. You receive a one-time code from an official gblock.club address (valid for
+   ten minutes). Entering it completes your registration. There are no passwords.
+   _(Rolling out: until the code is switched on, a single-use link does the same
+   job.)_
+4. After your first sign-in you choose your paths: Data Room & Scoring,
+   Ambassador, Apply for Residency. They can be combined and added later.
 
-**What happens:**
+As an Ambassador you can send invitations, earn referral rewards and look at the
+Secondary Market and the Demand Board read-only. Ambassador alone does not open
+the dealflow. See the [Ambassador Terms](https://gblock.club/ambassador-terms).
 
-1. The inviter opens **Send Invite** in their cabinet and enters your email.
-   The system reserves 10 Power from the inviter as a stake.
-2. You receive an email with a magic link.
-3. You click the link. GBlock verifies the token, consumes it (one-time use),
-   and authenticates you.
-4. If your profile is incomplete, you are sent to profile completion and then
-   to market-interest selection. If your profile is already complete, you land
-   in the cabinet.
-
-**Important details:**
-
-- The magic link is signed, single-use, and expires after 30 minutes.
-- Login responses are generic on purpose. GBlock does not reveal whether an
-  email is already registered, to prevent email enumeration.
-- **Welcome grant:** a direct registration starts with 30 reputation. An
-  invite-activated registration starts with **40** (the +10 invite bonus) plus
-  **1 vouch gift** — a real vouch that counts toward Resident status.
-- The inviter's staked Power is returned when your invitation activates or
-  expires, and the reputation they staked is restored. If you misbehave, the
-  inviter may face reputation impact.
-
-<p align="center">
-  <img src="../images/auth-desktop.png" alt="Magic link authentication — desktop" width="560" />
-</p>
-
-<p align="center">
-  <img src="../images/auth-mobile.png" alt="Magic link authentication — mobile" width="280" />
-</p>
+If the email already has an account, the form points you to sign-in instead of
+creating a second one.
 
 ---
 
-## Path 2: Ambassador self-registration
+## Member invitation
 
-If you want to help grow the community rather than (or in addition to)
-participating in dealflow, you can apply to become an Ambassador directly from
-the public landing page.
+A member with invitation rights sends you an invitation by email.
 
-**What you get as Ambassador:**
-
-- The right to send invitations.
-- Referral attribution and reward eligibility when your invitees contribute.
-- The standard welcome grant (30 reputation; 40 with an invite, plus 1 vouch).
-
-**What you do NOT get:**
-
-- Ambassador status alone does **not** grant dealflow access. To see blocks,
-  place blocks, or enter deal threads, you also need to become a Resident
-  through the waitlist.
-
-**How to apply:**
-
-1. Open <https://gblock.club> and find the Ambassador section.
-2. Review and accept the **Ambassador Terms**.
-3. Submit the self-application. The operator reviews eligibility.
-4. On approval, you receive a magic link and onboard as an Ambassador.
-
-This path is suited to operators of communities, content creators, deal scouts,
-and network builders who can reach relevant audiences.
+- The inviter reserves **10 of their own reputation points** as a stake. The
+  points return when the invitation activates or expires (at most 30 days).
+- You open the link, finish your profile if needed and choose your paths.
+- You start with **40 reputation points and one vouch gift**. The gift is a real
+  vouch that counts toward Resident status.
+- If you break the rules, the inviter can face a reputation impact too. That is
+  why people only invite those they can stand behind.
 
 ---
 
-## Path 3: Resident waitlist
+## Become a Resident
 
-If you are already inside GBlock and you want market access, Resident status
-goes through the **waitlist**. It is the only path to Resident, and it is open
-to every registered member — including Ambassadors — once you have completed
-KYC.
+Choose **Apply for Residency** in your cabinet to join the waitlist, then collect
+**two vouches** from members who have passed KYC. The decisive second vouch must
+come from an existing Resident. A vouch gift from an invitation counts. Once your
+request is approved you become a Resident.
 
-**How it works:**
+Vouching is serious: the member who vouches for you puts part of their own
+reputation at stake, and gives you +10 reputation while receiving +5. See
+[Reputation economy](05-reputation-economy.md#backing-someone).
 
-1. Join the waitlist from your cabinet.
-2. Collect **two vouches from KYC-verified members, at least one of whom is a
-   Resident**. Your first vouch can come from any KYC-approved member; the
-   decisive second vouch must come from a KYC-verified Resident. An invitation
-   vouch gift counts as a real vouch.
-3. Each vouch credits reputation to both sides: +10 to you, +5 to the member
-   who vouched for you. Your voucher also stakes part of their reputation
-   capacity, so vouches are never casual — see
-   [Reputation economy - Vouches](05-reputation-economy.md#vouches).
-4. When your two qualifying vouches are in place, your status becomes Resident
-   and you gain dealflow, block, and vouching rights.
-
-A founding-grant Resident who has completed their 14-day probation can also
-act as your (decisive) voucher.
-
-Full mechanics, including what happens when a vouch is reworked, are in
-[User journeys - Guarantee a member](04-user-journeys.md#guarantee-a-member)
-and [Trust and safety - Probation](07-trust-and-safety.md#probation).
+Your own KYC is not required for the status, but it is worth doing: it adds
+trust in deals and unlocks seller and primary-market functions. See
+[User roles and statuses](02-user-roles-and-statuses.md#trust-level).
 
 ---
 
-## Path 4: Founding operator grant
+## Launch grants
 
-This is a bootstrap path used during the early growth phase. The operator
-grants Resident status to a selected member with a recorded reason and
-evidence.
-
-- Limited to 50 grants, or until 100 active Residents exist.
-- Founding Residents must pass KYC, so they enter as Verified Trust Tier.
-- They serve a 14-day probation during which they cannot issue guarantees.
-- After probation, they form the initial pool of Verified guarantors.
-
-This path is not openly requestable. It is an operator decision tied to the
-club's launch phase.
+Resident status normally comes through the waitlist. To start the network, there
+is one exception: a launch stage in which the operator appoints the first
+Residents directly, in a limited number. This is an operator decision and cannot
+be requested. A granted Resident has the same status as any other and can vouch
+for others after a short waiting period.
 
 ---
 
-## Path 5: Community request
+## Community request
 
-If you have no contact inside GBlock, you can ask the community directly.
+If you have no contact inside GBlock:
 
-1. Open <https://gblock.club> and use the **Request access from the community**
-   link.
-2. You are taken to the official TECH HY Venture Club community on Telegram:
+1. Use the **Request access from the community** link on <https://gblock.club>.
+2. You arrive at the TECH HY Venture Club community on Telegram:
    <https://t.me/TECH_HY_VC/6>.
-3. Introduce yourself and your interest in private markets. If an existing
-   member is willing to invite you, they will send you an invitation.
+3. Introduce yourself and your interest in private markets. A member willing to
+   back you can invite you or vouch for you.
 
-This path keeps GBlock invitation-only while still letting genuine applicants
-find a sponsor. It is slower than a warm introduction, but it is the intended
-route for applicants with no existing network inside the club.
-
-<p align="center">
-  <img src="../images/landing-mobile.png" alt="GBlock landing — mobile, with access paths" width="320" />
-</p>
+It is slower than a warm introduction, but it is the intended route for
+applicants who need a sponsor and have no network yet.
 
 ---
 
-## What happens after you get in
+## Shared accountability
 
-Regardless of which path brought you in, the first session follows the same
-onboarding flow:
-
-1. **Magic link consumption.** Click the link, get authenticated.
-2. **Profile completion.** Fill in the details GBlock needs to operate. If your
-   profile is already complete, this step is skipped.
-3. **Market interests.** Pick the asset classes you care about (pre-IPO, private
-   equity, OTC, secondary market, investment opportunities, other). These
-   personalize discovery but never bypass access gates.
-4. **Cabinet home.** You arrive at your member cabinet, where you see your
-   reputation hero, trust tier badge, tier catalog position, standing, and
-   quick actions.
-
-From there, what you can do depends on your status and trust tier. See
-[User roles and statuses](02-user-roles-and-statuses.md) and
-[User journeys](04-user-journeys.md).
-
----
-
-## A note on shared accountability
-
-Every invitation and every guarantee carries shared responsibility. The person
-who brought you in stakes reputation on your conduct. If you violate the rules
-of the space, both you and your inviter or guarantor face reputation impact.
-This is not a penalty for its own sake; it is the mechanism that lets GBlock
-stay invitation-only and reputation-governed without a centralized gatekeeper
-on every action.
-
-Read the full conduct and enforcement model in
-[Trust and safety](07-trust-and-safety.md).
+Every invitation and every vouch carries shared responsibility. The person who
+brought you in has reputation on the line for your conduct. This is not a
+penalty for its own sake; it is how GBlock stays reputation-governed without a
+gatekeeper on every action. See [Trust and safety](07-trust-and-safety.md).
 
 ---
 
 ## Where to go next
 
-- **What each role can actually do:** [User roles and statuses](02-user-roles-and-statuses.md)
-- **Step-by-step flows once you are inside:** [User journeys](04-user-journeys.md)
+- **What each status can do:** [User roles and statuses](02-user-roles-and-statuses.md)
+- **Flows once you are inside:** [User journeys](04-user-journeys.md)
 - **The numbers behind reputation:** [Reputation economy](05-reputation-economy.md)

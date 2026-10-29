@@ -1,246 +1,134 @@
 # 7. Trust and safety
 
-GBlock's entire design assumes that members behave responsibly because their
-reputation is at stake. This page explains the safety mechanisms that make that
-assumption enforceable: KYC, re-authentication, probation, complaints,
-two-factor authentication, and device alerts.
+GBlock assumes members behave responsibly because their reputation is at stake.
+This page explains the mechanisms that make that assumption enforceable and what
+they mean for you.
 
 ---
 
 ## KYC and identity
 
-KYC (Know Your Customer) is the path to the **Verified** trust tier. It is
-performed by an external provider.
+KYC (Know Your Customer) is the path to the **Verified** trust level. It is run
+by an external provider.
 
-- Your documents **never leave the provider**. GBlock does not see or store
-  your identity documents.
-- A single KYC session can cover both member participation and project listing
-  purposes, so you do not repeat the process for each use case.
-- Completing KYC grants the Verified trust tier, which unlocks full market
-  access without a guarantor, primary-listing eligibility, faster operator
-  review, and a higher reputation accrual rate.
+- Your identity documents **never leave the provider**. GBlock does not see or
+  store them.
+- One KYC session covers both member participation and project listing, so you do
+  not repeat it for each use.
+- Verified members can sell without a guarantor and keep a block live for 72
+  hours instead of 24, vouch for others, request larger payouts and build
+  reputation faster _(rolling out)_.
 
-You are never forced to complete KYC. Anonymous members can accumulate Volume
-and act as buyers indefinitely. KYC is a choice to unlock fuller access and
-faster service, not a condition of membership.
+KYC is a choice, not a condition of membership. Anonymous members can build
+reputation and act as buyers indefinitely.
 
-**One identity, one verification.** GBlock enforces one verified identity per
-person. If the identity you submit at KYC is already attached to an active
-member account, the new verification is declined ("already verified") —
-accounts are not merged, and re-verifying under a duplicate is not a way
-around it.
+**One identity, one verification.** If an identity is already attached to an
+active member, a new verification with it is declined; accounts are never
+merged.
 
-**If KYC is revoked.** Losing verified status does not destroy your history.
-Data Rooms beyond what your remaining status allows are archived (investors
-with existing grants keep reading; new grants are not issued), your existing
-welcome grant and earned reputation stay as they are, and new
-verification-gated actions are paused until you re-verify.
-
-For projects, KYB (Know Your Business) and project-level KYC are required for
-primary-market listings.
+**If KYC is revoked,** your history stays: existing Data Rooms and the access
+you already granted keep working, and your reputation is untouched. New access
+grants, new Data Rooms and payouts pause until you verify again.
 
 ---
 
-## Re-authentication
+## Backing and probation
 
-Some actions are sensitive enough that a recent login is required, even if you
-are already in the cabinet. This is **re-authentication**: a fresh magic-link
-confirmation within the last 10 minutes.
-
-Actions that require re-authentication:
-
-- Creating a sale block.
-- Accepting a guarantee.
-- Publishing a primary listing.
-- Granting or revoking Data Room access.
-- Withdrawing from a deal thread.
-- Enabling, verifying, or disabling 2FA.
-
-If you try one of these actions without a recent re-authentication, the
-platform prompts you to confirm via a new magic link. This keeps a stolen
-session from being enough to take consequential actions on your behalf.
+Invitations, vouches and guarantees carry shared accountability: the person who
+backs you shares the cost of your conduct. A guarantee starts a **30-day
+probation**; violations extend it and three revoke the guarantee. Details are in
+[Reputation economy](05-reputation-economy.md#backing-someone).
 
 ---
 
-## Probation
+## Reporting a problem
 
-Probation is the supervised observation period that starts when a guarantee is
-activated.
+Any member can report misconduct or quality issues to the operator. Categories:
+KYB / KYC, Misrepresentation, Off-platform, Harassment, Privacy, Fraud and Other.
 
-| Type | Duration | Applies to |
-|---|---|---|
-| Standard | 30 days | A normal guarantee. |
-| Founding | 14 days | Founding-grant Residents. |
-| Extended | Set by operator | Members under conduct review. |
-
-**During probation:**
-
-- The guarantor's 10 Power is held as collateral.
-- The ward is under supervised observation.
-- Trust violations by the ward penalize both the ward and the guarantor.
-
-**Outcomes:**
-
-- **Success:** the ward completes probation in good standing. The guarantor's
-  Power returns. A Volume bonus may be awarded to the guarantor.
-- **Violation:** three or more violations lead to revocation of the guarantee
-  and reputation impact for the guarantor.
-
-Probation is why a guarantee is more than a formality. When you vouch for
-someone, you are genuinely staking your reputation on their conduct for the
-duration of the probation window.
+- The operator reviews the report and may warn, restrict, revoke a vouch or
+  guarantee, remove a block or adjust reputation.
+- Evidence and operator notes are never visible to other members.
+- Your identity as the reporter is not shown to the person you report.
+- Information in Data Rooms and scorings comes from its owner and is not
+  verified by GBlock. Knowingly false information is a serious breach: the owner
+  answers with their reputation and can face sanctions up to a lifetime ban. In
+  that case reward balances and bonuses are cancelled, paid services are not
+  refunded, and an unspent payment balance is paid back on the usual refund terms
+  (15% refund fee, less the price of used bonus vouchers).
+- Inside a deal, the thread has its own complaint and dispute actions, and
+  stays open while the operator looks into it.
 
 ---
 
-## Complaints
+## Deal threads stay inside GBlock
 
-The complaint flow lets any member report misconduct or quality issues
-securely.
-
-**Complaint types:**
-
-- Abusive behavior.
-- Suspicious activity.
-- Block quality issue.
-- Referral abuse.
-- Reputation dispute.
-- Marketplace abuse.
-- Manual report.
-
-**How it works:**
-
-1. You open **Report** from the cabinet and pick a type.
-2. You submit what you can. Evidence and operator notes are stored internally.
-3. The operator reviews and may act: warn, restrict, revoke a guarantee, remove
-   a block, or adjust reputation.
-4. You may receive status updates through notifications.
-
-**What is protected:**
-
-- Evidence and internal operator notes are **never visible to other members**.
-- Your identity as the reporter is **not exposed** to the subject of the
-  complaint.
-
-The complaint flow is the safety valve for the reputation system. If you see
-something wrong, report it. The system is designed to protect you for doing so.
+Deal threads are the governed channel between buyer and seller. Messages that
+contain direct contact details, such as emails, phone numbers or messenger
+handles, are held for operator review, and the recipient sees a neutral
+placeholder. After the contract is signed, exchanging contacts is fine. The
+practical rule: keep negotiations in the thread until then.
 
 ---
 
-## Two-factor authentication
+## Account protection
 
-2FA protects your account and adds a 0.1x reputation accrual bonus. All
-members are expected to keep it enabled — it is part of being a member in good
-standing, and enforcement is being extended across every account class.
-_Rolling out._
-
-- **Method:** TOTP (Time-based One-Time Password), compatible with standard
-  authenticator apps.
-- **Enabling:** open Settings → 2FA, scan the QR code, verify a code. Requires
-  re-authentication.
-- **Effect:** your reputation accrual rate rises by 0.1x. A Verified member
-  goes from 1.2x to 1.3x; Anonymous and Vouched members go from 1.0x to 1.1x.
-- **Disabling:** also requires re-authentication. You lose the accrual bonus.
-
-Because 2FA sits on top of magic-link authentication, an attacker would need
-both your email access and your authenticator device to compromise your
-account. Enable it.
-
----
-
-## Contact checks in deal threads
-
-Deal threads are the governed channel for buyer-seller communication, and the
-platform runs an automated **contact verification check** on messages to keep
-negotiations inside that channel.
-
-- Messages that look like they contain direct contact data — emails, phone
-  numbers, messenger handles, or links to external messengers — are
-  **quarantined**: held back from the counterparty and queued for operator
-  review.
-- Quarantine applies **until the deal contract is signed**. After
-  `contract_signed`, exchanging contacts is legitimate: the warning stays, the
-  quarantine stops. _Rolling out._
-- If a message is held, the **recipient sees a neutral cover** ("message held
-  by contact verification") — not your text. You, the sender, still see your
-  own message and its status. The operator can review the full content.
-- The detector is being extended with broader language matching (transliterated
-  text, lookalike Latin/Cyrillic characters, slang abbreviations for
-  messengers, and simple separators between characters). This trades some
-  false positives for coverage. _Rolling out._
-
-The practical rule: keep negotiations in the thread until the contract is
-signed.
-
----
-
-## Device alerts
-
-When GBlock detects a login from an unrecognized device fingerprint, it sends
-an email alert. The alert lets you catch unauthorized access early. If you
-receive a device alert you do not recognize, treat it as a signal to review
-your account and, if needed, file a complaint.
+- **Two-factor authentication** (an authenticator app) is optional and adds a
+  second step: once you switch it on, signing in from a new device asks for a
+  code. You get backup codes in case you lose the app. It also speeds up your
+  reputation growth _(rolling out)_.
+- **Sign-in alerts:** you get an email when GBlock sees a login from a device it
+  does not recognize.
+- **Fresh confirmation** is required for sensitive actions, such as managing
+  blocks, uploading documents or changing security settings.
 
 ---
 
 ## Standing and restrictions
 
-Your **standing** reflects whether you are in good standing or under any
-restriction. Restrictions can result from:
+Your standing is visible on your cabinet home: good standing, probation or
+restricted. Restrictions can follow a failed probation, repeated violations,
+operator action after a sustained complaint, or a suspected abuse of the referral
+system, which can pause related rewards while the operator reviews it. A
+restricted account cannot vouch for others or open payout requests. The cabinet
+explains what applies and what to do to recover.
 
-- A failed probation (yours or one you guaranteed).
-- Operator action following a sustained complaint.
-- Repeated trust violations.
-- A flagged referral pattern (for example, self-referrals or clusters of
-  registrations from the same device or network). Payouts in the flagged
-  chain are frozen until the review completes.
-
-Standing is visible on your cabinet home. If you are restricted, the cabinet
-explains the nature of the restriction and what it affects. Restrictions are
-not secret; the goal is for you to always know where you stand and what to do
-to recover.
+Sanctions follow the person, not the account: closing an account or registering
+again does not clear them _(rolling out)_.
 
 ---
 
-## Inactivity, deletion, and your data
+## Inactivity, deletion and your data
 
-**Sleep lifecycle.** Accounts that go quiet move through an inactivity
-lifecycle: a warning phase, then deactivation (your public profile and
-artifacts are unpublished), then deletion if you stay inactive. Founder
-functions are frozen while an account sleeps — payments and new Data Rooms
-pause, existing rooms keep working for people who already have access. Logging
-back in stops the clock.
+| Stage | When | What happens |
+|---|---|---|
+| **Warning** | 14 days without a login | You get a warning email. |
+| **Sleeping** | 30 days without a login | Reward accrual stops; payments, top-ups, scoring purchases and new Data Rooms are frozen. Existing rooms keep working. **Subscriptions keep charging until you cancel them.** |
+| **Deactivated** | 180 days of sleeping | Public listings are unpublished and subscriptions are no longer charged. Nothing is deleted. To return you verify with KYC again; if you come back 30 days or more after deactivation, reputation above 30 is reset to 30. |
 
-**Deleting your account.** You can request account deletion from Settings.
-Deletion is **cascading**: Data Rooms you own are removed with your account.
-Deletion is **blocked while you have active deals or unresolved payouts** —
-settle or close those first.
+Logging in again wakes your account.
 
-**Brand-styled error pages.** Platform errors (403/404/500) surface as
-brand-styled pages with guidance, not raw framework errors. _Rolling out._
+**Deleting your account.** Nothing is erased automatically. Your personal data is
+erased only when you ask, from Settings or the **My data** page, where you can
+also export your data. The operator processes the request within 30 days.
+Deletion removes the Data Rooms you own; financial records are kept for
+accounting and disputes without your name. Deletion is postponed while you have
+active deals, unpaid withdrawals, a debt, a positive balance or an active
+sanction, and goes ahead once these are settled.
 
 ---
 
 ## What GBlock does not do
 
-For completeness, the things GBlock deliberately does not do, even though a
-member might expect them from other platforms:
-
-- GBlock does **not** custody assets or funds.
-- GBlock does **not** settle transactions.
-- GBlock does **not** advise on the merits of any opportunity.
-- GBlock does **not** guarantee the accuracy of seller-provided information.
-  Members must perform their own diligence.
-- GBlock does **not** reveal member identities to counterparties outside of a
-  mediated introduction.
-
-These boundaries exist by design. They keep GBlock in a narrow, defensible
-role: discovery, verification, mediated introductions, and governed access.
+GBlock does not custody assets or funds, settle transactions, advise on the
+merits of an opportunity, or guarantee seller information, and it does not
+reveal member identities to counterparties outside a mediated introduction.
+These limits are by design. See [What is GBlock](01-what-is-gblock.md#what-gblock-is-not).
 
 ---
 
 ## Where to go next
 
-- **The rules behind probation and guarantors:** [User roles and statuses](02-user-roles-and-statuses.md)
-- **The numbers behind reputation and the 2FA bonus:** [Reputation economy](05-reputation-economy.md)
-- **The flows that use re-authentication:** [User journeys](04-user-journeys.md)
-- **How payouts are reviewed and protected:** [Payouts and rewards](10-payouts-and-rewards.md)
+- **Vouches, guarantees and reputation:** [Reputation economy](05-reputation-economy.md)
+- **Roles and trust levels:** [User roles and statuses](02-user-roles-and-statuses.md)
+- **Payout protection:** [Payouts and rewards](10-payouts-and-rewards.md)
