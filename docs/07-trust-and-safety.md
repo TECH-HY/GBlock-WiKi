@@ -16,7 +16,8 @@ by an external provider.
 - One KYC session covers both member participation and project listing, so you do
   not repeat it for each use.
 - Verified members can sell without a guarantor, list on the primary market,
-  vouch for others, request larger payouts and get faster operator review.
+  vouch for others, request larger payouts, get faster operator review and
+  build reputation faster _(rolling out)_.
 
 KYC is a choice, not a condition of membership. Anonymous members can build
 reputation and act as buyers indefinitely.

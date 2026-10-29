@@ -17,6 +17,9 @@ grows, what it costs to back someone, and what it earns.
 - It sets your **reputation tier**, which sets your reward rate and how many
   people you can back.
 - **You cannot buy it.** It is only earned, and it can be lost.
+- **Verified members earn it faster** _(rolling out)_. Reputation from platform
+  activity grows 20% faster once you have passed KYC, and 30% faster with
+  two-factor authentication. The vouch exchange (+10 and +5) is not multiplied.
 
 Your tier is refreshed once a week, so the reward rate you see is stable between
 refreshes.
@@ -114,7 +117,7 @@ are reviewed requests. See [Payouts and rewards](10-payouts-and-rewards.md).
 | Higher reward rate | Reputation tier |
 | More vouches you can give | Reputation |
 | More free secondary-market Data Rooms (Residents) | Reputation tier |
-| Selling without a guarantor, primary-market listing, faster operator review, larger payouts | Verified trust level (KYC) |
+| Selling without a guarantor, primary-market listing, faster operator review, larger payouts, faster reputation growth | Verified trust level (KYC) |
 
 Some capabilities depend on **trust level** (identity) and others on
 **reputation tier** (conduct). A Verified member with Vanguard reputation has the

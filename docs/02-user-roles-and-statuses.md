@@ -68,7 +68,7 @@ comfortable with, from anonymous to fully verified.
 |---|---|---|
 | **Anonymous** | Default | Browse the dealflow; express buyer interest with one guarantor. Cannot place sale blocks. |
 | **Vouched** | Two guarantees from Verified members | Place sale blocks (one active block at a time). |
-| **Verified** | Pass KYC | Place sale blocks without a guarantor (up to three at a time), list on the primary market (with company verification), vouch for others, request larger payouts, and faster operator review. |
+| **Verified** | Pass KYC | Place sale blocks without a guarantor (up to three at a time), list on the primary market (with company verification), vouch for others, request larger payouts, faster operator review, and faster reputation growth (+20%, _rolling out_). |
 
 Good to know:
 
