@@ -82,7 +82,7 @@ The following are part of the current product for members:
   [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
 - **Scoring that does not expire.** A scoring stays valid while it matches the
   current engine version; the scoring starts from the company's Data Room.
-- Wallet: reward and payment balances, card top-ups with bonuses, reward-to-payment
+- Wallet: reward and payment balances, card top-ups, reward-to-payment
   transfers with a 3% bonus, manual reward release after the 30-day hold, and daily
   balance reconciliation against the reward ledger.
 - **Payouts through operator-reviewed requests.** Self-service withdrawal has
@@ -131,6 +131,9 @@ described throughout this wiki with a _rolling out_ marker.
   promotion or a 30-day voucher window); the scoring is hidden while the room is
   Free. See
   [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms-rolling-out).
+- **Top-up vouchers.** A top-up of $500 or more gives three bonus scoring
+  vouchers instead of a cash bonus; a refund of topped-up funds keeps 15% and
+  deducts the price of used bonus vouchers.
 - **Payout limits with KYC.** Up to $1,500 per month (one request per calendar
   month) and a 72-hour hold on the first payout to a new address.
 - **Recovery window** after a penalty or reworked vouch, by tier.

@@ -143,6 +143,9 @@ A scoring is a deterministic evaluation of a project on two axes: **Potential**
 - A voucher is a prepaid scoring. You can buy vouchers from your payment
   balance, and a Data Room subscription includes one per month.
 - Vouchers are valid for 3 months.
+- A top-up of $500 or more gives three **bonus vouchers** _(rolling out)_. They
+  are for scoring only, cannot be passed on and cannot be withdrawn. See
+  [Payouts and rewards](10-payouts-and-rewards.md#topping-up-the-payment-balance).
 - A voucher can be passed on **once**, only to the founder of record of a
   company, and only if that person accepts. A voucher that was transferred
   once cannot be transferred again.

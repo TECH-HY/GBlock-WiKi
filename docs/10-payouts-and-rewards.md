@@ -114,11 +114,14 @@ again.
 ## Topping up the payment balance
 
 You top up the payment balance by card. A single top-up is at least $10 and at
-most $10,000 _(the maximum is rolling out)_. A top-up of exactly $150 earns no
-bonus;
-a top-up **above $150 earns +5%**, and a top-up of **$500 or more earns +10%**.
-An automatic top-up earns a 1% bonus. Where more than one bonus could apply, the
-larger one applies — they do not stack.
+most $10,000 _(the maximum is rolling out)_.
+
+**Top-up bonus _(rolling out)_.** A top-up of **$500 or more** gives you **three
+bonus scoring vouchers**. They are valid for 3 months, work for scoring only
+and cannot be transferred or withdrawn. They replace the cash bonus of earlier
+versions (+5% above $150, +10% from $500, 1% on automatic top-ups), which is
+being retired. Until the change goes live, the app may still credit the cash
+bonus.
 
 ---
 
@@ -130,9 +133,14 @@ applies, the card amount is returned and the matching share of the top-up bonus
 is taken back with it. After it, remaining payment-balance funds can only leave
 through an operator-reviewed request.
 
-**Bonus funds cannot be withdrawn.** The top-up bonus and the 3% bonus on a
-reward transfer can only be spent on platform services. They cannot be paid out,
-refunded to a card or moved back to the reward balance.
+_Rolling out:_ a refund of topped-up funds, of any amount, keeps 15% of the
+refunded amount and deducts the price of each bonus voucher you have already
+used. Unused bonus vouchers are cancelled.
+
+**Bonus funds cannot be withdrawn.** The top-up bonus (the cash bonus today,
+bonus vouchers when they replace it) and the 3% bonus on a reward transfer can
+only be spent on platform services. They cannot be paid out, refunded to a card
+or moved back to the reward balance.
 
 ---
 

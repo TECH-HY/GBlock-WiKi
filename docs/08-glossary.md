@@ -241,7 +241,8 @@ public catalog and to list a primary-market block. _Rolling out._ See
 
 **Scoring Voucher**
 A prepaid scoring. Vouchers are valid for 3 months. Applying one to a Free room
-opens a 30-day Pro window with one scoring. See
+opens a 30-day Pro window with one scoring. A top-up of $500 or more gives three
+bonus vouchers (_rolling out_). See
 [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
 
 **Primary Market**
