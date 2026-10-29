@@ -9,12 +9,13 @@ subscribers get 30 days' notice before a new subscription price applies.
 
 ---
 
-## Who can open a Data Room, and who owns it
+## Who can create a Data Room, and who owns it
 
-- **Any onboarded member in good standing** can open a Data Room for their own
+- **Any onboarded member in good standing** can create a Data Room for their own
   company.
 - A room about **someone else's company** (for example a company you back as an
-  investor) can be opened only by a **Resident with verified KYC**.
+  investor) can be created only by a **Resident with verified KYC**. This is about
+  creating a room, not about looking at one.
 - The room belongs to **you, its creator**. The company record behind it is
   shared, so several people can have their own rooms for the same company.
 - You can **hand a room over** to another member; it only happens if they accept.
@@ -29,8 +30,10 @@ founder-side functions: top-ups and scoring purchases. See
 
 Visibility is set only by the room owner. You choose who sees a room and its
 contents: named members only, any member, or fully public, so that anyone can open
-it without registering. The platform adds no viewing restriction of its own beyond
-the rules below for Free rooms.
+it without registering. Viewing needs no KYC and no particular status, and the
+platform adds no viewing restriction of its own beyond the rules below for Free
+rooms. This is also why every room link works as an invitation: a visitor can look
+at a public room first and register later.
 
 - **A public room shows a basic card.** Documents stay private unless you mark a
   document public yourself. Passports and KYC reports are never public.
@@ -55,7 +58,7 @@ lead to sanctions up to a lifetime ban, without a right to a refund.
 | Room | Cost |
 |---|---|
 | Your **first** Data Room | Free |
-| **Free secondary-market rooms** | A Resident with verified KYC gets free rooms for companies they do not own, by reputation tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
+| **Free secondary-market rooms** | A Resident with verified KYC can create free rooms about companies they do not own, by reputation tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
 | Every other room | **Pro subscription**, $35 per month, charged from your payment balance with any shortfall taken from your saved card |
 
 - Above the free allowance there is no unlimited tier; extra rooms are paid.

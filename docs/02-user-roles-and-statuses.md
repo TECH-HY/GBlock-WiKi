@@ -51,8 +51,8 @@ Resident status is earned through the waitlist. You collect **two vouches** from
 members who have passed KYC; the decisive second vouch must come from an
 existing Resident. A vouch gift received with an invitation counts as a real
 vouch. Your own KYC does not change your status, but it adds trust in deals
-(see below), and a Resident with verified KYC can also open Data Rooms about
-other companies.
+(see below), and a Resident with verified KYC can also create Data Rooms about
+other companies. Viewing a Data Room never needs KYC or a status.
 
 The only exception is a one-time launch stage: the operator appoints the first
 Residents directly, in a limited number, so that the network has members who can
