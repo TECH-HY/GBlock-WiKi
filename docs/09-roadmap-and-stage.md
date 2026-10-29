@@ -132,8 +132,9 @@ described throughout this wiki with a _rolling out_ marker.
   Free. See
   [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms-rolling-out).
 - **Top-up vouchers.** A top-up of $500 or more gives three bonus scoring
-  vouchers instead of a cash bonus; a refund of topped-up funds keeps 15% and
-  deducts the price of used bonus vouchers.
+  vouchers instead of the +5% and +10% cash bonus (automatic top-ups keep their
+  1%); a refund of topped-up funds keeps 15% and deducts the price of used bonus
+  vouchers.
 - **Payout limits with KYC.** Up to $1,500 per month (one request per calendar
   month) and a 72-hour hold on the first payout to a new address.
 - **Recovery window** after a penalty or reworked vouch, by tier.

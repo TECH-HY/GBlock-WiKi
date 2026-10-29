@@ -235,8 +235,9 @@ Your balances and money movements:
   only be spent on platform services; they cannot be withdrawn.
 - **Payment balance:** funds for platform purchases such as project scoring and
   Data Room subscriptions, topped up by card. A top-up of $500 or more gives
-  three bonus scoring vouchers _(rolling out; the earlier cash bonus is being
-  retired)_. You can also set up an automatic top-up.
+  three bonus scoring vouchers _(rolling out; the earlier +5% and +10% cash bonus
+  is being retired)_. You can also set up an automatic top-up, which earns a 1%
+  bonus.
 - **Payout requests:** withdrawals are requested from the wallet and reviewed
   by the operator — there is no self-service withdrawal. Minimum $50, USDT
   BEP-20, one request per calendar month, and without KYC up to $150 within

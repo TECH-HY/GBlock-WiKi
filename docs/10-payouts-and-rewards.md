@@ -118,10 +118,10 @@ most $10,000 _(the maximum is rolling out)_.
 
 **Top-up bonus _(rolling out)_.** A top-up of **$500 or more** gives you **three
 bonus scoring vouchers**. They are valid for 3 months, work for scoring only
-and cannot be transferred or withdrawn. They replace the cash bonus of earlier
-versions (+5% above $150, +10% from $500, 1% on automatic top-ups), which is
-being retired. Until the change goes live, the app may still credit the cash
-bonus.
+and cannot be transferred or withdrawn. They replace the cash bonus tiers of
+earlier versions (+5% above $150 and +10% from $500), which are being retired.
+An automatic top-up keeps its 1% bonus. Until the change goes live, the app may
+still credit the earlier cash bonus tiers.
 
 ---
 
