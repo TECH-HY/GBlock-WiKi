@@ -52,8 +52,10 @@ KYB / KYC, Misrepresentation, Off-platform, Harassment, Privacy, Fraud and Other
 - Your identity as the reporter is not shown to the person you report.
 - Information in Data Rooms and scorings comes from its owner and is not
   verified by GBlock. Knowingly false information is a serious breach: the owner
-  answers with their reputation and can face sanctions up to a lifetime ban,
-  without a right to a refund.
+  answers with their reputation and can face sanctions up to a lifetime ban. In
+  that case reward balances and bonuses are cancelled, paid services are not
+  refunded, and an unspent payment balance is paid back on the usual refund terms
+  (15% refund fee, less the price of used bonus vouchers).
 - Inside a deal, the thread has its own complaint and dispute actions, and
   stays open while the operator looks into it.
 

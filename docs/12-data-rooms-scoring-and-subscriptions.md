@@ -49,7 +49,10 @@ Information in a Data Room, including the inputs to a scoring and any traction
 figures, comes from the room owner. GBlock does not verify it. You answer for it
 with your reputation: an investor or any other member can report false
 information, the operator reviews the case, and knowingly false information can
-lead to sanctions up to a lifetime ban, without a right to a refund.
+lead to sanctions up to a lifetime ban. In that case reward balances and bonuses
+are cancelled, paid services are not refunded, and an unspent payment balance is
+paid back on the usual refund terms (see
+[Payouts and rewards](10-payouts-and-rewards.md#topping-up-the-payment-balance)).
 
 ---
 
@@ -135,10 +138,13 @@ A scoring is a deterministic evaluation of a project on two axes: **Potential**
 
 ### Scoring vouchers
 
-- A voucher is a prepaid scoring. Buy vouchers from your payment balance; a Pro
-  subscription includes one per month. Vouchers are valid for three months and
-  can be used only in a Pro room; without one, they wait in your wallet until a
-  Pro room is available or they expire.
+- A voucher is a prepaid scoring. You get one when you subscribe to a Pro room
+  and another with every monthly renewal. Vouchers cannot be bought without a Pro
+  subscription; with one, you can buy an extra voucher from your payment balance
+  to run a scoring again before the next month, for example after improving your
+  documents. A voucher can also reach you as a gift. Vouchers are valid for three
+  months and can be used only in a Pro room; without one, they wait in your wallet
+  until a Pro room is available or they expire.
 - A top-up of $500 or more gives three **bonus vouchers** _(rolling out)_: valid
   90 days, scoring only, not transferable or withdrawable. See
   [Payouts and rewards](10-payouts-and-rewards.md#topping-up-the-payment-balance).

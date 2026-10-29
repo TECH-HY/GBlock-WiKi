@@ -92,7 +92,8 @@ you brought in: 10% to 25% by tier, plus overrides of 6%, 3% and 1%.
 Readiness (0-150). Costs $35.
 
 **Scoring voucher.** A prepaid scoring, valid three months, usable only in a Pro
-room. A Pro subscription includes one per month.
+room. A Pro subscription gives one at the start and one with each monthly
+renewal; extra vouchers can be bought only with a Pro subscription.
 
 **Secondary market.** The surface for blocks of existing assets (secondary
 blocks, pre-IPO, OTC, M&A).
