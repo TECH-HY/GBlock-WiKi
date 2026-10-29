@@ -59,12 +59,14 @@ _Rolling out._
 
 - **Follow a Data Room.** Members can follow a Data Room that its owner has
   published at least to GBlock members (never their own). When the owner adds
-  something, such as new documents, a description change, a new scoring or a
-  traction update, you get it by email (at most one notification per room per
-  day, plus a weekly digest) and in your cabinet feed. You receive only what the
-  owner has made visible to you: the owner alone decides who can see what in a
-  room. The owner sees how many members follow the room and their public aliases,
-  not names, emails or tiers.
+  something, such as new documents, a description change or a new scoring, you
+  get it by email (at most one notification per room per day, plus a weekly
+  digest) and in your cabinet feed. A **traction update**, the business numbers
+  the owner reports, appears only in the weekly digest, marked "as stated by the
+  owner", with no separate notification, because GBlock cannot verify it. You
+  receive only what the owner has made visible to you: the owner alone decides who
+  can see what in a room. The owner sees how many members follow the room and
+  their public aliases, not names, emails or tiers.
 - **Your gallery.** The gallery simply lists the Data Rooms you follow, up to 100.
   It is **private by default**, so nobody can see which companies you follow.
   You can choose to make it public and share it as a link; a visit through it

@@ -34,6 +34,16 @@ viewing restriction of its own beyond the rules below for Free rooms.
 
 ---
 
+## What you publish is your responsibility
+
+Information in a Data Room, including the inputs to a scoring and any traction
+figures, comes from the room owner. GBlock does not verify it. You answer for it
+with your reputation: an investor or any other member can report false
+information, the operator reviews the case, and knowingly false information can
+lead to sanctions up to a lifetime ban, without a right to a refund.
+
+---
+
 ## Free and paid rooms
 
 | Room | Cost |
