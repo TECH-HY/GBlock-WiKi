@@ -114,7 +114,7 @@ again.
 ## Topping up the payment balance
 
 You top up the payment balance by card. A single top-up is at least $10 and at
-most $10,000 _(the maximum is rolling out)_.
+most $100,000.
 
 **Top-up bonus _(rolling out)_.** A top-up of **$500 or more** gives you **three
 bonus scoring vouchers**. They are valid for 90 days and then expire, work for
