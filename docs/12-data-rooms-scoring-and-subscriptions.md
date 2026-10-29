@@ -46,8 +46,7 @@ Information in a Data Room, including the inputs to a scoring and any traction
 figures, comes from the room owner. GBlock does not verify it. You answer for it
 with your reputation: an investor or any other member can report false
 information, the operator reviews the case, and knowingly false information can
-lead to sanctions up to a lifetime ban. Paid services such as scoring,
-subscriptions and vouchers are not refunded in that case.
+lead to sanctions up to a lifetime ban, without a right to a refund.
 
 ---
 
