@@ -54,8 +54,8 @@ vouch. Your own KYC does not change your status, but it adds trust in deals
 (see below), and a Resident with verified KYC can also open Data Rooms about
 other companies.
 
-A founding cohort of Residents is admitted by the operator to start the network.
-That route is not open for requests.
+To start the network the operator may admit a first group of Residents. That is
+an operator decision and cannot be requested.
 
 ---
 
@@ -66,14 +66,18 @@ comfortable with, from anonymous to fully verified.
 
 | Level | How you reach it | What it unlocks in the market |
 |---|---|---|
-| **Anonymous** | Default | Browse the dealflow; express buyer interest with one guarantor. Cannot place sale blocks. |
-| **Vouched** | Two guarantees from Verified members | Place sale blocks (one active block at a time). |
-| **Verified** | Pass KYC | Place sale blocks without a guarantor (up to three at a time), list on the primary market (with company verification), vouch for others, request larger payouts, faster operator review, and faster reputation growth (+20%, _rolling out_). |
+| **Anonymous** | Default | Browse the dealflow and express buyer interest. Cannot place sale blocks. |
+| **Vouched** | Two guarantees from Verified members | Place sale blocks, on a 24-hour freshness window. |
+| **Verified** | Pass KYC | Place sale blocks without a guarantor, on a 72-hour freshness window; vouch for others; request larger payouts; and build reputation faster (+20%, _rolling out_). |
 
 Good to know:
 
 - Trust level matters even for Residents. A Resident who is Anonymous can browse
   and express interest but cannot sell until they are Vouched or Verified.
+- To place a sale block you must also be the founder of record of the company
+  and hold a valid scoring on your own Pro Data Room. The operator does not
+  moderate blocks before they go live; it steps in afterwards if there is a
+  complaint or a dispute.
 - A sale block stays current for a limited window (72 hours for Verified sellers,
   24 hours for Vouched sellers) and must be renewed before it goes stale.
 - KYC is run by an external provider. GBlock never sees or stores your

@@ -29,8 +29,14 @@ founder-side functions: top-ups and scoring purchases. See
 
 Visibility is set only by the room owner. You choose who sees a room and its
 contents: named members only, any member, or fully public, so that anyone can open
-it without registering. The scoring follows the same choice. The platform adds no
-viewing restriction of its own beyond the rules below for Free rooms.
+it without registering. The platform adds no viewing restriction of its own beyond
+the rules below for Free rooms.
+
+- **A public room shows a basic card.** Documents stay private unless you mark a
+  document public yourself. Passports and KYC reports are never public.
+- **A scoring report is private by default.** You can publish a reduced view
+  (score, quadrant, dimensions, stage, short summary) or an extended view that
+  adds strengths. The same view appears everywhere the report is shown.
 
 ---
 
@@ -40,7 +46,8 @@ Information in a Data Room, including the inputs to a scoring and any traction
 figures, comes from the room owner. GBlock does not verify it. You answer for it
 with your reputation: an investor or any other member can report false
 information, the operator reviews the case, and knowingly false information can
-lead to sanctions up to a lifetime ban, without a right to a refund.
+lead to sanctions up to a lifetime ban. Paid services such as scoring,
+subscriptions and vouchers are not refunded in that case.
 
 ---
 
@@ -112,6 +119,7 @@ A scoring is a deterministic evaluation of a project on two axes: **Potential**
 
 - **It starts from the Data Room.** The room collects the project information
   the scoring uses, and ordering needs a Pro room _(rolling out)_.
+- **Who can order:** the company's founder of record, from a Pro room.
 - **Price:** $35, paid from your payment balance or with a scoring voucher.
 - **It does not expire with time.** A scoring stays valid while it was produced by
   the current scoring engine version. It is shown publicly only while the room is

@@ -7,10 +7,10 @@ referral rewards, open Data Rooms and look at the Secondary Market and the Deman
 Board read-only. Does not give dealflow access.
 
 **Anonymous.** The default trust level: browse the dealflow and express interest
-as a buyer with one guarantor. Cannot place sale blocks.
+as a buyer. Cannot place sale blocks.
 
 **Block (sale block).** A private package of assets or an opportunity placed by
-a Resident. Not a blockchain or crypto concept.
+the founder of a scored company. Not a blockchain or crypto concept.
 
 **Bonus vouchers.** Three scoring vouchers given with a top-up of $500 or more.
 Valid 90 days, for scoring only, not transferable or withdrawable. _Rolling out._
@@ -29,6 +29,10 @@ access grants, teammates and the scoring report. Belongs to its creator.
 account (payment balance, scoring purchases), switched on when you upload the
 first document to a Data Room of your own company.
 
+**Founder of record.** The member recorded as the representative of a company in
+its official Data Room, by default the person who created it. Only the founder
+of record can order a scoring or place a block for the company.
+
 **Free room / Pro room.** Every Data Room is Free or Pro. Scoring, the public
 catalog and primary-market blocks need Pro. _Rolling out._
 
@@ -45,18 +49,21 @@ negative reputation events while it is active, during a 30-day probation.
 **KYC / KYB.** Identity verification of a person (KYC) or a company (KYB) by an
 external provider. KYC gives the Verified trust level.
 
-**Magic link.** A secure, single-use sign-in link sent to your email.
+**Mediated introduction.** The connection between buyer and seller that runs
+through GBlock. Names and contact details stay hidden until both sides agree to
+disclose them.
 
-**Mediated introduction.** The operator-reviewed connection between buyer and
-seller. GBlock never hands out direct contact details.
+**One-time code.** The code sent to your email to sign in. There are no
+passwords. _Rolling out._
 
 **Payment balance.** Funds for scoring and subscriptions, topped up by card.
 
 **Payout request.** The only way to withdraw rewards: a reviewed request to the
 operator. Minimum $50, USDT (BEP-20), one per calendar month.
 
-**Primary market.** The surface for primary raises. Listing needs the Verified
-trust level and company verification.
+**Primary market.** The surface for primary raises. A block needs a founder of
+record with a valid scoring on a Pro Data Room, and at least the Vouched trust
+level.
 
 **Probation.** A 30-day observation period after a guarantee.
 

@@ -15,9 +15,9 @@ by an external provider.
   store them.
 - One KYC session covers both member participation and project listing, so you do
   not repeat it for each use.
-- Verified members can sell without a guarantor, list on the primary market,
-  vouch for others, request larger payouts, get faster operator review and
-  build reputation faster _(rolling out)_.
+- Verified members can sell without a guarantor and keep a block live for 72
+  hours instead of 24, vouch for others, request larger payouts and build
+  reputation faster _(rolling out)_.
 
 KYC is a choice, not a condition of membership. Anonymous members can build
 reputation and act as buyers indefinitely.
@@ -29,8 +29,6 @@ merged.
 **If KYC is revoked,** your history stays: existing Data Rooms and the access
 you already granted keep working, and your reputation is untouched. New access
 grants, new Data Rooms and payouts pause until you verify again.
-
-For primary-market listings, the company itself is also verified (KYB).
 
 ---
 
@@ -54,8 +52,9 @@ KYB / KYC, Misrepresentation, Off-platform, Harassment, Privacy, Fraud and Other
 - Your identity as the reporter is not shown to the person you report.
 - Information in Data Rooms and scorings comes from its owner and is not
   verified by GBlock. Knowingly false information is a serious breach: the owner
-  answers with their reputation and can face sanctions up to a lifetime ban,
-  without a right to a refund.
+  answers with their reputation and can face sanctions up to a lifetime ban.
+  Paid services such as scoring, subscriptions and vouchers are not refunded in
+  that case.
 - Inside a deal, the thread has its own complaint and dispute actions, and
   stays open while the operator looks into it.
 
@@ -73,8 +72,10 @@ practical rule: keep negotiations in the thread until then.
 
 ## Account protection
 
-- **Two-factor authentication** (an authenticator app) adds a second step to
-  sign-in. All members are expected to keep it on _(rolling out)_.
+- **Two-factor authentication** (an authenticator app) is optional and adds a
+  second step: once you switch it on, signing in from a new device asks for a
+  code. You get backup codes in case you lose the app. It also speeds up your
+  reputation growth _(rolling out)_.
 - **Sign-in alerts:** you get an email when GBlock sees a login from a device it
   does not recognize.
 - **Fresh confirmation** is required for sensitive actions, such as managing
@@ -102,7 +103,7 @@ again does not clear them _(rolling out)_.
 |---|---|---|
 | **Warning** | 14 days without a login | You get a warning email. |
 | **Sleeping** | 30 days without a login | Reward accrual stops; payments, top-ups, scoring purchases and new Data Rooms are frozen. Existing rooms keep working. **Subscriptions keep charging until you cancel them.** |
-| **Deactivated** | 180 days of sleeping | Public listings are unpublished and nothing is deleted. To return you verify with KYC again. |
+| **Deactivated** | 180 days of sleeping | Public listings are unpublished and subscriptions are no longer charged. Nothing is deleted. To return you verify with KYC again; if you come back 30 days or more after deactivation, reputation above 30 is reset to 30. |
 
 Logging in again wakes your account.
 
@@ -110,9 +111,9 @@ Logging in again wakes your account.
 erased only when you ask, from Settings or the **My data** page, where you can
 also export your data. The operator processes the request within 30 days.
 Deletion removes the Data Rooms you own; financial records are kept for
-accounting and disputes without your name. Deletion is blocked while you have
-active deals or unpaid withdrawals, and deferred while you carry an active
-sanction.
+accounting and disputes without your name. Deletion is postponed while you have
+active deals, unpaid withdrawals, a debt, a positive balance or an active
+sanction, and goes ahead once these are settled.
 
 ---
 

@@ -11,8 +11,8 @@ cabinet. The cabinet shows only the sections your status and paths allow.
   compliance boundaries and the ways in. You can register with your email,
   request access from the community, read about the Ambassador path or check the
   FAQ.
-- **Sign-in.** You enter your email and receive a secure, single-use link. There
-  are no passwords.
+- **Sign-in.** You enter your email and receive a one-time code. There are no
+  passwords _(rolling out; until then a single-use link is sent)_.
 - **Ambassador Terms.** The rights, obligations and reward model of the
   Ambassador path.
 - **Project catalog.** Published projects with a valid scoring, visible to
@@ -46,7 +46,8 @@ tier ladder and your recent reputation events.
 ### Dealflow, blocks and deal threads
 
 - **Dealflow:** active sale blocks as safe previews, for Residents. Open a block
-  to request access or express interest.
+  to request access or express interest. Names stay hidden until both sides agree
+  to disclose them.
 - **Seller Dashboard:** create, renew and close your own blocks.
 - **Deals and Threads:** your mediated introductions, each with a private thread
   between you and the counterparty.
@@ -96,7 +97,7 @@ feed of updates and a weekly digest. See
 
 ### Settings and My data
 
-Account preferences and two-factor authentication. **My data** lets you export a
+Account preferences and optional two-factor authentication. **My data** lets you export a
 copy of your data and request account deletion; it stays reachable even if your
 account is restricted.
 

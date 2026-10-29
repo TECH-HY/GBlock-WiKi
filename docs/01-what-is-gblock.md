@@ -3,7 +3,7 @@
 GBlock is a **private B2B market club** and the dealflow layer of the TECH HY
 Venture Club ecosystem. It is a closed, reputation-governed space where founders
 present their companies, investors and owners discover private-market
-opportunities, and every introduction is mediated by an operator. Anyone can
+opportunities, and every introduction is mediated. Anyone can
 register with an email address; full market participation (the **Resident**
 status) comes through vouches from existing members.
 
@@ -19,7 +19,7 @@ builds that into the product:
 1. **Reputation is the currency.** Reputation unlocks higher reward rates and
    the ability to back others. It cannot be bought; it is earned and it can be
    lost.
-2. **Access is governed.** Nothing in the dealflow is public. Every block, every
+2. **Access is governed.** The dealflow is open to Residents only. Every
    introduction and every Data Room grant is a deliberate, reviewable action.
 3. **Accountability is shared.** People who invite or vouch for others carry part
    of the responsibility for them. That keeps the network honest as it grows.
@@ -27,9 +27,10 @@ builds that into the product:
 Two more commitments follow from these:
 
 - **Identity is layered.** You can take part anonymously, or verify your
-  identity (KYC) to unlock fuller access and faster service.
-- **Introductions are mediated.** GBlock never hands out direct contact details.
-  Every connection passes through operator review.
+  identity (KYC) to unlock fuller access and more trust in deals.
+- **Introductions are mediated.** Names and contact details stay hidden until
+  both sides agree to disclose them, and the conversation runs inside GBlock
+  until the contract is signed.
 
 The result is a quieter, more disciplined alternative to open deal boards: a
 private terminal, not a public marketplace.

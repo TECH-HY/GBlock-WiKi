@@ -41,16 +41,17 @@ current catalog values and can change before launch.
 **Market**
 
 - The dealflow, sale blocks, access requests and buyer interest.
-- The Demand Board and the Secondary Market; primary-market listings for
-  verified companies.
-- Operator-mediated deal threads, complaints and disputes.
+- The Demand Board and the Secondary Market; primary-market blocks by founders
+  of scored companies, with no operator approval step.
+- Mediated deal threads with names hidden until both sides agree to disclose
+  them, complaints and disputes.
 
 **Wallet and support**
 
 - Reward and payment balances, card top-ups, transfers with a 3% bonus, and
   operator-reviewed payouts in USDT.
 - Support tickets, reporting to the operator, and data export and deletion.
-- Two-factor authentication and sign-in alerts.
+- Optional two-factor authentication and sign-in alerts.
 
 ---
 
@@ -72,7 +73,10 @@ members may already see them; not everyone does yet.
   public alias. See [Silent Data Room referrals](11-silent-dr-referral.md#following-a-data-room-and-your-gallery).
 - **Sanctions that follow the person,** not the account.
 - **Document watermarking** in Data Rooms.
-- **Two-factor authentication for every member.**
+- **Sign-in by a one-time code** from your email, and two-factor authentication
+  with backup codes for members who switch it on.
+- **Faster reputation growth for Verified members:** +20% with KYC, +30% with KYC
+  and two-factor authentication.
 
 ---
 
@@ -82,8 +86,11 @@ members may already see them; not everyone does yet.
 - **Office files for recipients.** Word, Excel and PowerPoint files can be
   uploaded, but recipients see PDF. Use PDF for anything you want investors to
   open.
-- **Shareable open links to a room.** Access is by direct grant to named members.
-- **Fees on deals.** GBlock takes no commission on deals between members.
+- **Single-use shared links to a room.** Access is by direct grant to named
+  members or by the public level the owner chooses.
+- **Automatic fees on deals.** GBlock takes no automatic commission on deals
+  between members. A fee for an introduction applies only under separate written
+  terms and is invoiced by the operator.
 - **Availability everywhere.** Countries open in stages; see
   [What is GBlock](01-what-is-gblock.md#who-can-use-gblock).
 

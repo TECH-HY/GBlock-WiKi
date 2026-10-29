@@ -14,14 +14,15 @@ need.
 9. [Report a problem](#report-a-problem)
 
 Sensitive actions (managing blocks, uploading documents, granting access,
-changing security settings) ask you to confirm again with a fresh email link. It
-keeps a stolen session from being enough to act on your behalf.
+changing security settings) ask you to confirm again with a fresh code from your
+email. It keeps a stolen session from being enough to act on your behalf.
 
 ---
 
 ## Onboarding
 
-1. Register with your email, or accept an invitation, and open the secure link.
+1. Register with your email, or accept an invitation, and enter the one-time
+   code from your email.
 2. Complete your profile if asked.
 3. Choose your paths: **Data Room & Scoring**, **Ambassador**, **Apply for
    Residency**. Combine them as you like; each asks for its own consent.
@@ -75,13 +76,16 @@ Board read-only.
 
 ## Place a sale block
 
-For Residents who are at least **Vouched** (two guarantees from Verified members)
+For the founder of record of a company whose own Pro Data Room holds a valid
+scoring, and who is at least **Vouched** (two guarantees from Verified members)
 or **Verified** (KYC passed). Anonymous members cannot place blocks.
 
 1. Open the Seller Dashboard and create a block. It stays a draft until you
    submit it.
-2. Submit it for review. Verified sellers go active with no guarantor and a
-   72-hour freshness window; Vouched sellers go active with a 24-hour window.
+2. Submit it. There is no operator approval step: the block goes live at once,
+   on a 72-hour freshness window for Verified sellers or a 24-hour window for
+   Vouched sellers. The operator can take a block down afterwards if there is a
+   complaint or a dispute.
 3. Renew the block before its window closes, or it goes stale and then expires.
    This keeps the dealflow current.
 4. Review access requests. Approved requests move to a mediated introduction.
@@ -108,7 +112,8 @@ vouch must come from a Resident.
 
 1. After access is approved, a mediated introduction creates a private thread
    between buyer and seller. Find it under **Deals** and **Threads**.
-2. Exchange messages and request materials. Keep the conversation in the
+2. Exchange messages and request materials. Names stay hidden until both sides
+   confirm what they are willing to disclose. Keep the conversation in the
    thread: messages with direct contact details are held for operator review
    until the contract is signed.
 3. The thread reaches an outcome and is archived. If something goes wrong, file a

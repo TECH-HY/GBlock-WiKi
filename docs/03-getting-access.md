@@ -10,7 +10,7 @@ current members. This page lists every legitimate way in.
 | **Register by email** | Anyone | An account, the Ambassador path and a welcome grant of 30 reputation points |
 | **Member invitation** | People invited by a member | An account with 40 reputation points and one vouch gift |
 | **Become a Resident** | Members ready for the market | Dealflow, blocks, deal threads and the right to vouch |
-| **Founding cohort** | Selected by the operator | Resident status to start the network (not open for requests) |
+| **Operator start group** | Selected by the operator | Resident status to start the network (not open for requests) |
 | **Community request** | Anyone without an invitation | A way to ask the community for an invitation or a vouch |
 
 An informal door also exists: opening a member's **Data Room link** and
@@ -26,8 +26,10 @@ Registration and invitations are free.
 
 1. Open <https://gblock.club> and enter your work email.
 2. Accept the Terms of Service and the Privacy Policy.
-3. You receive a secure, single-use link from an official gblock.club address.
-   Opening it completes your registration. There are no passwords.
+3. You receive a one-time code from an official gblock.club address (valid for
+   ten minutes). Entering it completes your registration. There are no passwords.
+   _(Rolling out: until the code is switched on, a single-use link does the same
+   job.)_
 4. After your first sign-in you choose your paths: Data Room & Scoring,
    Ambassador, Apply for Residency. They can be combined and added later.
 
@@ -71,11 +73,10 @@ trust in deals and unlocks seller and primary-market functions. See
 
 ---
 
-## Founding cohort
+## Operator start group
 
-To start the network, the operator admits a first cohort of Residents. They pass
-KYC and serve a short probation before they can vouch for others. This route is
-an operator decision and cannot be requested.
+To start the network, the operator may admit a first group of Residents. This
+route is an operator decision and cannot be requested.
 
 ---
 
