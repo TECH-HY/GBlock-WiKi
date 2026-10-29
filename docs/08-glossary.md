@@ -65,6 +65,9 @@ operator. Minimum $50, USDT (BEP-20), one per calendar month.
 record with a valid scoring on a Pro Data Room, and at least the Vouched trust
 level.
 
+**Pro trial.** Pro status for a set term on one specific room, granted by the
+operator as a promotion or as a Pro voucher. _Rolling out._
+
 **Probation.** A 30-day observation period after a guarantee.
 
 **Recovery window.** A waiting period after a penalty or withdrawn vouch before
@@ -88,8 +91,8 @@ you brought in: 10% to 25% by tier, plus overrides of 6%, 3% and 1%.
 **Scoring.** A deterministic evaluation of a project on Potential (0-150) and
 Readiness (0-150). Costs $35.
 
-**Scoring voucher.** A prepaid scoring, valid three months. A Pro subscription
-includes one per month.
+**Scoring voucher.** A prepaid scoring, valid three months, usable only in a Pro
+room. A Pro subscription includes one per month.
 
 **Secondary market.** The surface for blocks of existing assets (secondary
 blocks, pre-IPO, OTC, M&A).
