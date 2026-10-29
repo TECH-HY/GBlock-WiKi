@@ -21,6 +21,8 @@ Balances are **not interchangeable in both directions**:
 
 - **Reward → payment** is self-service. Moving rewards into your payment
   balance **adds a 3% bonus**: you receive the amount you move plus 3% of it.
+  Without verified KYC, no more than $150 of rewards can be moved within 30
+  days.
 - **Payment → reward** is not self-service. If you need to move value the
   other way, it goes through an operator-reviewed request.
 
@@ -59,8 +61,11 @@ on deals between members. Reward accrual stops while your account is sleeping
 
 - Your reward balance must be at least the **$50 minimum**. Below that, the
   payout request is not available.
-- Without verified KYC, a single request is capped at **$150**. With KYC,
-  there is no cap on a request.
+- Without verified KYC, payouts are limited to **$150 within any 30 days**,
+  counted together for the same payout address and any linked accounts. A
+  request above that needs KYC. With KYC, there is no cap on a request.
+- One payout request is allowed per calendar month; a rejected request does
+  not count.
 - If your KYC was revoked, or your account carries a sanction, you cannot open a
   payout request until the situation is resolved.
 
@@ -104,7 +109,9 @@ again.
 
 ## Topping up the payment balance
 
-You top up the payment balance by card. A top-up of exactly $150 earns no bonus;
+You top up the payment balance by card. A single top-up is at least $10 and at
+most $10,000 _(the maximum is rolling out)_. A top-up of exactly $150 earns no
+bonus;
 a top-up **above $150 earns +5%**, and a top-up of **$500 or more earns +10%**.
 An automatic top-up earns a 1% bonus. Where more than one bonus could apply, the
 larger one applies — they do not stack.

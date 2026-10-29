@@ -63,7 +63,7 @@ The following are part of the current product for members:
 - Trust Tiers: Anonymous, Vouched, Verified (via KYC).
 - Canonical Tier Catalog and the reputation economy: Volume split into
   V_capacity and V_rate, a weekly locked reward rate, and the tier ladder
-  Verified → Core → Principal → Partner → Vanguard at rates 10 / 13 / 17 / 20 /
+  Member → Core → Principal → Partner → Vanguard at rates 10 / 13 / 17 / 20 /
   25%.
 - Invitations that reserve reputation, vouches that stake Volume, and guarantees
   with probation, including the Trust Gate for sale blocks.
@@ -88,7 +88,7 @@ The following are part of the current product for members:
   balance reconciliation against the reward ledger.
 - **Payouts through operator-reviewed requests.** Self-service withdrawal has
   been removed: payout requests go through the support pipeline (minimum $50,
-  USDT BEP-20, $150 per-request cap without KYC) with transaction-hash
+  USDT BEP-20, one request per calendar month, $150 within 30 days without KYC) with transaction-hash
   notifications.
 - Support tickets to the operator.
 - Reporting through the Report page and the operator.

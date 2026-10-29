@@ -13,9 +13,13 @@ takes effect.
 
 ## Who can open a Data Room, and who owns it
 
-- **Any onboarded member in good standing** can open a Data Room: someone who
-  has chosen at least one path in the cabinet and is not restricted. This
-  includes an investor or ambassador who holds a stake in a company.
+- **Any onboarded member in good standing** can open a Data Room for their
+  own company: someone who has chosen at least one path in the cabinet and is
+  not restricted.
+- A room about **someone else's company** (the secondary market, including a
+  company you back as an investor) can be opened only by a **full Resident**
+  (KYC approved, two active vouches, approved waitlist request). Anyone else is
+  turned away at creation.
 - The room belongs to **you, its creator**. The company record behind it is a
   shared record, so several people can have their own rooms for the same
   company.
@@ -35,7 +39,7 @@ silent Data Room functions (payment account and scoring purchases). See
 | Room | Cost |
 |---|---|
 | Your **first** Data Room | Free, in any market |
-| **Free secondary-market rooms** | A **full Resident** (KYC approved, two active vouches, approved waitlist request) gets a number of free rooms for companies they do not own, on top of the first room, set by their reward-rate tier: Verified 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
+| **Free secondary-market rooms** | A **full Resident** (KYC approved, two active vouches, approved waitlist request) gets a number of free rooms for companies they do not own, on top of the first room, set by their reward-rate tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
 | Every other room | A **monthly subscription** (currently $35 per month), charged automatically from your payment balance, with any shortfall taken from your saved card |
 
 Good to know:

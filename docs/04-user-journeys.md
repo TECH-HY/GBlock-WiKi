@@ -53,7 +53,7 @@ Registration form or invitation email
   to the cabinet.
 
 At the end of onboarding you are a **Registered** member, **Anonymous** trust
-tier, **Verified** reputation tier (0-49 Volume), with the welcome grant in
+tier, **Member** reputation tier (0-49 Volume), with the welcome grant in
 your pocket: 30 starting reputation, or 40 plus a vouch gift if you arrived
 through an invitation. What you can do next depends on which paths, statuses
 and tiers you add. See [User roles and statuses](02-user-roles-and-statuses.md).
@@ -272,15 +272,17 @@ representing or backing. Pricing, allowances and scoring are covered in
 
 **Step 1. Create or open a data room.**
 
-Any onboarded member in good standing can open a Data Room, including an
-investor who holds a stake in a company. The room belongs to **you, its
-creator**. The company record behind it is shared, so different people can open
+Any onboarded member in good standing can open a Data Room for their own
+company. A room about someone else's company (the secondary market, including a
+company you back as an investor) needs full Resident status. The room belongs to
+**you, its creator**. The company record behind it is shared, so different people can open
 their own rooms for the same company. Your first room is free.
 
 **Step 2. Upload documents.**
 
 You upload diligence documents (financials, legal, cap table, commercial,
-reports). Files are stored through signed cloud URLs; access is controlled by
+reports). Office files (DOCX, XLSX, PPTX) can be uploaded, but at launch they are
+not shown to recipients, so share documents you want investors to open as PDF. Files are stored through signed cloud URLs; access is controlled by
 you as the room owner. Uploads require re-authentication. When you, as owner,
 upload the first document to a room of your own company, your
 [Data Room functions](02-user-roles-and-statuses.md#data-room-functions-the-founder-extension)
@@ -292,7 +294,8 @@ You grant access to specific members. Access can be:
 
 - **Direct:** granted to a named member.
 - **Unlisted token:** a shareable token that lets a holder view the room
-  without you naming them individually.
+  without you naming them individually. Unlisted tokens are switched off at
+  launch; use direct grants.
 
 Granting and revoking access require re-authentication. You can also invite
 teammates to the room by email with one of the team roles (Owner, Editor,
@@ -393,8 +396,10 @@ Your reward balance shows what is available to request.
 **Step 2. Submit a payout request.**
 
 From the wallet, submit a payout request. The minimum request is **$50**. You
-provide a **USDT (BEP-20)** destination address. Without verified KYC, a
-single request is capped at **$150**; with KYC there is no cap.
+provide a **USDT (BEP-20)** destination address. Without verified KYC, payouts
+are limited to **$150 within any 30 days** for the same payout address and any
+linked accounts, and a request above that needs KYC. One payout request is
+allowed per calendar month.
 
 **Step 3. Operator review.**
 

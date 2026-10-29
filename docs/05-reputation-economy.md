@@ -48,7 +48,7 @@ Reputation Tier is derived from Volume. The canonical catalog
 
 | Tier | Volume range | Reward rate | Recovery window |
 |---|---|---|---|
-| **Verified** | 0 - 49 | 10% | 168 hours |
+| **Member** | 0 - 49 | 10% | 168 hours |
 | **Core** | 50 - 149 | 13% | 120 hours |
 | **Principal** | 150 - 349 | 17% | 72 hours |
 | **Partner** | 350 - 749 | 20% | 24 hours |
@@ -69,18 +69,17 @@ defined in the catalog and is being switched on in stages. _Rolling out._
   Data Rooms at higher tiers (1 / 2 / 3 / 5 / 8 by reward-rate tier). See
   [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
 
-### The two "Verified" labels
+### Verified and Member
 
-Be careful with the word _Verified_:
+The word _Verified_ means one thing: the **Verified Trust Tier**, reached by
+passing KYC (identity assurance). The lowest **Reputation Tier** (0-49 Volume,
+the start of your reputation journey) is called **Member**. It was previously
+named Verified, and the app may still show the old name until it is updated.
 
-- A **Verified Trust Tier** means you passed KYC (identity assurance).
-- A **Verified Reputation Tier** means you have 0-49 Volume (you are at the
-  start of your reputation journey).
-
-They are independent. A KYC-verified member with little activity is Verified
-trust tier and Verified reputation tier. A long-tenured anonymous member could
-be Vanguard reputation tier while still Anonymous trust tier. Always check the
-context.
+The two axes are independent. A KYC-verified member with little activity is
+Verified trust tier and Member reputation tier. A long-tenured anonymous member
+could be Vanguard reputation tier while still Anonymous trust tier. Always check
+the context.
 
 ---
 
@@ -171,8 +170,8 @@ an internal accounting figure, not a member-facing number.
 - Reward accruals are credited to your **reward balance** in a monthly batch
   on the **1st of the month**.
 - There is no self-service withdrawal: moving rewards off-platform happens
-  through a reviewed **payout request** (minimum $50, USDT BEP-20; without KYC
-  a single request is capped at $150). See
+  through a reviewed **payout request** (minimum $50, USDT BEP-20; one request per
+  calendar month; without KYC up to $150 within 30 days). See
   [Payouts and rewards](10-payouts-and-rewards.md).
 - You can move rewards into your payment balance yourself: the transfer **adds a
   3% bonus** on top of the amount you move. Moving payment balance back into
@@ -254,8 +253,8 @@ non-transactional TECH HY revenue.
 
 **"I can withdraw my rewards whenever I want."**
 No. There is no self-service withdrawal. Rewards are paid out through a
-reviewed payout request with a $50 minimum (and a $150 per-request cap without
-KYC). See [Payouts and rewards](10-payouts-and-rewards.md).
+reviewed payout request with a $50 minimum (and, without KYC, a limit of $150
+within 30 days). See [Payouts and rewards](10-payouts-and-rewards.md).
 
 **"Vouching is free reputation."**
 No. A vouch stakes your Volume capacity, is limited by that capacity, and a

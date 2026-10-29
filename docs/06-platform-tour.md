@@ -195,7 +195,7 @@ The Virtual Data Room for a project you are representing or backing. From here
 you:
 
 - Upload diligence documents.
-- Grant access (direct or unlisted token).
+- Grant access (direct; unlisted tokens are switched off at launch).
 - Toggle download permissions.
 - Revoke access.
 - Invite teammates to the room (Owner, Editor or Member).
@@ -237,7 +237,8 @@ Your balances and money movements:
   automatic top-up.
 - **Payout requests:** withdrawals are requested from the wallet and reviewed
   by the operator — there is no self-service withdrawal. Minimum $50, USDT
-  BEP-20, $150 per-request cap without KYC. The operator pays approved requests
+  BEP-20, one request per calendar month, and without KYC up to $150 within
+  30 days. The operator pays approved requests
   within 20 business days. See [Payouts and rewards](10-payouts-and-rewards.md).
 
 If your Data Room functions are not active yet, the payment block is visible

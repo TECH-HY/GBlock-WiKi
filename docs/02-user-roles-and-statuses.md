@@ -15,7 +15,7 @@ the most common newcomer mistake, so this page is the longest in the wiki.
 |---|---|---|
 | **Status** | _How did you become a member, and what base rights do you have?_ | Registered, Ambassador, Residency applicant, Resident (plus the silent Data Room functions) |
 | **Trust Tier** | _How proven is your identity, and what market actions does that unlock?_ | Anonymous, Vouched, Verified |
-| **Reputation Tier** | _How much long-term reputation have you accumulated, and what rewards and service levels come with it?_ | Verified, Core, Principal, Partner, Vanguard |
+| **Reputation Tier** | _How much long-term reputation have you accumulated, and what rewards and service levels come with it?_ | Member, Core, Principal, Partner, Vanguard |
 
 The three axes are independent. A Resident can still be Anonymous (no KYC). A
 Vanguard-tier member can be Vouched rather than Verified. Your access at any
@@ -123,7 +123,7 @@ including:
 - The ability to give vouches on the Resident path (see below).
 - A 1.2x reputation accrual rate (1.3x with 2FA enabled).
 - The faster 24-hour operator review SLA.
-- Payout requests above $150 (see [Payouts and rewards](10-payouts-and-rewards.md)).
+- Payouts above $150 within 30 days (see [Payouts and rewards](10-payouts-and-rewards.md)).
 
 You are never forced to reveal your identity to the network. Anonymous members
 can accumulate Volume and act as buyers indefinitely.
@@ -185,7 +185,7 @@ The canonical tier catalog (`tier-catalog-2026-07-v1`):
 
 | Tier | Volume range | Reward rate | Recovery window |
 |---|---|---|---|
-| **Verified** | 0 - 49 | 10% | 168 hours |
+| **Member** | 0 - 49 | 10% | 168 hours |
 | **Core** | 50 - 149 | 13% | 120 hours |
 | **Principal** | 150 - 349 | 17% | 72 hours |
 | **Partner** | 350 - 749 | 20% | 24 hours |
@@ -203,10 +203,9 @@ How to read this:
   [Reputation economy](05-reputation-economy.md#two-views-of-volume).
 - **Recovery window** is the catalog's waiting time after a penalty or a
   reworked vouch, by tier. _Rolling out._
-- The tier name **Verified** appears in both Axis 2 (Trust Tier) and Axis 3
-  (Reputation Tier). They are different things. A Verified **Trust Tier** means
-  you passed KYC. A Verified **Reputation Tier** means you have 0-49 Volume.
-  Always check the context when you see the word.
+- The lowest Reputation Tier (0-49 Volume) is called **Member**. It was
+  previously named Verified, and the app may still show the old name until it is
+  updated. **Verified** now means only the KYC Trust Tier.
 
 For the mechanics behind Volume, see
 [Reputation economy](05-reputation-economy.md).
@@ -319,7 +318,7 @@ profile. At that moment:
   30-point reputation floor (a registration through a member's invitation would
   start at 40 plus 1 vouch gift).
 - **Trust Tier:** Anonymous (no KYC, no guarantees).
-- **Reputation Tier:** Verified (0-49 Volume).
+- **Reputation Tier:** Member (0-49 Volume).
 
 What can you do? Browse dealflow, no (that needs Resident). Place a sale block,
 no. Send invitations, yes — each one reserves 10 of your reputation points until

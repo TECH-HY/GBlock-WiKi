@@ -87,8 +87,9 @@ A Trust Tier reached by completing KYC. Grants full access with no guarantor
 requirement, primary-listing eligibility, faster operator SLA, and a 1.2x
 reputation accrual rate (1.3x with 2FA).
 
-> Note: _Verified_ appears as both a Trust Tier (KYC passed) and a Reputation
-> Tier (0-49 Volume). They are different. Always check the context.
+> Note: _Verified_ means only the Trust Tier reached by KYC. The lowest
+> Reputation Tier (0-49 Volume) is called _Member_; it was previously named
+> Verified, and the app may still show the old name until it is updated.
 
 ---
 
@@ -109,7 +110,7 @@ events). A snapshot of it, taken weekly, locks your reward rate for the week.
 
 **Reputation Tier**
 A tier derived from Volume. Canonical catalog (`tier-catalog-2026-07-v1`):
-Verified, Core, Principal, Partner, Vanguard (750+, no ceiling). Determines
+Member, Core, Principal, Partner, Vanguard (750+, no ceiling). Determines
 reward rate and the free Data Room allowance of full Residents.
 
 **Canonical Tier Catalog**
@@ -306,7 +307,7 @@ request.
 
 **Payout Request**
 The only way to withdraw rewards: a reviewed request to the operator.
-Minimum $50, USDT (BEP-20) destination, $150 per-request cap without KYC.
+Minimum $50, USDT (BEP-20) destination, one request per calendar month, and without KYC up to $150 within 30 days.
 See [Payouts and rewards](10-payouts-and-rewards.md).
 
 **Business-Day SLA**
