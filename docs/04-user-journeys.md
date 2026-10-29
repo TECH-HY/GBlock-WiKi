@@ -40,8 +40,8 @@ depends on the paths you add. See
 The founder journey: present your company, get scored, be found.
 
 1. **Create the room.** Anyone onboarded can create a Data Room for their own
-   company; the first one is free. Creating a room about someone else's company
-   needs a Resident with verified KYC. The room belongs to you, its creator.
+   company; the first one is free. A Resident can also create a room about
+   someone else's company. The room belongs to you, its creator.
 2. **Upload documents** such as financials, legal, cap table and reports. Use
    PDF for anything you want recipients to open. Your first upload to a room of
    your own company switches on your top-up and scoring functions.

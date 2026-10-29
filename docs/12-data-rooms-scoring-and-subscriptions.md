@@ -14,7 +14,7 @@ subscribers get 30 days' notice before a new subscription price applies.
 - **Any onboarded member in good standing** can create a Data Room for their own
   company.
 - A room about **someone else's company** (for example a company you back as an
-  investor) can be created only by a **Resident with verified KYC**. This is about
+  investor) can be created by a **Resident**; KYC is not required. This is about
   creating a room, not about looking at one.
 - The room belongs to **you, its creator**. The company record behind it is
   shared, so several people can have their own rooms for the same company.
@@ -58,7 +58,7 @@ lead to sanctions up to a lifetime ban, without a right to a refund.
 | Room | Cost |
 |---|---|
 | Your **first** Data Room | Free |
-| **Free secondary-market rooms** | A Resident with verified KYC can create free rooms about companies they do not own, by reputation tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
+| **Free secondary-market rooms** | A Resident can create free rooms about companies they do not own, by reputation tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
 | Every other room | **Pro subscription**, $35 per month, charged from your payment balance with any shortfall taken from your saved card |
 
 - Above the free allowance there is no unlimited tier; extra rooms are paid.
