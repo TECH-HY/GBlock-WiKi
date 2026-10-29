@@ -79,6 +79,7 @@ custody of assets and no promised returns. See
 .
 ├── README.md              this file
 ├── docs/                  the guide, one topic per file (01-14)
+│   └── legal/             copies of the published legal texts
 └── brand/                 logo and brand reference assets
 ```
 

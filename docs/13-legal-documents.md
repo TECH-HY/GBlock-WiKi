@@ -2,14 +2,17 @@
 
 The documents you agree to or should read when you use GBlock: the terms, the
 privacy and cookie policies, the disclaimers and the risk disclosure. This page
-says what each one covers and when you meet it, and links to the full text.
+says what each one covers and when you meet it, and gives the full text.
 
-> **The texts on gblock.club are the binding versions.** This page is a plain
-> guide and does not replace or change them. If this wiki and a legal document
-> differ, the legal document applies. The documents are being revised ahead of
-> public launch so that they match the launch design described in this guide.
-> When a new version is published, you are asked to accept it, and the version
-> and date shown on the site are the ones that count.
+> **The texts on gblock.club are the binding versions.** The full texts in this
+> wiki are copies of the versions published on the site on 29 October 2026, so
+> that you can read them next to the rest of the guide. This page is a plain guide
+> and does not replace or change them. The documents are being revised ahead of
+> public launch so that they match the launch design described in this guide;
+> until the revised versions are published, parts of them that deal with payments,
+> refunds, bonuses, vouchers, sanctions and payout limits can differ from the
+> description in this guide, and the published legal text applies. When a new
+> version is published, you are asked to accept it.
 
 ---
 
@@ -39,25 +42,26 @@ worth reading before you do anything else.
 
 ## The documents
 
-All documents are public and readable without an account. Versions and dates are
-those live on the site when this page was last updated.
+All documents are public and readable without an account. Each name opens the
+copy in this wiki; "site" opens the binding text. Versions and dates are those
+live on the site on 29 October 2026.
 
 | Document | Version | What it covers | When you meet it |
 |---|---|---|---|
-| [**Terms of Service**](https://gblock.club/legal/terms) (Master Platform Terms) | 2.2, effective 19 Oct 2026 | The main agreement: who may use GBlock, what the platform is and is not, your duties as a user, Data Rooms, scoring, payments, the referral program, suspension and termination. | At registration. |
-| [**Privacy Policy**](https://gblock.club/legal/privacy) | 2.2, effective 19 Oct 2026 | What personal data GBlock collects, why, who receives it, how long it is kept and how to exercise your rights. | At registration. |
-| [**Payments, Refunds and Cancellation Terms**](https://gblock.club/legal/refund-policy) | 2.2, effective 19 Oct 2026 | How paying works: top-ups, subscriptions and scoring purchases, and how cancellations and refunds are handled. | When you pay. |
-| [**Scoring Service Offer**](https://gblock.club/legal/scoring-offer) | 2.2, effective 19 Oct 2026 | The terms on which a scoring is sold and delivered. | When you order a scoring. |
-| [**Scoring Terms and Disclaimer**](https://gblock.club/legal/scoring-disclaimer) | 2.1, effective 19 Aug 2026 | What a scoring is and is not, its dependence on inputs, freshness, corrections and limits of liability. | When you order or read a scoring. |
-| [**Risk Disclosure**](https://gblock.club/legal/risk-disclosure) | 2.1, effective 19 Aug 2026 | The risks of private-market investing: total loss, illiquidity, dilution, valuation and information risk, regulatory and tax risk, fraud and more. | Before any deal. Read it first. |
-| [**Data Room Confidentiality Terms**](https://gblock.club/legal/confidentiality) | 2.1, effective 19 Aug 2026 | Your confidentiality duties when you open another member's Data Room: permitted use, restrictions, access logging, return and deletion. | The first time you open a restricted Data Room. |
-| [**Acceptable Use Policy**](https://gblock.club/legal/acceptable-use) | 2.1, effective 19 Aug 2026 | Prohibited conduct: fraud and misrepresentation, abuse of data, scraping, spam, duplicate accounts, circumventing platform controls, and how enforcement and appeals work. | With the Terms. |
-| [**Referral Program Terms**](https://gblock.club/legal/referral-terms) | 2.2, effective 19 Oct 2026 | How referral rewards are earned, held and paid, the rules against abuse, and what happens in an investigation or an appeal. | When you activate the referral program. |
-| [**Ambassador Terms**](https://gblock.club/ambassador-terms) | See the page | The terms of the Ambassador path. | When you choose the Ambassador path. |
-| [**Commercial Introductions and Anti-Circumvention Terms**](https://gblock.club/legal/introduction-terms) | 2.1, effective 19 Aug 2026 | How an introduction made through GBlock is protected, and the duty not to bypass GBlock for introduced counterparties. | With the Terms; and when an introduction carries its own terms. |
-| [**Cookie Policy**](https://gblock.club/legal/cookies) | 2.1, effective 19 Aug 2026 | Which cookies and similar technologies the site uses and how to manage your choices. | On your first visit, through the cookie settings. |
-| [**Email and Marketing Communications Policy**](https://gblock.club/legal/marketing-policy) | 2.1, effective 19 Aug 2026 | Which emails are necessary for the service and which are optional marketing; consent and unsubscribing. | At registration (optional marketing is a separate choice). |
-| [**Acceptance, Versioning and Evidence Framework**](https://gblock.club/legal/acceptance-framework) | 2.1, effective 19 Aug 2026 | How acceptance is recorded, how versions change and when you are asked to accept again. | Reference. |
+| [**Terms of Service**](legal/terms.md) ([site](https://gblock.club/legal/terms)) (Master Platform Terms) | 2.2, effective 19 Oct 2026 | The main agreement: who may use GBlock, what the platform is and is not, your duties as a user, Data Rooms, scoring, payments, the referral program, suspension and termination. | At registration. |
+| [**Privacy Policy**](legal/privacy.md) ([site](https://gblock.club/legal/privacy)) | 2.2, effective 19 Oct 2026 | What personal data GBlock collects, why, who receives it, how long it is kept and how to exercise your rights. | At registration. |
+| [**Payments, Refunds and Cancellation Terms**](legal/refund-policy.md) ([site](https://gblock.club/legal/refund-policy)) | 2.2, effective 19 Oct 2026 | How paying works: top-ups, subscriptions and scoring purchases, and how cancellations and refunds are handled. | When you pay. |
+| [**Scoring Service Offer**](legal/scoring-offer.md) ([site](https://gblock.club/legal/scoring-offer)) | 2.2, effective 19 Oct 2026 | The terms on which a scoring is sold and delivered. | When you order a scoring. |
+| [**Scoring Terms and Disclaimer**](legal/scoring-disclaimer.md) ([site](https://gblock.club/legal/scoring-disclaimer)) | 2.1, effective 19 Aug 2026 | What a scoring is and is not, its dependence on inputs, freshness, corrections and limits of liability. | When you order or read a scoring. |
+| [**Risk Disclosure**](legal/risk-disclosure.md) ([site](https://gblock.club/legal/risk-disclosure)) | 2.1, effective 19 Aug 2026 | The risks of private-market investing: total loss, illiquidity, dilution, valuation and information risk, regulatory and tax risk, fraud and more. | Before any deal. Read it first. |
+| [**Data Room Confidentiality Terms**](legal/confidentiality.md) ([site](https://gblock.club/legal/confidentiality)) | 2.1, effective 19 Aug 2026 | Your confidentiality duties when you open another member's Data Room: permitted use, restrictions, access logging, return and deletion. | The first time you open a restricted Data Room. |
+| [**Acceptable Use Policy**](legal/acceptable-use.md) ([site](https://gblock.club/legal/acceptable-use)) | 2.1, effective 19 Aug 2026 | Prohibited conduct: fraud and misrepresentation, abuse of data, scraping, spam, duplicate accounts, circumventing platform controls, and how enforcement and appeals work. | With the Terms. |
+| [**Referral Program Terms**](legal/referral-terms.md) ([site](https://gblock.club/legal/referral-terms)) | 2.2, effective 19 Oct 2026 | How referral rewards are earned, held and paid, the rules against abuse, and what happens in an investigation or an appeal. | When you activate the referral program. |
+| [**Ambassador Terms**](https://gblock.club/ambassador-terms) (site only) | See the page | The terms of the Ambassador path. | When you choose the Ambassador path. |
+| [**Commercial Introductions and Anti-Circumvention Terms**](legal/introduction-terms.md) ([site](https://gblock.club/legal/introduction-terms)) | 2.1, effective 19 Aug 2026 | How an introduction made through GBlock is protected, and the duty not to bypass GBlock for introduced counterparties. | With the Terms; and when an introduction carries its own terms. |
+| [**Cookie Policy**](legal/cookies.md) ([site](https://gblock.club/legal/cookies)) | 2.1, effective 19 Aug 2026 | Which cookies and similar technologies the site uses and how to manage your choices. | On your first visit, through the cookie settings. |
+| [**Email and Marketing Communications Policy**](legal/marketing-policy.md) ([site](https://gblock.club/legal/marketing-policy)) | 2.1, effective 19 Aug 2026 | Which emails are necessary for the service and which are optional marketing; consent and unsubscribing. | At registration (optional marketing is a separate choice). |
+| [**Acceptance, Versioning and Evidence Framework**](legal/acceptance-framework.md) ([site](https://gblock.club/legal/acceptance-framework)) | 2.1, effective 19 Aug 2026 | How acceptance is recorded, how versions change and when you are asked to accept again. | Reference. |
 
 ---
 
