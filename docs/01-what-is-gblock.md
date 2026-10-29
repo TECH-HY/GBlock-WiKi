@@ -114,3 +114,5 @@ the laws of their jurisdiction.
 - **Step-by-step flows:** [User journeys](04-user-journeys.md)
 - **Data Rooms and scoring:** [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md)
 - **Terms:** [Glossary](08-glossary.md)
+- **Legal documents and disclaimers:** [Legal documents](13-legal-documents.md)
+- **Quick answers:** [FAQ](14-faq.md)

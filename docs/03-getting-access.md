@@ -25,7 +25,8 @@ Registration and invitations are free.
 ## Register by email
 
 1. Open <https://gblock.club> and enter your work email.
-2. Accept the Terms of Service and the Privacy Policy.
+2. Accept the Terms of Service and the Privacy Policy (see
+   [Legal documents](13-legal-documents.md)).
 3. You receive a one-time code from an official gblock.club address (valid for
    ten minutes). Entering it completes your registration. There are no passwords.
    _(Rolling out: until the code is switched on, a single-use link does the same
