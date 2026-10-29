@@ -83,7 +83,7 @@ The following are part of the current product for members:
 - **Scoring that does not expire.** A scoring stays valid while it matches the
   current engine version; the scoring starts from the company's Data Room.
 - Wallet: reward and payment balances, card top-ups with bonuses, reward-to-payment
-  transfers with a 3% bonus, monthly reward crediting on the 1st, and daily
+  transfers with a 3% bonus, manual reward release after the 30-day hold, and daily
   balance reconciliation against the reward ledger.
 - **Payouts through operator-reviewed requests.** Self-service withdrawal has
   been removed: payout requests go through the support pipeline (minimum $50,

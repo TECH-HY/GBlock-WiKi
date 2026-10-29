@@ -167,8 +167,9 @@ an internal accounting figure, not a member-facing number.
 - Rewards become releasable **30 days after the revenue** they come from. If the
   payment is refunded inside that window, the reward is cancelled; after the
   window a refund is recovered from you as a debt against future rewards.
-- Reward accruals are credited to your **reward balance** in a monthly batch
-  on the **1st of the month**.
+- Approved rewards reach your **reward balance** when the operator releases
+  them after the hold. Releases are manual at launch and are not tied to a
+  fixed calendar date.
 - There is no self-service withdrawal: moving rewards off-platform happens
   through a reviewed **payout request** (minimum $50, USDT BEP-20; one request per
   calendar month; without KYC up to $150 within 30 days). See

@@ -383,7 +383,7 @@ Referral rewards, where applicable, are tracked under **Referrals** in the
 cabinet. Reward candidates move through pending, locked, approved, released,
 and suppressed states. Rewards are paid only from confirmed non-transactional
 TECH HY revenue, become releasable 30 days after the revenue they come from,
-and reward balances are credited in a monthly batch on the 1st of the month.
+and the operator releases them to your reward balance (manually at launch).
 See [Payouts and rewards](10-payouts-and-rewards.md).
 
 ---

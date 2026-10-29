@@ -39,9 +39,9 @@ Three scheduling facts to calibrate expectations:
 - A reward becomes releasable **30 days after the revenue** it comes from. If
   the payment is refunded inside that window, the reward is cancelled; after the
   window, a refund is recovered from you as a debt against future rewards.
-- Rewards are credited to your reward balance in a **monthly batch on the
-  1st of the month**. Activity during a month is paid out in the following
-  batch.
+- Approved rewards are released to your reward balance by the operator after
+  the hold. Releases are **manual at launch** and are not tied to a fixed
+  calendar date.
 - Reward balances are **reconciled daily** against the reward ledger: the sum
   of balances can never exceed accrued-minus-withdrawn rewards. A
   discrepancy halts payouts and alerts the operator — this protects the

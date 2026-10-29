@@ -147,7 +147,7 @@ Referral reward candidates, each in one of these states:
 - **Suppressed** (held back due to a conduct or policy issue)
 
 Rewards are paid only from confirmed non-transactional TECH HY revenue, and
-credited to your reward balance monthly on the 1st.
+released to your reward balance by the operator after the 30-day hold.
 
 Members who registered after clicking a link to one of your Data Rooms appear
 here as **silent referrals** — attributed to you like any other referral, with
@@ -229,8 +229,8 @@ for investors who already have access.
 
 Your balances and money movements:
 
-- **Reward balance:** referral rewards land here in a monthly batch on the
-  1st of the month. You can move rewards into your payment balance; the
+- **Reward balance:** released referral rewards land here (releases are manual
+  at launch). You can move rewards into your payment balance; the
   transfer **adds a 3% bonus** on top of the amount you move.
 - **Payment balance:** funds for platform purchases such as project scoring and
   Data Room subscriptions, topped up by card. A top-up above $150 earns a +5%

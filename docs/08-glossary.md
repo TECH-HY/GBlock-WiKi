@@ -303,8 +303,8 @@ The cabinet page where you export your data and request account deletion.
 ## Balances and payouts
 
 **Reward Balance**
-The balance where referral rewards land, credited in a monthly batch on the
-1st of the month. Withdrawals happen through payout requests only.
+The balance where released referral rewards land. Releases are manual at launch.
+Withdrawals happen through payout requests only.
 
 **Payment Balance**
 The balance used for platform purchases (such as project scoring and Data Room
