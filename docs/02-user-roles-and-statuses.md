@@ -54,8 +54,10 @@ vouch. Your own KYC does not change your status, but it adds trust in deals
 (see below), and a Resident with verified KYC can also open Data Rooms about
 other companies.
 
-To start the network the operator may admit a first group of Residents. That is
-an operator decision and cannot be requested.
+The only exception is a one-time launch stage: the operator appoints the first
+Residents directly, in a limited number, so that the network has members who can
+vouch. These grants cannot be requested, and a granted Resident has the same
+status and the same right to vouch as everyone else.
 
 ---
 

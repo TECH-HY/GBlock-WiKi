@@ -10,7 +10,7 @@ current members. This page lists every legitimate way in.
 | **Register by email** | Anyone | An account, the Ambassador path and a welcome grant of 30 reputation points |
 | **Member invitation** | People invited by a member | An account with 40 reputation points and one vouch gift |
 | **Become a Resident** | Members ready for the market | Dealflow, blocks, deal threads and the right to vouch |
-| **Operator start group** | Selected by the operator | Resident status to start the network (not open for requests) |
+| **Launch grants** | Appointed by the operator, one-time stage | Resident status to start the network (not open for requests) |
 | **Community request** | Anyone without an invitation | A way to ask the community for an invitation or a vouch |
 
 An informal door also exists: opening a member's **Data Room link** and
@@ -73,10 +73,13 @@ trust in deals and unlocks seller and primary-market functions. See
 
 ---
 
-## Operator start group
+## Launch grants
 
-To start the network, the operator may admit a first group of Residents. This
-route is an operator decision and cannot be requested.
+Resident status normally comes through the waitlist. To start the network, there
+is one exception: a launch stage in which the operator appoints the first
+Residents directly, in a limited number. This is an operator decision and cannot
+be requested. A granted Resident has the same status as any other and can vouch
+for others.
 
 ---
 

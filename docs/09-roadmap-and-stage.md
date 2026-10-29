@@ -27,8 +27,9 @@ current catalog values and can change before launch.
   choice of paths after the first sign-in.
 - The Ambassador path with referral rewards, reward tiers from 10% to 25%,
   multi-level overrides and a monthly pool for top ambassadors.
-- Resident status through the waitlist and vouches; trust levels Anonymous,
-  Vouched and Verified; reputation tiers Member to Vanguard.
+- Resident status through the waitlist and vouches, plus a one-time stage of
+  launch grants for the first Residents; trust levels Anonymous, Vouched and
+  Verified; reputation tiers Member to Vanguard.
 
 **Founders and projects**
 
