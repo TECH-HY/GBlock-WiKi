@@ -40,6 +40,8 @@ Each page stands on its own; read in order or jump to what you need.
 | 10 | [Payouts and rewards](docs/10-payouts-and-rewards.md) | Balances, top-ups, limits and how a payout works. |
 | 11 | [Silent Data Room referrals](docs/11-silent-dr-referral.md) | How sharing a Data Room grows the network; follows and galleries. |
 | 12 | [Data Rooms, scoring and subscriptions](docs/12-data-rooms-scoring-and-subscriptions.md) | Free and Pro rooms, scoring, vouchers and billing. |
+| 13 | [Legal documents](docs/13-legal-documents.md) | The terms, privacy and cookie policies, disclaimers and risk disclosure, and when you meet each. |
+| 14 | [FAQ](docs/14-faq.md) | Short answers to the most common questions. |
 
 ---
 
@@ -76,7 +78,8 @@ custody of assets and no promised returns. See
 ```text
 .
 ├── README.md              this file
-├── docs/                  the guide, one topic per file (01-12)
+├── docs/                  the guide, one topic per file (01-14)
+│   └── legal/             copies of the published legal texts
 └── brand/                 logo and brand reference assets
 ```
 

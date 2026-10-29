@@ -52,12 +52,32 @@ KYB / KYC, Misrepresentation, Off-platform, Harassment, Privacy, Fraud and Other
 - Your identity as the reporter is not shown to the person you report.
 - Information in Data Rooms and scorings comes from its owner and is not
   verified by GBlock. Knowingly false information is a serious breach: the owner
-  answers with their reputation and can face sanctions up to a lifetime ban. In
-  that case reward balances and bonuses are cancelled, paid services are not
-  refunded, and an unspent payment balance is paid back on the usual refund terms
-  (15% refund fee, less the price of used bonus vouchers).
+  answers with their reputation and can face sanctions up to a
+  [permanent ban](#permanent-ban).
 - Inside a deal, the thread has its own complaint and dispute actions, and
   stays open while the operator looks into it.
+
+---
+
+## Permanent ban
+
+The operator can ban a member permanently for a serious or repeated breach, for
+example knowingly false information in a Data Room or a false claim to be a
+company's founder. A ban is decided by the operator with a written reason and a
+second sign-off, and it follows the person, not the account _(rolling out)_.
+
+This is what happens to money and rewards _(rolling out)_:
+
+| What | What happens |
+|---|---|
+| **Paid services** (subscriptions, scorings) | Not refunded. |
+| **Rewards and bonuses** (referral rewards, unused bonus vouchers, the bonus on automatic top-ups) | Frozen for up to 10 business days, then cancelled. While frozen they cannot be paid out or spent. A complaint filed in time extends the freeze until it is decided. If the complaint is upheld, they are released to you; if it is rejected, they are cancelled. |
+| **Unspent payment balance** | Paid back on request, less the 15% refund fee and the price of any bonus vouchers you already used. An approved refund is processed within 10 business days. |
+
+You can appeal a ban, and it does not take away your right to go to court. Where
+the law of your country requires more, the law applies. For the ordinary refund
+terms see
+[Topping up the payment balance](10-payouts-and-rewards.md#topping-up-the-payment-balance).
 
 ---
 

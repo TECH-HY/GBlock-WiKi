@@ -25,7 +25,8 @@ Registration and invitations are free.
 ## Register by email
 
 1. Open <https://gblock.club> and enter your work email.
-2. Accept the Terms of Service and the Privacy Policy.
+2. Accept the Terms of Service and the Privacy Policy (see
+   [Legal documents](13-legal-documents.md)).
 3. You receive a one-time code from an official gblock.club address (valid for
    ten minutes). Entering it completes your registration. There are no passwords.
    _(Rolling out: until the code is switched on, a single-use link does the same
@@ -77,9 +78,10 @@ trust in deals and unlocks seller and primary-market functions. See
 
 Resident status normally comes through the waitlist. To start the network, there
 is one exception: a launch stage in which the operator appoints the first
-Residents directly, in a limited number. This is an operator decision and cannot
-be requested. A granted Resident has the same status as any other and can vouch
-for others after a short waiting period.
+Residents directly, up to 50 members, each with approved KYC. This is an operator
+decision and cannot be requested. A granted Resident has the same status as any
+other, keeps the reputation they have and can vouch for others after a short
+waiting period.
 
 ---
 

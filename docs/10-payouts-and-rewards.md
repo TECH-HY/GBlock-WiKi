@@ -86,7 +86,8 @@ earlier cash bonus.
 **Refunds of topped-up funds.** A refund of topped-up funds, of any amount,
 carries a **15% refund fee** on the refunded amount, and the price of each bonus
 voucher you already used is deducted. Unused bonus vouchers are cancelled _(rolling
-out)_.
+out)_. An approved refund is processed within 10 business days; your bank may need
+longer to show it.
 
 **Bonus funds cannot be withdrawn.** The top-up bonus and the 3% bonus on a reward
 transfer can only be spent on platform services. They cannot be paid out,

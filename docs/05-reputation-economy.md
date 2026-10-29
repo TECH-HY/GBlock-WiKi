@@ -98,10 +98,15 @@ of it, because GBlock does not settle deals.
 
 On top of the direct rate:
 
-- **Overrides:** 6% on second-level referrals, 3% on third level and 1% on
-  fourth level (with KYC).
-- **Top-leaders pool:** 5% of rewardable revenue is shared monthly among the top
-  ambassadors, and the leading ambassador of each month gets a bonus.
+- **Sponsor overrides:** the three sponsors above the person who referred the
+  buyer earn 6%, 3% and 1% of the same revenue. Each of these sponsors needs
+  verified KYC; the person who referred the buyer does not.
+- **Top-leaders pool:** up to 5% of rewardable revenue is shared monthly among the
+  top ambassadors, and the leading ambassador of each month gets a bonus.
+
+All rewards from one payment together never exceed 25% of it. Sponsor overrides
+are paid first and the direct rate is reduced to fit; the pool is funded only from
+what remains.
 
 Rewards become releasable 30 days after the revenue they come from. If the payment
 is refunded in that window, the reward is cancelled. The operator then releases

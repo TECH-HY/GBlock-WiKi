@@ -49,10 +49,9 @@ Information in a Data Room, including the inputs to a scoring and any traction
 figures, comes from the room owner. GBlock does not verify it. You answer for it
 with your reputation: an investor or any other member can report false
 information, the operator reviews the case, and knowingly false information can
-lead to sanctions up to a lifetime ban. In that case reward balances and bonuses
-are cancelled, paid services are not refunded, and an unspent payment balance is
-paid back on the usual refund terms (see
-[Payouts and rewards](10-payouts-and-rewards.md#topping-up-the-payment-balance)).
+lead to sanctions up to a permanent ban. What happens to rewards, bonuses and your
+balance after a ban is described in
+[Trust and safety](07-trust-and-safety.md#permanent-ban).
 
 ---
 
