@@ -79,7 +79,7 @@ Resident status normally comes through the waitlist. To start the network, there
 is one exception: a launch stage in which the operator appoints the first
 Residents directly, in a limited number. This is an operator decision and cannot
 be requested. A granted Resident has the same status as any other and can vouch
-for others.
+for others after a short waiting period.
 
 ---
 

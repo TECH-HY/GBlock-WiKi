@@ -56,8 +56,8 @@ other companies. Viewing a Data Room never needs KYC or a status.
 
 The only exception is a one-time launch stage: the operator appoints the first
 Residents directly, in a limited number, so that the network has members who can
-vouch. These grants cannot be requested, and a granted Resident has the same
-status and the same right to vouch as everyone else.
+vouch. These grants cannot be requested. A granted Resident has the same status
+as everyone else and can vouch after a short waiting period.
 
 ---
 

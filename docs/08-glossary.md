@@ -66,7 +66,7 @@ record with a valid scoring on a Pro Data Room, and at least the Vouched trust
 level.
 
 **Pro trial.** Pro status for a set term on one specific room, granted by the
-operator as a promotion or as a Pro voucher. _Rolling out._
+operator as a Pro voucher. No card needed. _Rolling out._
 
 **Probation.** A 30-day observation period after a guarantee.
 

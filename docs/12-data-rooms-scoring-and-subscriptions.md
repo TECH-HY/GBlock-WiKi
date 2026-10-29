@@ -82,10 +82,11 @@ things need Pro:
 A room is Pro while one of these applies:
 
 - a **paid subscription** is running ($35 per month);
+- an **operator promotion** is running: free Pro months for one room, with a
+  monthly voucher for that room, after which normal billing starts;
 - a **Pro trial** is running: Pro for a set term on one specific room, granted by
-  the operator either as a promotion (free Pro months, after which normal
-  billing starts) or as a Pro voucher (the room returns to Free when the term
-  ends).
+  the operator as a Pro voucher. No card is needed, the room returns to Free when
+  the term ends, and the trial includes no scoring.
 
 Your first room and the free rooms from your tier stay Free. A scoring voucher
 cannot be applied to a Free room: scoring needs a Pro room first. When a trial
@@ -136,7 +137,8 @@ A scoring is a deterministic evaluation of a project on two axes: **Potential**
 
 - A voucher is a prepaid scoring. Buy vouchers from your payment balance; a Pro
   subscription includes one per month. Vouchers are valid for three months and
-  can be used only in a Pro room.
+  can be used only in a Pro room; without one, they wait in your wallet until a
+  Pro room is available or they expire.
 - A top-up of $500 or more gives three **bonus vouchers** _(rolling out)_: valid
   90 days, scoring only, not transferable or withdrawable. See
   [Payouts and rewards](10-payouts-and-rewards.md#topping-up-the-payment-balance).
