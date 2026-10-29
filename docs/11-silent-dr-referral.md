@@ -1,142 +1,81 @@
 # 11. Silent Data Room referrals
 
-Every link that leads to one of your Data Rooms is also a referral link. You
-do not have to configure anything, label anything, or manage a separate
-program: sharing diligence materials naturally grows the network, and this
-page explains what that means for you and for the people who click your links.
-
-> **Status note.** The attribution engine described below is part of the
-> product. Founder-facing link analytics are still being extended, and the
-> follow and gallery features at the end of this page are rolling out — see
-> [Roadmap and stage](09-roadmap-and-stage.md).
+Every link that leads to one of your Data Rooms is also a referral link. You do
+not configure anything or run a separate program: sharing diligence materials
+naturally grows the network.
 
 ---
 
 ## The idea: "silent"
 
-A **silent referral** is a person who discovered GBlock through your Data Room
-content — a grant link, a catalog listing, a direct share — and registered
-afterwards. It is called silent because:
+A **silent referral** is a person who found GBlock through your Data Room and
+registered afterwards. It is silent because:
 
-- **You are not identified to them.** Nothing in their onboarding says they
-  were "recruited by you".
-- **They are not obligated to you.** No vouch, no guarantee, no probation, no
-  accountability in either direction.
+- **You are not identified to them.** Nothing in their onboarding says they were
+  "recruited by you".
+- **They owe you nothing.** No vouch, no guarantee, no probation.
 - **You are not responsible for them.** Their conduct does not put your
-  reputation at stake the way an invite or a guarantee does.
+  reputation at stake the way an invitation or a guarantee does.
 
-It is the lowest-friction way your sharing becomes growth: no ceremony on
-either side.
-
----
-
-## What counts as a link
-
-Any link that leads to a Data Room of yours counts — there is no special
-referral parameter to generate:
-
-- a **grant link** you sent to an investor,
-- your room's **catalog listing**,
-- a **directly shared** room or document link.
-
-Maximum reach matters more than strict traceability: if someone reached a
-room of yours and then registered, that is a touch.
+It is the lowest-friction way your sharing becomes growth.
 
 ---
 
-## How attribution works
+## How it works
 
-Attribution follows the **last-click** rule across all channels:
+Any link that leads to a Data Room of yours counts: a grant link you sent to an
+investor, your catalog listing, or a directly shared room or document link.
 
-- A click on any of your Data Room links is recorded as a touch on that
-  visitor. A click on an invitation link is a touch as well; an invitation that
-  was sent but never clicked is not.
-- If the visitor **registers**, they are attributed to the member whose touch
-  came **last before registration** — whether that touch was a Data Room link,
-  an invitation link or an ambassador's referral link. A touch stays valid for
-  about 30 days.
-- The one exception is a tie inside a single visit: if the same click carries
-  both a Data Room link and an ambassador's referral link, the **ambassador
-  wins**. A Data Room link without an ambassador's link stays a silent referral
-  for the room's owner.
-- Once a member is attributed to you, the attribution does not expire.
-
-In practice: share your room widely. Whoever registers through your share
-belongs to your referral tree like any other referral.
+- A click on your link is recorded as a **touch**. A click on an invitation link
+  is a touch too; an invitation that was never clicked is not.
+- If the visitor registers, they are attributed to the member whose touch came
+  **last before registration**. A touch stays valid for about 30 days.
+- If one click carries both a Data Room link and an ambassador's referral link,
+  the **ambassador wins**.
+- Once attributed to you, a member stays in your referral tree.
 
 ---
 
 ## What it earns you
 
-Silent referrals participate in the **same economics as any other referral** —
-the ambassador ladder:
+Silent referrals earn the **same rewards as any other referral**: your tier's
+direct rate (10-25%) and the multi-level overrides (6% / 3% / 1% with KYC) when
+the referred member generates rewardable revenue. See
+[Reputation economy](05-reputation-economy.md#rewards).
 
-- **Direct commissions** at your current tier rate (10-25%, see the
-  [tier catalog](05-reputation-economy.md#the-canonical-tier-catalog)) when a
-  referred member generates rewardable revenue.
-- **Multi-level overrides** for downstream referrals (6% / 3% / 1%, with KYC).
-- **No expiry** — once attributed, the referral stays in your tree.
+Deliberately, silent referrals bring **no reputation bonus**, no vouches, no
+guarantees and no liability. The trust instruments stay reserved for deliberate,
+personal backing.
 
-What silent referrals deliberately do **not** do:
-
-- **No reputation bonus** and no tier movement for you beyond the normal
-  referral economics. Silent leads do not push your tier or reputation by
-  themselves.
-- **No vouches**, no guarantees, no probation — the trust instruments stay
-  reserved for deliberate, personal backing.
-- **No liability.** You bear no responsibility for a silent lead's conduct.
-
-Compare: an *invitation* reserves your reputation and makes you accountable. A
-*silent referral* only credits your referral tree. That asymmetry is the
-design.
+Share your rooms with real audiences: the economics reward reach, not
+registration farming. Suspected abuse, such as referring your own alternate
+accounts, is reviewed by the operator and can pause related rewards.
 
 ---
 
-## Anti-abuse
+## Following a Data Room and your gallery
 
-Silent referral attribution is protected by the same review machinery as the
-rest of the reputation economy:
+_Rolling out._
 
-- **Self-referrals** — spreading your own Data Room links to alternate
-  accounts you control — are flagged for automatic risk review.
-- **Clusters** — registrations that match on device, network, or payout
-  destination — are likewise flagged.
-- While a review is open, **payouts along the flagged chain are frozen**. If
-  the review clears the chain, payouts resume; if it does not, the referral
-  chain is suppressed like any abusive referral pattern.
-
-The practical guidance: share your rooms with real audiences. The economics
-reward reach, not registration farming.
-
----
-
-## Following a Data Room and your gallery _(rolling out)_
-
-These additions are accepted and are being built; they are not yet in the
-product for everyone. _Rolling out._
-
-- **Follow a Data Room.** Ambassadors and above can follow a Data Room that is
-  published at least to GBlock members (never their own). A followed room is
-  added to **your gallery** (up to 100 rooms). Updates the room owner has made
-  visible to you, such as new documents, description changes, new scorings and
-  traction updates, appear in your cabinet feed at once, with one weekly digest
-  email and at most one notification per room per day. The room owner sees how
-  many ambassadors follow the room and their public identifiers — not names,
-  emails or tiers — and can choose to make the count public.
-- **Your gallery as a link.** You can share your gallery. A visit through it is
-  recorded as a touch under the usual last-click rule (30 days). If the visitor
-  registers and pays, you earn the reward at your tier under the general rules;
-  the room owner earns no reward from a gallery visit. Gallery visibility
-  settings are being finalized.
-- **Public identifier.** Each ambassador gets a short public identifier, used in
-  referral links instead of an email address or an internal id. Its final format
-  is being decided.
+- **Follow a Data Room.** Members can follow a Data Room that is published at
+  least to GBlock members (never their own). A followed room joins **your
+  gallery**, up to 100 rooms. Updates the room owner has made visible to you,
+  such as new documents, description changes and new scorings, appear in your
+  cabinet feed, with one weekly digest email and at most one notification per
+  room per day. The room owner sees how many members follow the room and their
+  public aliases, not names, emails or tiers.
+- **Your gallery as a link.** You can make your gallery public and share its link.
+  A visit through it counts as a touch under the same last-click rule. If the
+  visitor registers and pays, you earn the reward at your tier; the room owner
+  earns no reward from a gallery visit.
+- **Public alias.** Every member gets a short, generated public alias, an
+  adjective and an animal such as "Fluffy Bear", used in links and follower lists
+  instead of an email address or an internal id.
 
 ---
 
 ## Where to go next
 
-- **The reward rates a silent referral can earn:** [Reputation economy](05-reputation-economy.md)
-- **How referrals and rewards appear in the cabinet:** [Platform tour - Referrals](06-platform-tour.md#referrals)
-- **Managing the rooms behind your links:** [User journeys - Manage a data room](04-user-journeys.md#manage-a-data-room)
-- **How payouts of earned rewards work:** [Payouts and rewards](10-payouts-and-rewards.md)
+- **Reward rates:** [Reputation economy](05-reputation-economy.md)
+- **Managing the rooms behind your links:** [User journeys](04-user-journeys.md#open-a-data-room)
+- **Payouts of earned rewards:** [Payouts and rewards](10-payouts-and-rewards.md)
