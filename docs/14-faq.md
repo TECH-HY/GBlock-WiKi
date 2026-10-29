@@ -53,8 +53,9 @@ Resident gives access to the dealflow, blocks, deal threads and the right to
 vouch. See [Becoming a Resident](02-user-roles-and-statuses.md#becoming-a-resident).
 
 **Is there another way to become a Resident?**
-Only at launch: the operator appoints the first Residents in a limited number so
-that the network has members who can vouch. You cannot request it.
+Only at launch: the operator appoints the first Residents, up to 50 members with
+approved KYC, so that the network has members who can vouch. You cannot request
+it.
 
 **Do I need KYC?**
 No, not to register and not to become a Resident. KYC gives the Verified trust
@@ -141,7 +142,8 @@ one when you subscribe to a Pro room and another with each monthly renewal. See
 
 **Is the information in a room checked by GBlock?**
 No. The owner is responsible for it and answers with their reputation. Any member
-can report false information, and the operator reviews the case. See
+can report false information, and the operator reviews the case; knowingly false
+information can lead to sanctions up to a permanent ban. See
 [Reporting a problem](07-trust-and-safety.md#reporting-a-problem).
 
 **What happens if I stop paying for a Pro room?**
@@ -184,8 +186,9 @@ bonus scoring vouchers valid for 90 days _(rolling out)_. See
 
 **Can I get a top-up back?**
 A refund of topped-up funds carries a 15% refund fee, and the price of any bonus
-voucher you already used is deducted _(rolling out)_. Bonus funds themselves
-cannot be withdrawn. Details are on the same page.
+voucher you already used is deducted _(rolling out)_. An approved refund is
+processed within 10 business days. Bonus funds themselves cannot be withdrawn.
+Details are on the same page.
 
 **How do I withdraw rewards?**
 Through a payout request in USDT (BEP-20): minimum $50, one request per calendar
@@ -216,6 +219,14 @@ them**. After 180 days of sleeping it is deactivated. Nothing is deleted. See
 From Settings or the **My data** page. The operator processes a deletion request
 within 30 days. Deletion is postponed while you have active deals, unpaid
 withdrawals, a debt, a positive balance or an active sanction.
+
+**What happens if I am permanently banned?**
+Paid services are not refunded. Rewards and bonuses are frozen for up to 10
+business days and then cancelled, unless a complaint you file is upheld. Your
+unspent payment balance is paid back on request, less the 15% refund fee and the
+price of any bonus vouchers you used _(rolling out)_. You can appeal, and your
+right to go to court stays. See
+[Permanent ban](07-trust-and-safety.md#permanent-ban).
 
 **How do I report a problem?**
 Open **Report** in the cabinet and pick a category, or write to

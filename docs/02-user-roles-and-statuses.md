@@ -55,9 +55,10 @@ vouch. Your own KYC does not change your status, but it adds trust in deals
 KYC required. Viewing a Data Room never needs KYC or a status.
 
 The only exception is a one-time launch stage: the operator appoints the first
-Residents directly, in a limited number, so that the network has members who can
-vouch. These grants cannot be requested. A granted Resident has the same status
-as everyone else and can vouch after a short waiting period.
+Residents directly, up to 50 members, each with approved KYC, so that the network
+has members who can vouch. These grants cannot be requested. A granted Resident
+has the same status as everyone else, keeps the reputation they have and can vouch
+after a short waiting period.
 
 ---
 

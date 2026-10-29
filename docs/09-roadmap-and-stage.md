@@ -72,7 +72,9 @@ members may already see them; not everyone does yet.
 - **Recovery window** after a penalty or a withdrawn vouch.
 - **Following Data Rooms and your gallery,** with a feed, a weekly digest and a
   public alias. See [Silent Data Room referrals](11-silent-dr-referral.md#following-a-data-room-and-your-gallery).
-- **Sanctions that follow the person,** not the account.
+- **Sanctions that follow the person,** not the account, and the handling of
+  rewards, bonuses and balance after a permanent ban. See
+  [Permanent ban](07-trust-and-safety.md#permanent-ban).
 - **Document watermarking** in Data Rooms.
 - **Sign-in by a one-time code** from your email, and two-factor authentication
   with backup codes for members who switch it on.

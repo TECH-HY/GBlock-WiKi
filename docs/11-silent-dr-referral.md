@@ -60,10 +60,12 @@ _Rolling out._
 - **Follow a Data Room.** Members can follow a Data Room that its owner has
   published at least to GBlock members (never their own). When the owner adds
   something, such as new documents, a description change or a new scoring, you
-  get it by email (at most one notification per room per day, plus a weekly
-  digest) and in your cabinet feed. A **traction update**, the business numbers
-  the owner reports, appears only in the weekly digest, marked "as stated by the
-  owner", with no separate notification, because GBlock cannot verify it. You
+  see it in your cabinet feed (at most one notification per room per day) and in
+  a weekly digest email. There are no instant emails. A **traction update** is a
+  separate dated entry by the owner with the period it covers; editing a field
+  without such an entry is not announced. It appears only in the weekly digest,
+  marked "as stated by the owner", with no separate notification, because GBlock
+  cannot verify it. You
   receive only what the owner has made visible to you: the owner alone decides who
   can see what in a room. The owner sees how many members follow the room and
   their public aliases, not names, emails or tiers.
