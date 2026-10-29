@@ -104,6 +104,16 @@ Report it through the in-platform Report page.
 
 ---
 
+## Who can use GBlock _(rolling out)_
+
+GBlock is open to companies and to individuals. Payments and payouts are closed
+in countries and regions under comprehensive sanctions. Availability by country
+is being opened in stages: before live payments start, the list of countries and
+the consumer rules that apply to each (for example withdrawal rights and taxes)
+are confirmed.
+
+---
+
 ## The legal frame
 
 | Item | Value |
