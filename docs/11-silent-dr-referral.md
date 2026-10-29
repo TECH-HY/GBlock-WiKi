@@ -57,17 +57,19 @@ accounts, is reviewed by the operator and can pause related rewards.
 
 _Rolling out._
 
-- **Follow a Data Room.** Members can follow a Data Room that is published at
-  least to GBlock members (never their own). A followed room joins **your
-  gallery**, up to 100 rooms. Updates the room owner has made visible to you,
-  such as new documents, description changes and new scorings, appear in your
-  cabinet feed, with one weekly digest email and at most one notification per
-  room per day. The room owner sees how many members follow the room and their
-  public aliases, not names, emails or tiers.
-- **Your gallery as a link.** You can make your gallery public and share its link.
-  A visit through it counts as a touch under the same last-click rule. If the
-  visitor registers and pays, you earn the reward at your tier; the room owner
-  earns no reward from a gallery visit.
+- **Follow a Data Room.** Members can follow a Data Room that its owner has
+  published at least to GBlock members (never their own). When the owner adds
+  something, such as new documents, a description change, a new scoring or a
+  traction update, you get it by email (at most one notification per room per
+  day, plus a weekly digest) and in your cabinet feed. You receive only what the
+  owner has made visible to you: the owner alone decides who can see what in a
+  room. The owner sees how many members follow the room and their public aliases,
+  not names, emails or tiers.
+- **Your gallery.** The gallery simply lists the Data Rooms you follow, up to 100.
+  It is private until you make it public. A public gallery can be shared as a
+  link, and a visit through it counts as a touch under the same last-click rule.
+  If the visitor registers and pays, you earn the reward at your tier; the room
+  owner earns no reward from a gallery visit.
 - **Public alias.** Every member gets a short, generated public alias, an
   adjective and an animal such as "Fluffy Bear", used in links and follower lists
   instead of an email address or an internal id.

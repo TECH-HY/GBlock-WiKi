@@ -25,6 +25,15 @@ founder-side functions: top-ups and scoring purchases. See
 
 ---
 
+## Who can see a room
+
+Visibility is set only by the room owner. You choose who sees a room and its
+contents: named members only, any member, or fully public, so that anyone can open
+it without registering. The scoring follows the same choice. The platform adds no
+viewing restriction of its own beyond the rules below for Free rooms.
+
+---
+
 ## Free and paid rooms
 
 | Room | Cost |
