@@ -66,8 +66,9 @@ _Rolling out._
   room. The owner sees how many members follow the room and their public aliases,
   not names, emails or tiers.
 - **Your gallery.** The gallery simply lists the Data Rooms you follow, up to 100.
-  It is private until you make it public. A public gallery can be shared as a
-  link, and a visit through it counts as a touch under the same last-click rule.
+  It is **private by default**, so nobody can see which companies you follow.
+  You can choose to make it public and share it as a link; a visit through it
+  counts as a touch under the same last-click rule.
   If the visitor registers and pays, you earn the reward at your tier; the room
   owner earns no reward from a gallery visit.
 - **Public alias.** Every member gets a short, generated public alias, an
