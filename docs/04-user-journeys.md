@@ -141,7 +141,10 @@ Referral rewards appear under **Referrals** in the cabinet. See
 
 ## Request a payout
 
-There is no self-service withdrawal. Every payout is a reviewed request.
+USDT withdrawal opens later. At launch the wallet shows "Withdrawal opens later"
+instead of a request form; your rewards stay in the reward balance and can be
+moved into the payment balance. When it opens, there is no self-service
+withdrawal: every payout is a reviewed request.
 
 1. In the wallet, submit a payout request: at least **$50**, to a **USDT
    (BEP-20)** address. One request per calendar month. Without KYC the limit is

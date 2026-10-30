@@ -114,8 +114,10 @@ what remains.
 
 Rewards become releasable 30 days after the revenue they come from. If the payment
 is refunded in that window, the reward is cancelled. The operator then releases
-approved rewards to your reward balance. There is no instant withdrawal: payouts
-are reviewed requests. See [Payouts and rewards](10-payouts-and-rewards.md).
+approved rewards to your reward balance. USDT withdrawal opens later; until then
+rewards stay in the reward balance and can be moved into the payment balance.
+Once it opens, there is no instant withdrawal: payouts are reviewed requests. See
+[Payouts and rewards](10-payouts-and-rewards.md).
 
 ---
 

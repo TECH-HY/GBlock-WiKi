@@ -70,11 +70,12 @@ leak can be traced _(rolling out)_. See
 ### Wallet and Subscriptions
 
 - **Reward balance:** released referral rewards. Move them into your payment
-  balance (with a 3% bonus) or request a payout.
+  balance (with a 3% bonus); USDT payouts open later.
 - **Payment balance:** funds for scoring and Data Room subscriptions, topped up by
   card. Top-ups of $500 or more bring bonus scoring vouchers _(rolling out)_.
-- **Payout requests:** reviewed by the operator; there is no self-service
-  withdrawal.
+- **Payout requests:** USDT withdrawal opens later, and the wallet says so
+  instead of showing a request form. Once open, payouts are reviewed by the
+  operator; there is no self-service withdrawal.
 - **Subscriptions:** your Data Room subscriptions and vouchers, and how to
   cancel or unfreeze a room.
 

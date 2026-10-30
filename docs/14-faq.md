@@ -103,8 +103,10 @@ tier, with sponsor overrides of 6%, 3% and 1% paid from the same 25% cap. See
 No. GBlock does not settle deals and takes no automatic commission on them.
 
 **When can I take rewards out?**
-A reward becomes releasable 30 days after the revenue it comes from. After that
-you file a payout request, which the operator reviews. There is no instant
+A reward becomes releasable 30 days after the revenue it comes from. USDT
+withdrawal opens later; until then released rewards stay in your reward balance
+and can be moved into your payment balance with a 3% bonus. Once it opens, you
+file a payout request, which the operator reviews. There is no instant
 withdrawal. See [Payouts and rewards](10-payouts-and-rewards.md).
 
 ---
@@ -197,7 +199,10 @@ processed within 10 business days. Bonus funds themselves cannot be withdrawn.
 Details are on the same page.
 
 **How do I withdraw rewards?**
-Through a payout request in USDT (BEP-20): minimum $50, one request per calendar
+USDT withdrawal opens later, and the wallet shows "Withdrawal opens later" until
+then. Your rewards are not cancelled: they stay in the reward balance and can be
+moved into the payment balance. Once it opens, you withdraw through a payout
+request in USDT (BEP-20): minimum $50, one request per calendar
 month, up to $150 per 30 days without KYC and up to $1,500 per month with KYC
 _(rolling out)_. The operator responds within one business day, and approved
 payouts are sent within 20 business days. See

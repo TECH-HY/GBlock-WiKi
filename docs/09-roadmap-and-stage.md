@@ -49,8 +49,8 @@ current catalog values and can change before launch.
 
 **Wallet and support**
 
-- Reward and payment balances, card top-ups, transfers with a 3% bonus, and
-  operator-reviewed payouts in USDT.
+- Reward and payment balances, card top-ups and transfers with a 3% bonus.
+  USDT payouts open later; see [Not at launch](#not-at-launch).
 - Support tickets, reporting to the operator, and data export and deletion.
 - Optional two-factor authentication and sign-in alerts.
 
@@ -67,8 +67,6 @@ members may already see them; not everyone does yet.
 - **Top-up bonus vouchers.** A top-up of $500 or more gives three bonus scoring
   vouchers. A refund of topped-up funds carries a 15% refund fee. See
   [Payouts and rewards](10-payouts-and-rewards.md#topping-up-the-payment-balance).
-- **Payout limits with KYC.** Up to $1,500 per month, and a 72-hour hold on the
-  first payout to a new address.
 - **Recovery window** after a penalty or a withdrawn vouch.
 - **A second vouch without KYC.** The decisive second vouch can come from any
   Resident; for now that Resident must have passed KYC too.
@@ -96,6 +94,11 @@ members may already see them; not everyone does yet.
 - **Automatic fees on deals.** GBlock takes no automatic commission on deals
   between members. A fee for an introduction applies only under separate written
   terms and is invoiced by the operator.
+- **USDT payouts.** Withdrawal opens later. Until then rewards accumulate in the
+  reward balance and can be moved into the payment balance with a 3% bonus. When
+  payouts open they are operator-reviewed, with higher limits for Verified
+  members and a 72-hour hold on the first payout to a new address. See
+  [Payouts and rewards](10-payouts-and-rewards.md#requesting-a-payout).
 - **Availability everywhere.** Countries open in stages; see
   [What is GBlock](01-what-is-gblock.md#who-can-use-gblock).
 

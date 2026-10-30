@@ -1,10 +1,12 @@
 # 10. Payouts and rewards
 
 Your account has two balances. This page explains how rewards reach you, how
-value moves between balances, and how a withdrawal works.
+value moves between balances, and how a withdrawal will work once it opens.
 
-In short: **there is no self-service withdrawal.** Every payout is a reviewed
-request to the operator. This is deliberate and part of the same
+In short: **USDT withdrawal opens later.** At launch your rewards accumulate in
+the reward balance and can be moved into the payment balance with a 3% bonus.
+When withdrawal opens, **there is no self-service withdrawal:** every payout is a
+reviewed request to the operator. This is deliberate and part of the same
 reviewed-by-design model that governs access and introductions.
 
 ---
@@ -13,7 +15,7 @@ reviewed-by-design model that governs access and introductions.
 
 | Balance | What it holds | What it is for |
 |---|---|---|
-| **Reward balance** | Referral rewards | Accumulating, then payout requests or transfer to the payment balance |
+| **Reward balance** | Referral rewards | Accumulating, then transfer to the payment balance; payout requests once withdrawal opens |
 | **Payment balance** | Funds you top up by card | Platform purchases: scoring and Data Room subscriptions |
 
 - **Reward to payment** is self-service and **adds a 3% bonus**. Without verified
@@ -42,6 +44,12 @@ overrides (6% / 3% / 1%) and the top-ambassador pool. See
 ---
 
 ## Requesting a payout
+
+**Withdrawal opens later.** At launch the wallet shows "Withdrawal opens later"
+instead of a request form, and payout requests are not accepted until it opens.
+Rewards you earn are not cancelled: they stay in your reward balance and can be
+moved into the payment balance. The rules below apply from the day withdrawal
+opens.
 
 **1. Check eligibility.**
 
@@ -99,10 +107,10 @@ refunded to a card or moved back to the reward balance.
 
 ## What GBlock is and is not here
 
-Payouts move **GBlock's own reward obligations** to members. They are not a
-settlement service for deals between members and never move deal funds. A payout
-notification with a transaction hash is the only payment confirmation GBlock
-sends. Any message claiming a payout needs a fee, a deposit or your seed phrase
+Once withdrawal is open, payouts move **GBlock's own reward obligations** to
+members. They are not a settlement service for deals between members and never
+move deal funds. A payout notification with a transaction hash is the only
+payment confirmation GBlock sends. Any message claiming a payout needs a fee, a deposit or your seed phrase
 is **not** from GBlock.
 
 ---

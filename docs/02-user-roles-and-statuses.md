@@ -72,7 +72,7 @@ comfortable with, from anonymous to fully verified.
 |---|---|---|
 | **Anonymous** | Default | Browse the dealflow and express buyer interest. Cannot place sale blocks. |
 | **Vouched** | Two guarantees from Verified members | Place sale blocks, on a 24-hour freshness window. |
-| **Verified** | Pass KYC | Place sale blocks without a guarantor, on a 72-hour freshness window; vouch for others; request larger payouts; and build reputation faster (+20%, _rolling out_). |
+| **Verified** | Pass KYC | Place sale blocks without a guarantor, on a 72-hour freshness window; vouch for others; request larger payouts once withdrawal opens; and build reputation faster (+20%, _rolling out_). |
 
 Good to know:
 
