@@ -47,8 +47,9 @@ Not to register. You need vouches only to become a Resident. If you have no
 contact inside GBlock, ask the community through the Telegram link on the site.
 
 **How do I become a Resident?**
-Join the waitlist with **Apply for Residency** and collect two vouches from
-members who passed KYC; the second, decisive one must come from a Resident.
+Join the waitlist with **Apply for Residency** and collect two vouches: the
+first from a member who passed KYC, the second, decisive one from any Resident
+(no KYC needed for it).
 Resident gives access to the dealflow, blocks, deal threads and the right to
 vouch. See [Becoming a Resident](02-user-roles-and-statuses.md#becoming-a-resident).
 
@@ -78,7 +79,7 @@ secondary-market Data Rooms you get. It does not replace identity checks: those
 are the trust level.
 
 **What is the difference between status, trust level and tier?**
-Status is how you entered (Ambassador, Residency applicant, Resident). Trust level
+Status is how you entered (Ambassador, Waitlist applicant, Resident). Trust level
 is how proven your identity is (Anonymous, Vouched, Verified). Tier is your
 reputation (Member to Vanguard). They are independent. See
 [User roles and statuses](02-user-roles-and-statuses.md).

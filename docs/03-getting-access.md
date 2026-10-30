@@ -60,8 +60,9 @@ A member with invitation rights sends you an invitation by email.
 ## Become a Resident
 
 Choose **Apply for Residency** in your cabinet to join the waitlist, then collect
-**two vouches** from members who have passed KYC. The decisive second vouch must
-come from an existing Resident. A vouch gift from an invitation counts. Once your
+**two vouches**: the first from a member who has passed KYC, the decisive second
+one from an existing Resident, who does not need KYC for it. A vouch gift from an
+invitation counts. Once your
 request is approved you become a Resident.
 
 Vouching is serious: the member who vouches for you puts part of their own
