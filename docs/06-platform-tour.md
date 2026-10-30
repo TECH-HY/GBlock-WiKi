@@ -15,8 +15,13 @@ cabinet. The cabinet shows only the sections your status and paths allow.
   passwords _(rolling out; until then a single-use link is sent)_.
 - **Ambassador Terms.** The rights, obligations and reward model of the
   Ambassador path.
-- **Project catalog.** Published projects with a valid scoring, visible to
-  anyone.
+- **Project catalog.** Published projects with a valid scoring. You can search
+  by company name, filter by stage and scoring class (A to D), and sort by score
+  or by the date of the scoring data _(rolling out)_. Visitors who are not signed
+  in see a reduced list, only for rooms with a public level: name, stage,
+  scoring class and score, and the date of the scoring data _(rolling out)_. The
+  card follows the room's public level, and contacting a project needs a
+  sign-in.
 
 ---
 
