@@ -28,7 +28,8 @@ merged.
 
 **If KYC is revoked,** your history stays: existing Data Rooms and the access
 you already granted keep working, and your reputation is untouched. New access
-grants, new Data Rooms and payouts pause until you verify again.
+grants, new Data Rooms and payouts pause until you verify again. Publishing new
+documents and reports, mailings from a room and new scoring orders pause as well.
 
 ---
 

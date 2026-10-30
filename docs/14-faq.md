@@ -151,9 +151,9 @@ information can lead to sanctions up to a permanent ban. See
 [Reporting a problem](07-trust-and-safety.md#reporting-a-problem).
 
 **What happens if I stop paying for a Pro room?**
-Nothing is deleted. After the retries the room is frozen: people who already have
-access can still read it, but you cannot grant new access or upload until you
-unfreeze it from **Subscriptions**. See
+Nothing is deleted. If the retry after 48 hours fails, the room is frozen: people
+who already have access can still read it, but you cannot grant new access or
+upload until you pay or unfreeze it from **Subscriptions**. See
 [When a subscription lapses](12-data-rooms-scoring-and-subscriptions.md#when-a-subscription-lapses).
 
 ---

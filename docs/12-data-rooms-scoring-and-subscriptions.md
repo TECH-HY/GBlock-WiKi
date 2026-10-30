@@ -107,9 +107,10 @@ still completes.
 Failure to pay never deletes your documents.
 
 1. A failed renewal is retried automatically after 24 and 48 hours.
-2. After the last retry the room is **frozen**: investors with existing access can
-   still read it, but you cannot grant new access or upload, and the room is
-   hidden from the catalog.
+2. If the retry after 48 hours also fails, the room is **frozen**: investors with
+   existing access can still read it, but you cannot grant new access or upload,
+   and the room is hidden from the catalog. Weekly retries continue after the
+   freeze, and a successful payment brings the room back as it was.
 3. A cancelled subscription also leaves the room frozen, not deleted. You can
    unfreeze it from the **Subscriptions** page.
 4. If the owner is under a sanction or the account is deactivated, charging stops
@@ -170,7 +171,7 @@ in its Data Room and the owner's answers, on two axes: **Potential** (0-150) and
 | Situation | Effect on Data Rooms and scoring |
 |---|---|
 | **Sleeping account** (30 days without login) | Payments, top-ups, scoring purchases and new rooms are frozen. Existing rooms keep working; subscriptions keep charging. |
-| **Revoked KYC** | New grants, new rooms and payouts pause until you verify again. Existing rooms and grants keep working. |
+| **Revoked KYC** | New grants, new rooms and payouts pause until you verify again. Existing rooms and grants keep working, but publishing new documents and reports, mailings from the room and new scoring orders pause too. |
 | **Deactivated account** | Public listings are unpublished. Rooms are not deleted. |
 | **Deletion at your request** | Rooms you own are removed with the account. |
 
