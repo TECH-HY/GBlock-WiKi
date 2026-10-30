@@ -97,7 +97,7 @@ confirmed.
 |---|---|
 | Operating entity | TECH HY SDN BHD |
 | Endorsement | Powered by TECH HY Venture Club |
-| Dispute jurisdiction | Courts of Kuala Lumpur, Malaysia |
+| Governing law | Malaysia |
 | Public site | <https://gblock.club> |
 | Contact | `start@techhy.me` |
 

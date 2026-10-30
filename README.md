@@ -67,7 +67,7 @@ custody of assets and no promised returns. See
 
 - **Public site:** <https://gblock.club>
 - **Operator:** TECH HY SDN BHD
-- **Dispute jurisdiction:** Courts of Kuala Lumpur, Malaysia
+- **Governing law:** Malaysia
 - **Community (access requests):** <https://t.me/TECH_HY_VC/6>
 - **Contact:** `start@techhy.me`
 
