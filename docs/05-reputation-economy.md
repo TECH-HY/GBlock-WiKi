@@ -17,9 +17,12 @@ grows, what it costs to back someone, and what it earns.
 - It sets your **reputation tier**, which sets your reward rate and how many
   people you can back.
 - **You cannot buy it.** It is only earned, and it can be lost.
-- **Verified members earn it faster** _(rolling out)_. Reputation from platform
-  activity grows 20% faster once you have passed KYC, and 30% faster with KYC
-  and two-factor authentication. The vouch exchange (+10 and +5) is not multiplied.
+- **Verified members earn more from platform activity** _(rolling out)_.
+  Reputation from platform activity, such as completed deals, grows 20% faster once
+  you have passed KYC, and 30% faster with KYC and two-factor authentication. The
+  vouch exchange (+10 and +5), the welcome grant, the invitation bonus and operator
+  adjustments are not multiplied, so KYC does not by itself move you to the next
+  tier faster.
 
 Your tier is refreshed once a week, so the reward rate you see is stable between
 refreshes.
@@ -101,8 +104,8 @@ On top of the direct rate:
 - **Sponsor overrides:** the three sponsors above the person who referred the
   buyer earn 6%, 3% and 1% of the same revenue. Each of these sponsors needs
   verified KYC; the person who referred the buyer does not.
-- **Top-leaders pool:** up to 5% of rewardable revenue is shared monthly among the
-  top ambassadors, and the leading ambassador of each month gets a bonus.
+- **Top-leaders pool:** up to 5% of rewardable revenue funds a pool for top
+  ambassadors, if anything remains under the 25% cap.
 
 All rewards from one payment together never exceed 25% of it. Sponsor overrides
 are paid first and the direct rate is reduced to fit; the pool is funded only from

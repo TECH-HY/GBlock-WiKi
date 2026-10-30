@@ -47,7 +47,7 @@ Each page stands on its own; read in order or jump to what you need.
 
 ## In one minute
 
-- **Founders** open a Data Room, get an independent project scoring and show the
+- **Founders** open a Data Room, get a project scoring and show the
   company to investors on their own terms.
 - **Investors and owners** (Residents) browse private-market opportunities,
   request access and talk to counterparties through operator-mediated threads.

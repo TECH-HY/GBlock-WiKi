@@ -85,7 +85,9 @@ earlier cash bonus.
 
 **Refunds of topped-up funds.** A refund of topped-up funds, of any amount,
 carries a **15% refund fee** on the refunded amount, and the price of each bonus
-voucher you already used is deducted. Unused bonus vouchers are cancelled _(rolling
+voucher you already used is deducted once, at the first refund of that top-up. A
+refund is never below zero. No fee is charged where the law requires a full refund
+or where the error is GBlock's. Unused bonus vouchers are cancelled _(rolling
 out)_. An approved refund is processed within 10 business days; your bank may need
 longer to show it.
 

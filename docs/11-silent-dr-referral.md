@@ -58,7 +58,7 @@ accounts, is reviewed by the operator and can pause related rewards.
 _Rolling out._
 
 - **Follow a Data Room.** Members can follow a Data Room that its owner has
-  published at least to GBlock members (never their own). When the owner adds
+  made public (never their own). When the owner adds
   something, such as new documents, a description change or a new scoring, you
   see it in your cabinet feed (at most one notification per room per day) and in
   a weekly digest email. There are no instant emails. A **traction update** is a

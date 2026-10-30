@@ -34,7 +34,7 @@ its official Data Room, by default the person who created it. Only the founder
 of record can order a scoring or place a block for the company.
 
 **Free room / Pro room.** Every Data Room is Free or Pro. Scoring, the public
-catalog and primary-market blocks need Pro. _Rolling out._
+catalog, primary-market blocks and the AI data check need Pro. _Rolling out._
 
 **Freshness.** How long an active block stays current before it must be renewed:
 72 hours for Verified sellers, 24 hours for Vouched sellers.
@@ -86,10 +86,12 @@ right to vouch.
 **Reward balance.** Where released referral rewards land.
 
 **Reward rate.** Your share of TECH HY's non-transactional revenue from people
-you brought in: 10% to 25% by tier, plus overrides of 6%, 3% and 1%.
+you brought in: 10% to 25% by tier, with sponsor overrides of 6%, 3% and 1% paid
+from the same 25% cap.
 
-**Scoring.** A deterministic evaluation of a project on Potential (0-150) and
-Readiness (0-150). Costs $35.
+**Scoring.** A rubric-based evaluation of a project, built from the information in
+its Data Room and the owner's answers, on Potential (0-150) and Readiness
+(0-150). Costs $35. Labelled Beta until calibration is complete.
 
 **Scoring voucher.** A prepaid scoring, valid three months, usable only in a Pro
 room. A Pro subscription gives one at the start and one with each monthly

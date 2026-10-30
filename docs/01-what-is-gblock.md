@@ -41,7 +41,7 @@ private terminal, not a public marketplace.
 
 | You are | What GBlock gives you |
 |---|---|
-| **A founder** | A Data Room for your company, an independent project scoring, and a place in the public project catalog, with full control over who sees what. |
+| **A founder** | A Data Room for your company, a project scoring, and a place in the public project catalog, with full control over who sees what. |
 | **An investor or owner** | Access to private-market opportunities (primary raises, secondary blocks, pre-IPO, OTC, M&A, institutional mandates) and a Demand Board to signal what you are looking for. |
 | **An ambassador** | A way to grow the community by invitation and earn rewards from the revenue your network generates. |
 | **A guarantor or voucher** | A way to put your reputation behind someone you trust and bring them into the club. |
