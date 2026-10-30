@@ -171,8 +171,10 @@ complaint or dispute. See
 [User roles and statuses](02-user-roles-and-statuses.md#trust-level).
 
 **Does GBlock take a fee on deals?**
-No automatic commission. A fee for an introduction applies only under separate
-written terms. See [Launch scope and stage](09-roadmap-and-stage.md#not-at-launch).
+No automatic commission, and at launch GBlock promises and charges no fee for
+deals. The commercial terms of introductions are decided when the first real deal
+comes up; a fee would apply only under separate written terms agreed with the
+operator. See [Launch scope and stage](09-roadmap-and-stage.md#not-at-launch).
 
 **Do counterparties see who I am?**
 Not before both sides agree. Names and contact details stay hidden, and the

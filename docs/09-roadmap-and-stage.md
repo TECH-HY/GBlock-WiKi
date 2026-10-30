@@ -91,9 +91,11 @@ members may already see them; not everyone does yet.
   open.
 - **Single-use shared links to a room.** Access is by direct grant to named
   members or by the public level the owner chooses.
-- **Automatic fees on deals.** GBlock takes no automatic commission on deals
-  between members. A fee for an introduction applies only under separate written
-  terms and is invoiced by the operator.
+- **Fees on deals.** GBlock takes no automatic commission on deals between
+  members. The commercial terms of introductions are not set at launch; they are
+  decided when the first real deal comes up. Until then GBlock promises and
+  charges no fee for deals. A fee for an introduction would apply only under
+  separate written terms agreed with the operator, outside the platform.
 - **USDT payouts.** Withdrawal opens later. Until then rewards accumulate in the
   reward balance and can be moved into the payment balance with a 3% bonus. When
   payouts open they are operator-reviewed, with higher limits for Verified
