@@ -19,7 +19,9 @@ reviewed-by-design model that governs access and introductions.
 | **Payment balance** | Funds you top up by card | Platform purchases: scoring and Data Room subscriptions |
 
 - **Reward to payment** is self-service and **adds a 3% bonus**. Without verified
-  KYC you can move up to $150 of rewards within 30 days.
+  KYC you can move up to $150 of rewards within 30 days. With KYC the amount is
+  not limited, but the bonus is paid only on the first $1,500 you move in any 30
+  days, at most $45 _(rolling out)_.
 - **Payment to reward** is not self-service; it goes through an operator-reviewed
   request.
 
