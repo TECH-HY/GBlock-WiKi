@@ -65,7 +65,8 @@ Vouches are how waitlist candidates reach **Resident**.
 - How many vouches you can hold grows with your reputation: roughly one per ten
   points.
 - The first vouch can come from any member with verified KYC; the decisive
-  second vouch can come from any Resident, with no KYC requirement.
+  second vouch comes from a Resident, with no KYC requirement _(rolling out; for
+  now that Resident must have passed KYC too)_.
 
 **If a vouch goes wrong** (withdrawn because the member broke the rules): the
 stake is lost, withdrawing costs a little more, the reputation granted to both

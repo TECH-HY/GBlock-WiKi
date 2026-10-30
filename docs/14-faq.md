@@ -48,8 +48,9 @@ contact inside GBlock, ask the community through the Telegram link on the site.
 
 **How do I become a Resident?**
 Join the waitlist with **Apply for Residency** and collect two vouches: the
-first from a member who passed KYC, the second, decisive one from any Resident
-(no KYC needed for it).
+first from a member who passed KYC, the second, decisive one from a Resident.
+KYC for that Resident is not required _(rolling out; for now the Resident must
+have passed KYC too)_.
 Resident gives access to the dealflow, blocks, deal threads and the right to
 vouch. See [Becoming a Resident](02-user-roles-and-statuses.md#becoming-a-resident).
 

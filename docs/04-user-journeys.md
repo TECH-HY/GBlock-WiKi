@@ -95,7 +95,8 @@ or **Verified** (KYC passed). Anonymous members cannot place blocks.
 ## Vouch for a member
 
 Backing a candidate on the waitlist. The first vouch needs a voucher with
-verified KYC; the decisive second vouch can come from any Resident, KYC or not.
+verified KYC; the decisive second vouch comes from a Resident, KYC or not
+_(rolling out; for now that Resident must have passed KYC too)_.
 
 1. A candidate asks for your vouch.
 2. You give it. They gain +10 reputation, you gain +5, and part of your own

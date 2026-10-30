@@ -109,7 +109,7 @@ Failure to pay never deletes your documents.
 1. A failed renewal is retried automatically after 24 and 48 hours.
 2. If the retry after 48 hours also fails, the room is **frozen**: investors with
    existing access can still read it, but you cannot grant new access or upload,
-   and the room is hidden from the catalog. Weekly retries continue after the
+   and the room is hidden from the catalog. Up to four weekly retries follow the
    freeze, and a successful payment brings the room back as it was.
 3. A cancelled subscription also leaves the room frozen, not deleted. You can
    unfreeze it from the **Subscriptions** page.

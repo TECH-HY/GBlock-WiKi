@@ -49,7 +49,8 @@ participation**. A member can be both.
 
 Resident status is earned through the waitlist. You collect **two vouches**: the
 first from a member who has passed KYC, the decisive second one from an existing
-Resident, who does not need KYC for it. A vouch gift received with an invitation
+Resident. That Resident will not need KYC for this vouch _(rolling out; for now
+the Resident must have passed KYC too)_. A vouch gift received with an invitation
 counts as a real vouch. Your own KYC does not change your status, but it adds trust in deals
 (see below). A Resident can also create Data Rooms about other companies, with no
 KYC required. Viewing a Data Room never needs KYC or a status.

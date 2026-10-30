@@ -70,6 +70,8 @@ members may already see them; not everyone does yet.
 - **Payout limits with KYC.** Up to $1,500 per month, and a 72-hour hold on the
   first payout to a new address.
 - **Recovery window** after a penalty or a withdrawn vouch.
+- **A second vouch without KYC.** The decisive second vouch can come from any
+  Resident; for now that Resident must have passed KYC too.
 - **Following Data Rooms and your gallery,** with a feed, a weekly digest and a
   public alias. See [Silent Data Room referrals](11-silent-dr-referral.md#following-a-data-room-and-your-gallery).
 - **Sanctions that follow the person,** not the account, and the handling of
