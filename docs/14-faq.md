@@ -94,7 +94,7 @@ reputation at stake, and a withdrawn vouch costs you. Back only people you trust
 **What do ambassadors earn?**
 A share of TECH HY's own revenue from people they brought in: scoring purchases,
 Data Room subscriptions and voucher purchases. The direct rate is 10% to 25% by
-tier, plus overrides of 6%, 3% and 1% on deeper levels. See
+tier, with sponsor overrides of 6%, 3% and 1% paid from the same 25% cap. See
 [Rewards](05-reputation-economy.md#rewards).
 
 **Do rewards come from deals?**
@@ -115,7 +115,7 @@ free. A Resident can also create rooms about other companies, with no KYC. See
 [Data Rooms](12-data-rooms-scoring-and-subscriptions.md#who-can-create-a-data-room-and-who-owns-it).
 
 **Who can see a room?**
-Only the people the owner chooses: named members, any member, or everyone through
+Only the people the owner chooses: named members, or everyone through
 a public link. Viewing needs no KYC and no particular status. A public room shows
 only a basic card; documents stay private unless the owner marks them public.
 
@@ -124,14 +124,17 @@ No. A visitor can look first and register later. See
 [Silent Data Room referrals](11-silent-dr-referral.md).
 
 **What is a scoring?**
-An independent evaluation of a project on Potential and Readiness, each from 0 to
-150. It costs $35 and is ordered by the company's founder of record from a Pro
+A rubric-based evaluation of a project, built from the information in its Data
+Room and the owner's answers, on Potential and Readiness, each from 0 to 150. It
+costs $35 and is ordered by the company's founder of record from a Pro
 room _(rolling out)_. The report is private by default; the owner chooses what to
-publish. It is information, not advice or a guarantee.
+publish. It is labelled Beta until calibration is complete, and it is information,
+not advice or a guarantee.
 
 **What is the difference between a Free and a Pro room?**
 Documents, teammates, access grants and the public card work in both. Scoring, the
-public project catalog and primary-market blocks need Pro. Pro currently costs $35 per
+public project catalog, primary-market blocks and the AI data check _(rolling out)_
+need Pro. Pro currently costs $35 per
 month per room and includes one scoring voucher each month _(rolling out)_. See
 [Free and Pro rooms](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms).
 
@@ -186,7 +189,8 @@ bonus scoring vouchers valid for 90 days _(rolling out)_. See
 
 **Can I get a top-up back?**
 A refund of topped-up funds carries a 15% refund fee, and the price of any bonus
-voucher you already used is deducted _(rolling out)_. An approved refund is
+voucher you already used is deducted _(rolling out)_. No fee is charged where the
+law requires a full refund or where the error is GBlock's. An approved refund is
 processed within 10 business days. Bonus funds themselves cannot be withdrawn.
 Details are on the same page.
 

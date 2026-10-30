@@ -29,7 +29,7 @@ founder-side functions: top-ups and scoring purchases. See
 ## Who can see a room
 
 Visibility is set only by the room owner. You choose who sees a room and its
-contents: named members only, any member, or fully public, so that anyone can open
+contents: named members only (a direct grant) or fully public, so that anyone can open
 it without registering. Viewing needs no KYC and no particular status, and the
 platform adds no viewing restriction of its own beyond the rules below for Free
 rooms. This is also why every room link works as an invitation: a visitor can look
@@ -73,13 +73,17 @@ balance after a ban is described in
 ## Free and Pro rooms
 
 _Rolling out._ A room is either **Free** or **Pro**. Documents, teammates, access
-grants, the public card and the referral funnel work the same in both. Four
+grants, the public card and the referral funnel work the same in both. Five
 things need Pro:
 
 - ordering a scoring,
 - appearing in the public project catalog,
 - a primary-market block,
-- the monthly scoring voucher.
+- the monthly scoring voucher,
+- the AI data check _(rolling out)_: at the owner's request, an AI layer reads the
+  documents in the room and compares the figures with those entered for a
+  scoring. It flags differences; it does not set the score and does not prove
+  that the figures are true.
 
 A room is Pro while one of these applies:
 
@@ -121,16 +125,25 @@ you no longer want before you go quiet.
 
 ## Scoring
 
-A scoring is a deterministic evaluation of a project on two axes: **Potential**
-(0-150) and **Readiness** (0-150).
+A scoring is a rubric-based evaluation of a project, built from the information
+in its Data Room and the owner's answers, on two axes: **Potential** (0-150) and
+**Readiness** (0-150).
 
 - **It starts from the Data Room.** The room collects the project information
   the scoring uses, and ordering needs a Pro room _(rolling out)_.
 - **Who can order:** the company's founder of record, from a Pro room.
 - **Price:** $35, paid from your payment balance or with a scoring voucher.
-- **It does not expire with time.** A scoring stays valid while it was produced by
-  the current scoring engine version. It is shown publicly only while the room is
-  Pro; otherwise it is hidden, not deleted.
+- **Beta label.** Until calibration on real rooms is complete, a scoring is
+  published with a Beta label and a disclaimer: it is generated from the
+  information in the Data Room and the answers of its owner, and may differ from
+  the actual state of the company. It is not investment advice, a valuation or a
+  forecast.
+- **It does not expire.** If the data behind it is more than 30 days old, the
+  report shows a yellow note, "may be out of date". When the scoring engine is
+  updated, GBlock moves existing reports to the new version free of charge; until
+  that is done, a report from the previous version stays accepted for a transition
+  period. A scoring is shown publicly only while the room is Pro; otherwise it is
+  hidden, not deleted.
 - **Public catalog.** A room is listed with a valid scoring, a completed company
   profile and a Pro room. Without them the room still works for investors you
   granted access to.

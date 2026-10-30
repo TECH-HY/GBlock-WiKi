@@ -88,8 +88,8 @@ feed of updates and a weekly digest. See
 
 ### Support, Report and Notifications
 
-- **Support:** open a ticket with the operator; first response within one
-  business day.
+- **Support:** open a ticket with the operator; receipt is confirmed within 24
+  hours, and a payment question is decided within 72 hours.
 - **Report:** raise a concern in a category of your choice. Your identity is not
   shown to the person you report.
 - **Notifications:** probation, reputation and tier changes, block freshness

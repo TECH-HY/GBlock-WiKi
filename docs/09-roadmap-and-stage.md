@@ -26,7 +26,7 @@ current catalog values and can change before launch.
 - Registration by email, welcome grant, invitations and vouch gifts, and the
   choice of paths after the first sign-in.
 - The Ambassador path with referral rewards, reward tiers from 10% to 25%,
-  multi-level overrides and a monthly pool for top ambassadors.
+  multi-level overrides and a pool for top ambassadors.
 - Resident status through the waitlist and vouches, plus a one-time stage of
   launch grants for the first Residents; trust levels Anonymous, Vouched and
   Verified; reputation tiers Member to Vanguard.
@@ -35,7 +35,7 @@ current catalog values and can change before launch.
 
 - Data Rooms with owner-controlled documents, access grants, teammates and
   hand-over. Free and Pro rooms.
-- Independent project scoring, the public project catalog, scoring vouchers and
+- Project scoring, the public project catalog, scoring vouchers and
   subscriptions.
 - Silent referrals: every link to a Data Room can bring new members.
 
@@ -61,8 +61,8 @@ current catalog values and can change before launch.
 These are confirmed parts of the launch product being switched on in stages. Some
 members may already see them; not everyone does yet.
 
-- **Free and Pro Data Rooms.** Scoring, the public catalog and primary-market
-  blocks need a Pro room; the first room and a Resident's free rooms stay Free.
+- **Free and Pro Data Rooms.** Scoring, the public catalog, primary-market
+  blocks and the AI data check need a Pro room; the first room and a Resident's free rooms stay Free.
   See [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms).
 - **Top-up bonus vouchers.** A top-up of $500 or more gives three bonus scoring
   vouchers. A refund of topped-up funds carries a 15% refund fee. See
