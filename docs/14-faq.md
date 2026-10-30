@@ -235,7 +235,7 @@ right to go to court stays. See
 
 **How do I report a problem?**
 Open **Report** in the cabinet and pick a category, or write to
-`start@techhy.me`. The operator reviews the report, and your identity as the
+`support@gblock.club`. The operator reviews the report, and your identity as the
 reporter is not shown to the person you report. See
 [Report a problem](04-user-journeys.md#report-a-problem).
 

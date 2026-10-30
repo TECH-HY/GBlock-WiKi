@@ -69,7 +69,7 @@ custody of assets and no promised returns. See
 - **Operator:** TECH HY SDN BHD
 - **Governing law:** Malaysia
 - **Community (access requests):** <https://t.me/TECH_HY_VC/6>
-- **Contact:** `start@techhy.me`
+- **Contact:** `support@gblock.club`
 
 ---
 

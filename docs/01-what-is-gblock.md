@@ -99,7 +99,7 @@ confirmed.
 | Endorsement | Powered by TECH HY Venture Club |
 | Governing law | Malaysia |
 | Public site | <https://gblock.club> |
-| Contact | `start@techhy.me` |
+| Contact | `support@gblock.club` |
 
 Membership does not create an advisory, brokerage or fiduciary relationship.
 Members are responsible for their own decisions, diligence and compliance with
