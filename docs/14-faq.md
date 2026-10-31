@@ -76,8 +76,8 @@ be lost. You start with 30 points, or 40 and a vouch gift if a member invited yo
 See [Reputation economy](05-reputation-economy.md).
 
 **What does my reputation tier change?**
-It sets your reward rate (10% to 25%) and, for Residents, how many free
-secondary-market Data Rooms you get. It does not replace identity checks: those
+It sets your reward rate (10% to 25%) and, for Residents, how many free Data
+Rooms about other companies you get. It does not replace identity checks: those
 are the trust level.
 
 **What is the difference between status, trust level and tier?**

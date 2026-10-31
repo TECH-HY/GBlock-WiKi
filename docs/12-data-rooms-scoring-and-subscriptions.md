@@ -60,7 +60,7 @@ balance after a ban is described in
 | Room | Cost |
 |---|---|
 | Your **first** Data Room | Free |
-| **Free secondary-market rooms** | A Resident can create free rooms about companies they do not own, by reputation tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
+| **Free rooms about other companies** | A Resident can create free rooms about companies they do not own, by reputation tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
 | Every other room | **Pro subscription**, $35 per month, charged from your payment balance with any shortfall taken from your saved card |
 
 - Above the free allowance there is no unlimited tier; extra rooms are paid.

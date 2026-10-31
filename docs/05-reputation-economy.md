@@ -29,7 +29,7 @@ refreshes.
 
 ### The tier ladder
 
-| Tier | Reputation | Direct reward rate | Free secondary-market Data Rooms (Residents) |
+| Tier | Reputation | Direct reward rate | Free Data Rooms about other companies (Residents) |
 |---|---|---|---|
 | **Member** | 0 - 49 | 10% | 1 |
 | **Core** | 50 - 149 | 13% | 2 |
@@ -127,7 +127,7 @@ Once it opens, there is no instant withdrawal: payouts are reviewed requests. Se
 |---|---|
 | Higher reward rate | Reputation tier |
 | More vouches you can give | Reputation |
-| More free secondary-market Data Rooms (Residents) | Reputation tier |
+| More free Data Rooms about other companies (Residents) | Reputation tier |
 | Selling without a guarantor, a longer block window, larger payouts, faster reputation growth | Verified trust level (KYC) |
 
 Some capabilities depend on **trust level** (identity) and others on
