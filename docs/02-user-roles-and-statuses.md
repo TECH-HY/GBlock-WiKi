@@ -87,8 +87,10 @@ Good to know:
   complaint or a dispute.
 - A sale block stays current for a limited window (72 hours for Verified sellers,
   24 hours for Vouched sellers) and must be renewed before it goes stale.
-- KYC is run by an external provider. GBlock never sees or stores your
-  documents. You are never forced to reveal your identity to other members.
+- KYC is run by an external provider, which checks your identity document.
+  GBlock receives the result and the data it needs to record and apply it, as the
+  Privacy Policy describes. You are never forced to reveal your identity to other
+  members.
 - One identity can be verified only once. See
   [Trust and safety](07-trust-and-safety.md#kyc-and-identity).
 

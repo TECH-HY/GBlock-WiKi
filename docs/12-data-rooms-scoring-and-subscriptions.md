@@ -134,11 +134,11 @@ in its Data Room and the owner's answers, on two axes: **Potential** (0-150) and
   the scoring uses, and ordering needs a Pro room _(rolling out)_.
 - **Who can order:** the company's founder of record, from a Pro room.
 - **Price:** $35, paid from your payment balance or with a scoring voucher.
-- **Beta label.** Until calibration on real rooms is complete, a scoring is
-  published with a Beta label and a disclaimer: it is generated from the
-  information in the Data Room and the answers of its owner, and may differ from
-  the actual state of the company. It is not investment advice, a valuation or a
-  forecast.
+- **Beta label _(rolling out)_.** Until calibration on real rooms is complete, a
+  scoring is published with a Beta label and a disclaimer: it is generated from
+  the information in the Data Room and the answers of its owner, and may differ
+  from the actual state of the company. It is not investment advice, a valuation
+  or a forecast.
 - **It does not expire.** If the data behind it is more than 30 days old, the
   report shows a yellow note, "may be out of date". When the scoring engine is
   updated, GBlock moves existing reports to the new version free of charge; until

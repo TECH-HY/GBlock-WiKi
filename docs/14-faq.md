@@ -63,8 +63,9 @@ it.
 **Do I need KYC?**
 No, not to register and not to become a Resident. KYC gives the Verified trust
 level, which adds trust in deals and unlocks selling without a guarantor, a longer
-block window and larger payouts. Your documents stay with the external provider.
-See [Trust and safety](07-trust-and-safety.md#kyc-and-identity).
+block window and larger payouts. You submit your documents to the external
+provider; GBlock receives the result and the data it needs from it, as the
+Privacy Policy describes. See [Trust and safety](07-trust-and-safety.md#kyc-and-identity).
 
 ---
 
@@ -133,8 +134,8 @@ A rubric-based evaluation of a project, built from the information in its Data
 Room and the owner's answers, on Potential and Readiness, each from 0 to 150. It
 costs $35 and is ordered by the company's founder of record from a Pro
 room _(rolling out)_. The report is private by default; the owner chooses what to
-publish. It is labelled Beta until calibration is complete, and it is information,
-not advice or a guarantee.
+publish. It is labelled Beta _(rolling out)_ until calibration is complete, and it
+is information, not advice or a guarantee.
 
 **What is the difference between a Free and a Pro room?**
 Documents, teammates, access grants and the public card work in both. Scoring, the

@@ -93,7 +93,7 @@ from the same 25% cap.
 
 **Scoring.** A rubric-based evaluation of a project, built from the information in
 its Data Room and the owner's answers, on Potential (0-150) and Readiness
-(0-150). Costs $35. Labelled Beta until calibration is complete.
+(0-150). Costs $35. Labelled Beta until calibration is complete. _Rolling out._
 
 **Scoring voucher.** A prepaid scoring, valid three months, usable only in a Pro
 room. A Pro subscription gives one at the start and one with each monthly
