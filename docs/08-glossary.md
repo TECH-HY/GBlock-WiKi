@@ -59,7 +59,8 @@ passwords. _Rolling out._
 **Payment balance.** Funds for scoring and subscriptions, topped up by card.
 
 **Payout request.** The only way to withdraw rewards: a reviewed request to the
-operator. Minimum $50, USDT (BEP-20), one per calendar month.
+operator. Minimum $50, USDT (BEP-20), one per calendar month. Withdrawal opens
+later.
 
 **Primary market.** The surface for primary raises. A block needs a founder of
 record with a valid scoring on a Pro Data Room, and at least the Vouched trust

@@ -16,8 +16,8 @@ by an external provider.
 - One KYC session covers both member participation and project listing, so you do
   not repeat it for each use.
 - Verified members can sell without a guarantor and keep a block live for 72
-  hours instead of 24, vouch for others, request larger payouts and build
-  reputation faster _(rolling out)_.
+  hours instead of 24, vouch for others, request larger payouts once withdrawal
+  opens and build reputation faster _(rolling out)_.
 
 KYC is a choice, not a condition of membership. Anonymous members can build
 reputation and act as buyers indefinitely.
@@ -28,7 +28,8 @@ merged.
 
 **If KYC is revoked,** your history stays: existing Data Rooms and the access
 you already granted keep working, and your reputation is untouched. New access
-grants, new Data Rooms and payouts pause until you verify again.
+grants, new Data Rooms and payouts pause until you verify again. Publishing new
+documents and reports, mailings from a room and new scoring orders pause as well.
 
 ---
 

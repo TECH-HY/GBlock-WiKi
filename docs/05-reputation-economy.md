@@ -65,7 +65,8 @@ Vouches are how waitlist candidates reach **Resident**.
 - How many vouches you can hold grows with your reputation: roughly one per ten
   points.
 - The first vouch can come from any member with verified KYC; the decisive
-  second vouch must come from a Resident.
+  second vouch comes from a Resident, with no KYC requirement _(rolling out; for
+  now that Resident must have passed KYC too)_.
 
 **If a vouch goes wrong** (withdrawn because the member broke the rules): the
 stake is lost, withdrawing costs a little more, the reputation granted to both
@@ -113,8 +114,10 @@ what remains.
 
 Rewards become releasable 30 days after the revenue they come from. If the payment
 is refunded in that window, the reward is cancelled. The operator then releases
-approved rewards to your reward balance. There is no instant withdrawal: payouts
-are reviewed requests. See [Payouts and rewards](10-payouts-and-rewards.md).
+approved rewards to your reward balance. USDT withdrawal opens later; until then
+rewards stay in the reward balance and can be moved into the payment balance.
+Once it opens, there is no instant withdrawal: payouts are reviewed requests. See
+[Payouts and rewards](10-payouts-and-rewards.md).
 
 ---
 

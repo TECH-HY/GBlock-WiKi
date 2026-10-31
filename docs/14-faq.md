@@ -47,8 +47,10 @@ Not to register. You need vouches only to become a Resident. If you have no
 contact inside GBlock, ask the community through the Telegram link on the site.
 
 **How do I become a Resident?**
-Join the waitlist with **Apply for Residency** and collect two vouches from
-members who passed KYC; the second, decisive one must come from a Resident.
+Join the waitlist with **Apply for Residency** and collect two vouches: the
+first from a member who passed KYC, the second, decisive one from a Resident.
+KYC for that Resident is not required _(rolling out; for now the Resident must
+have passed KYC too)_.
 Resident gives access to the dealflow, blocks, deal threads and the right to
 vouch. See [Becoming a Resident](02-user-roles-and-statuses.md#becoming-a-resident).
 
@@ -78,7 +80,7 @@ secondary-market Data Rooms you get. It does not replace identity checks: those
 are the trust level.
 
 **What is the difference between status, trust level and tier?**
-Status is how you entered (Ambassador, Residency applicant, Resident). Trust level
+Status is how you entered (Ambassador, Waitlist applicant, Resident). Trust level
 is how proven your identity is (Anonymous, Vouched, Verified). Tier is your
 reputation (Member to Vanguard). They are independent. See
 [User roles and statuses](02-user-roles-and-statuses.md).
@@ -101,8 +103,10 @@ tier, with sponsor overrides of 6%, 3% and 1% paid from the same 25% cap. See
 No. GBlock does not settle deals and takes no automatic commission on them.
 
 **When can I take rewards out?**
-A reward becomes releasable 30 days after the revenue it comes from. After that
-you file a payout request, which the operator reviews. There is no instant
+A reward becomes releasable 30 days after the revenue it comes from. USDT
+withdrawal opens later; until then released rewards stay in your reward balance
+and can be moved into your payment balance with a 3% bonus. Once it opens, you
+file a payout request, which the operator reviews. There is no instant
 withdrawal. See [Payouts and rewards](10-payouts-and-rewards.md).
 
 ---
@@ -150,9 +154,9 @@ information can lead to sanctions up to a permanent ban. See
 [Reporting a problem](07-trust-and-safety.md#reporting-a-problem).
 
 **What happens if I stop paying for a Pro room?**
-Nothing is deleted. After the retries the room is frozen: people who already have
-access can still read it, but you cannot grant new access or upload until you
-unfreeze it from **Subscriptions**. See
+Nothing is deleted. If the retry after 48 hours fails, the room is frozen: people
+who already have access can still read it, but you cannot grant new access or
+upload until you pay or unfreeze it from **Subscriptions**. See
 [When a subscription lapses](12-data-rooms-scoring-and-subscriptions.md#when-a-subscription-lapses).
 
 ---
@@ -167,8 +171,10 @@ complaint or dispute. See
 [User roles and statuses](02-user-roles-and-statuses.md#trust-level).
 
 **Does GBlock take a fee on deals?**
-No automatic commission. A fee for an introduction applies only under separate
-written terms. See [Launch scope and stage](09-roadmap-and-stage.md#not-at-launch).
+No automatic commission, and at launch GBlock promises and charges no fee for
+deals. The commercial terms of introductions are decided when the first real deal
+comes up; a fee would apply only under separate written terms agreed with the
+operator. See [Launch scope and stage](09-roadmap-and-stage.md#not-at-launch).
 
 **Do counterparties see who I am?**
 Not before both sides agree. Names and contact details stay hidden, and the
@@ -195,7 +201,10 @@ processed within 10 business days. Bonus funds themselves cannot be withdrawn.
 Details are on the same page.
 
 **How do I withdraw rewards?**
-Through a payout request in USDT (BEP-20): minimum $50, one request per calendar
+USDT withdrawal opens later, and the wallet shows "Withdrawal opens later" until
+then. Your rewards are not cancelled: they stay in the reward balance and can be
+moved into the payment balance. Once it opens, you withdraw through a payout
+request in USDT (BEP-20): minimum $50, one request per calendar
 month, up to $150 per 30 days without KYC and up to $1,500 per month with KYC
 _(rolling out)_. The operator responds within one business day, and approved
 payouts are sent within 20 business days. See
@@ -234,7 +243,7 @@ right to go to court stays. See
 
 **How do I report a problem?**
 Open **Report** in the cabinet and pick a category, or write to
-`start@techhy.me`. The operator reviews the report, and your identity as the
+`support@gblock.club`. The operator reviews the report, and your identity as the
 reporter is not shown to the person you report. See
 [Report a problem](04-user-journeys.md#report-a-problem).
 

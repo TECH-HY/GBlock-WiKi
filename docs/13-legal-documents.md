@@ -86,7 +86,7 @@ live on the site on 29 October 2026.
 ## Questions
 
 Questions about a legal document, your data or your rights go to
-`start@techhy.me`. Operator details are on
+`support@gblock.club`. Operator details are on
 [What is GBlock](01-what-is-gblock.md#the-legal-frame). For a quick answer to a
 common product question, see the [FAQ](14-faq.md).
 

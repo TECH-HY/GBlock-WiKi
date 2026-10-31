@@ -7,7 +7,7 @@ checking which axis is blocking you.
 
 | Axis | Question it answers | Values |
 |---|---|---|
-| **Status** | How did you enter, and what base rights do you have? | Ambassador, Residency applicant, Resident |
+| **Status** | How did you enter, and what base rights do you have? | Ambassador, Waitlist applicant, Resident |
 | **Trust level** | How proven is your identity? | Anonymous, Vouched, Verified |
 | **Reputation tier** | How much reputation have you built? | Member, Core, Principal, Partner, Vanguard |
 
@@ -32,8 +32,8 @@ Paths can be combined and added later; each one asks for its own consent.
 | Status | How you get it | What it gives you |
 |---|---|---|
 | **Ambassador** | Register with your email | Cabinet, invitations and referral rewards, Data Rooms, project scoring, read-only view of the Secondary Market and the Demand Board, the wallet. No dealflow. |
-| **Residency applicant** | Take the Apply for Residency path | A place on the waitlist and the right to collect vouches. |
-| **Resident** | Two vouches from existing members, the decisive one from a Resident, then approval of your waitlist request | The dealflow, placing blocks, mediated introductions, deal threads, posting on the Demand Board, and the right to vouch for others. |
+| **Waitlist applicant** | Take the Apply for Residency path | A place on the waitlist and the right to collect vouches. |
+| **Resident** | Two vouches, the first from a member with approved KYC and the second from a Resident, then approval of your waitlist request | The dealflow, placing blocks, mediated introductions, deal threads, posting on the Demand Board, and the right to vouch for others. |
 
 Ambassador is about **community growth**; Resident is about **market
 participation**. A member can be both.
@@ -47,10 +47,11 @@ participation**. A member can be both.
 
 ### Becoming a Resident
 
-Resident status is earned through the waitlist. You collect **two vouches** from
-members who have passed KYC; the decisive second vouch must come from an
-existing Resident. A vouch gift received with an invitation counts as a real
-vouch. Your own KYC does not change your status, but it adds trust in deals
+Resident status is earned through the waitlist. You collect **two vouches**: the
+first from a member who has passed KYC, the decisive second one from an existing
+Resident. That Resident will not need KYC for this vouch _(rolling out; for now
+the Resident must have passed KYC too)_. A vouch gift received with an invitation
+counts as a real vouch. Your own KYC does not change your status, but it adds trust in deals
 (see below). A Resident can also create Data Rooms about other companies, with no
 KYC required. Viewing a Data Room never needs KYC or a status.
 
@@ -71,7 +72,7 @@ comfortable with, from anonymous to fully verified.
 |---|---|---|
 | **Anonymous** | Default | Browse the dealflow and express buyer interest. Cannot place sale blocks. |
 | **Vouched** | Two guarantees from Verified members | Place sale blocks, on a 24-hour freshness window. |
-| **Verified** | Pass KYC | Place sale blocks without a guarantor, on a 72-hour freshness window; vouch for others; request larger payouts; and build reputation faster (+20%, _rolling out_). |
+| **Verified** | Pass KYC | Place sale blocks without a guarantor, on a 72-hour freshness window; vouch for others; request larger payouts once withdrawal opens; and build reputation faster (+20%, _rolling out_). |
 
 Good to know:
 
