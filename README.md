@@ -10,15 +10,17 @@ Venture Club.
 </p>
 
 GBlock is a private B2B club where founders show their companies to investors,
-investors and owners meet opportunities through mediated introductions, and
-every participant has reputation at stake. This guide explains the product, its
-core values and how each function works. It is written for founders, investors,
-prospective members and ambassadors.
+investors and owners will meet opportunities through mediated introductions once
+the market opens, and every participant has reputation at stake. This guide
+explains the product, its core values and how each function works. It is written
+for founders, investors, prospective members and ambassadors.
 
 > **About this guide.** It describes GBlock as it is designed to work at public
 > launch. The product is in pre-market testing today, so a few functions are
 > still being switched on; they are marked _rolling out_. Details such as limits
-> and prices can change before launch.
+> and prices can change before launch. **The market opens later:** at launch
+> blocks, the Secondary Market, the Demand Board and deal threads are not
+> available (see [Not at launch](docs/09-roadmap-and-stage.md#not-at-launch)).
 
 ---
 
@@ -49,8 +51,10 @@ Each page stands on its own; read in order or jump to what you need.
 
 - **Founders** open a Data Room, get a project scoring and show the
   company to investors on their own terms.
-- **Investors and owners** (Residents) browse private-market opportunities,
-  request access and talk to counterparties through operator-mediated threads.
+- **Investors and owners** look through the public project catalog and ask
+  founders for access to their Data Rooms. Once the market opens, Residents also
+  browse private-market opportunities and talk to counterparties through
+  operator-mediated threads.
 - **Ambassadors** invite people they can stand behind and earn rewards from the
   revenue those people generate.
 - **Everyone** registers with an email address. Resident status is earned

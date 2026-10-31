@@ -84,6 +84,9 @@ terms see
 
 ## Deal threads stay inside GBlock
 
+_Applies from the day the market opens; deal threads are not available at
+launch._
+
 Deal threads are the governed channel between buyer and seller. Messages that
 contain direct contact details, such as emails, phone numbers or messenger
 handles, are held for operator review, and the recipient sees a neutral

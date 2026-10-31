@@ -31,9 +31,9 @@ Paths can be combined and added later; each one asks for its own consent.
 
 | Status | How you get it | What it gives you |
 |---|---|---|
-| **Ambassador** | Register with your email | Cabinet, invitations and referral rewards, Data Rooms, project scoring, read-only view of the Secondary Market and the Demand Board, the wallet. No dealflow. |
+| **Ambassador** | Register with your email | Cabinet, invitations and referral rewards, Data Rooms, project scoring, the wallet. No dealflow. |
 | **Waitlist applicant** | Take the Apply for Residency path | A place on the waitlist and the right to collect vouches. |
-| **Resident** | Two vouches, the first from a member with approved KYC and the second from a Resident, then approval of your waitlist request | The dealflow, placing blocks, mediated introductions, deal threads, posting on the Demand Board, and the right to vouch for others. |
+| **Resident** | Two vouches, the first from a member with approved KYC and the second from a Resident, then approval of your waitlist request | The right to vouch for others and free Data Rooms about other companies. Once the market opens: the dealflow, placing blocks, mediated introductions, deal threads and posting on the Demand Board. |
 
 Ambassador is about **community growth**; Resident is about **market
 participation**. A member can be both.
@@ -67,6 +67,9 @@ after a short waiting period.
 
 Trust level lets members take part at the level of identity assurance they are
 comfortable with, from anonymous to fully verified.
+
+_The market opens later, so the market rows in this table and the notes after it
+apply from the day it opens._
 
 | Level | How you reach it | What it unlocks in the market |
 |---|---|---|

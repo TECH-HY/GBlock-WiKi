@@ -51,8 +51,9 @@ Join the waitlist with **Apply for Residency** and collect two vouches: the
 first from a member who passed KYC, the second, decisive one from a Resident.
 KYC for that Resident is not required _(rolling out; for now the Resident must
 have passed KYC too)_.
-Resident gives access to the dealflow, blocks, deal threads and the right to
-vouch. See [Becoming a Resident](02-user-roles-and-statuses.md#becoming-a-resident).
+Resident gives the right to vouch and free Data Rooms about other companies; it
+gives access to the dealflow, blocks and deal threads once the market opens. See
+[Becoming a Resident](02-user-roles-and-statuses.md#becoming-a-resident).
 
 **Is there another way to become a Resident?**
 Only at launch: the operator appoints the first Residents, up to 50 members with
@@ -137,8 +138,8 @@ not advice or a guarantee.
 
 **What is the difference between a Free and a Pro room?**
 Documents, teammates, access grants and the public card work in both. Scoring, the
-public project catalog, primary-market blocks and the AI data check _(rolling out)_
-need Pro. Pro currently costs $35 per
+public project catalog, primary-market blocks (once the market opens) and the AI
+data check _(rolling out)_ need Pro. Pro currently costs $35 per
 month per room and includes one scoring voucher each month _(rolling out)_. See
 [Free and Pro rooms](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms).
 
@@ -163,10 +164,17 @@ upload until you pay or unfreeze it from **Subscriptions**. See
 
 ## Deals and the market
 
+**Is the market open at launch?**
+No. At launch blocks, the Secondary Market, the Demand Board and deal threads are
+not available. The market is switched on separately after launch, and no date is
+set. Data Rooms, project scoring, the public project catalog, scoring vouchers
+and the Ambassador programme work from the first day. See
+[Not at launch](09-roadmap-and-stage.md#not-at-launch).
+
 **Who can sell a block?**
-A Resident who is the founder of record of the company, with a valid scoring on
-their own Pro Data Room, and who is either Verified (KYC) or Vouched (two
-guarantees). The operator does not approve blocks in advance and steps in after a
+Once the market opens, a Resident who is the founder of record of the company,
+with a valid scoring on their own Pro Data Room, and who is either Verified (KYC)
+or Vouched (two guarantees). The operator does not approve blocks in advance and steps in after a
 complaint or dispute. See
 [User roles and statuses](02-user-roles-and-statuses.md#trust-level).
 
@@ -177,8 +185,9 @@ comes up; a fee would apply only under separate written terms agreed with the
 operator. See [Launch scope and stage](09-roadmap-and-stage.md#not-at-launch).
 
 **Do counterparties see who I am?**
-Not before both sides agree. Names and contact details stay hidden, and the
-conversation runs inside GBlock until the contract is signed. See
+Deal threads open with the market. Names and contact details stay hidden until
+both sides agree, and the conversation runs inside GBlock until the contract is
+signed. See
 [Trust and safety](07-trust-and-safety.md#deal-threads-stay-inside-gblock).
 
 **Does GBlock hold the money or assets in a deal?**

@@ -3,13 +3,14 @@
 Anyone can register with an email address. Registration opens the cabinet, the
 Ambassador path and your own Data Rooms; it does not open the dealflow. Full
 market participation (the **Resident** status) comes through vouches from
-current members. This page lists every legitimate way in.
+current members; the market itself opens later. This page lists every
+legitimate way in.
 
 | Path | Who it is for | What it gets you |
 |---|---|---|
 | **Register by email** | Anyone | An account, the Ambassador path and a welcome grant of 30 reputation points |
 | **Member invitation** | People invited by a member | An account with 40 reputation points and one vouch gift |
-| **Become a Resident** | Members ready for the market | Dealflow, blocks, deal threads and the right to vouch |
+| **Become a Resident** | Members ready for the market | The right to vouch; dealflow, blocks and deal threads once the market opens |
 | **Launch grants** | Appointed by the operator, one-time stage | Resident status to start the network (not open for requests) |
 | **Community request** | Anyone without an invitation | A way to ask the community for an invitation or a vouch |
 
@@ -34,9 +35,9 @@ Registration and invitations are free.
 4. After your first sign-in you choose your paths: Data Room & Scoring,
    Ambassador, Apply for Residency. They can be combined and added later.
 
-As an Ambassador you can send invitations, earn referral rewards and look at the
-Secondary Market and the Demand Board read-only. Ambassador alone does not open
-the dealflow. See the [Ambassador Terms](https://gblock.club/ambassador-terms).
+As an Ambassador you can send invitations and earn referral rewards. Ambassador
+alone does not open the dealflow. See the
+[Ambassador Terms](https://gblock.club/ambassador-terms).
 
 If the email already has an account, the form points you to sign-in instead of
 creating a second one.
@@ -71,7 +72,8 @@ reputation at stake, and gives you +10 reputation while receiving +5. See
 [Reputation economy](05-reputation-economy.md#backing-someone).
 
 Your own KYC is not required for the status, but it is worth doing: it adds
-trust in deals and unlocks seller and primary-market functions. See
+trust in deals and unlocks seller and primary-market functions once the market
+opens. See
 [User roles and statuses](02-user-roles-and-statuses.md#trust-level).
 
 ---

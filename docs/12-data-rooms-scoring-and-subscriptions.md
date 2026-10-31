@@ -78,7 +78,7 @@ things need Pro:
 
 - ordering a scoring,
 - appearing in the public project catalog,
-- a primary-market block,
+- a primary-market block, once the market opens,
 - the monthly scoring voucher,
 - the AI data check _(rolling out)_: at the owner's request, an AI layer reads the
   documents in the room and compares the figures with those entered for a
