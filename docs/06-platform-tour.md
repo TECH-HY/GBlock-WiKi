@@ -30,8 +30,8 @@ cabinet. The cabinet shows only the sections your status and paths allow.
 ### Overview
 
 Your home page: reputation and tier, trust level, standing (good standing,
-probation or restriction), and quick actions such as invite, dealflow, referrals
-and report.
+probation or restriction), and quick actions such as invite, referrals and
+report. The dealflow shortcut is added when the market opens.
 
 ### Reputation
 
@@ -50,6 +50,9 @@ tier ladder and your recent reputation events.
 
 ### Dealflow, blocks and deal threads
 
+> **The market opens later.** These sections are not available at launch; they
+> describe how they will work once the market opens.
+
 - **Dealflow:** active sale blocks as safe previews, for Residents. Open a block
   to request access or express interest. Names stay hidden until both sides agree
   to disclose them.
@@ -58,6 +61,9 @@ tier ladder and your recent reputation events.
   between you and the counterparty.
 
 ### Demand Board and Secondary Market
+
+> **The market opens later.** These sections are not available at launch; they
+> describe how they will work once the market opens.
 
 The **Demand Board** shows anonymous, aggregated demand per asset. Demands are
 signals, not offers: Residents post them, Ambassadors can read. The **Secondary
@@ -111,8 +117,9 @@ account is restricted.
 
 ## On mobile
 
-The cabinet and the public pages adapt to small screens, so you can review the
-dealflow, accept a vouch or answer a deal thread from your phone.
+The cabinet and the public pages adapt to small screens, so you can accept a
+vouch, read a scoring report or manage a Data Room from your phone. Once the
+market opens, you can also review the dealflow or answer a deal thread.
 
 ---
 
