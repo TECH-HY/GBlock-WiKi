@@ -68,8 +68,9 @@ after a short waiting period.
 Trust level lets members take part at the level of identity assurance they are
 comfortable with, from anonymous to fully verified.
 
-_The market opens later, so the market rows in this table and the notes after it
-apply from the day it opens._
+_The market opens later. Browsing the dealflow, expressing interest, placing sale
+blocks and the other market functions below apply from the day it opens. The
+rest, such as vouching and the KYC rules, applies from the start._
 
 | Level | How you reach it | What it unlocks in the market |
 |---|---|---|
