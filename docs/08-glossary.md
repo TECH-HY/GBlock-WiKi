@@ -3,24 +3,24 @@
 Short definitions of the terms used across GBlock, in alphabetical order.
 
 **Ambassador.** The starting status of every member. Can invite people, earn
-referral rewards, open Data Rooms and look at the Secondary Market and the Demand
-Board read-only. Does not give dealflow access.
+referral rewards and open Data Rooms. Does not give dealflow access.
 
-**Anonymous.** The default trust level: browse the dealflow and express interest
-as a buyer. Cannot place sale blocks.
+**Anonymous.** The default trust level. Once the market opens: browse the
+dealflow and express interest as a buyer. Cannot place sale blocks.
 
 **Block (sale block).** A private package of assets or an opportunity placed by
-the founder of a scored company. Not a blockchain or crypto concept.
+the founder of a scored company. Not a blockchain or crypto concept. _Opens later._
 
 **Bonus vouchers.** Three scoring vouchers given with a top-up of $500 or more.
 Valid 90 days, for scoring only, not transferable or withdrawable. _Rolling out._
 
-**Dealflow.** The set of active sale blocks visible to Residents.
+**Dealflow.** The set of active sale blocks visible to Residents. _Opens later._
 
 **Deal thread.** The private, in-platform channel between buyer and seller after
-a mediated introduction.
+a mediated introduction. _Opens later._
 
 **Demand Board.** Anonymous, aggregated buyer demand per asset. Signals only.
+_Opens later._
 
 **Data Room (VDR).** A member-controlled virtual room for a project: documents,
 access grants, teammates and the scoring report. Belongs to its creator.
@@ -34,10 +34,11 @@ its official Data Room, by default the person who created it. Only the founder
 of record can order a scoring or place a block for the company.
 
 **Free room / Pro room.** Every Data Room is Free or Pro. Scoring, the public
-catalog, primary-market blocks and the AI data check need Pro. _Rolling out._
+catalog, primary-market blocks (once the market opens) and the AI data check need
+Pro. _Rolling out._
 
 **Freshness.** How long an active block stays current before it must be renewed:
-72 hours for Verified sellers, 24 hours for Vouched sellers.
+72 hours for Verified sellers, 24 hours for Vouched sellers. _Opens later._
 
 **Gallery.** Your personal collection of followed Data Rooms, optionally public.
 _Rolling out._
@@ -51,7 +52,7 @@ external provider. KYC gives the Verified trust level.
 
 **Mediated introduction.** The connection between buyer and seller that runs
 through GBlock. Names and contact details stay hidden until both sides agree to
-disclose them.
+disclose them. _Opens later._
 
 **One-time code.** The code sent to your email to sign in. There are no
 passwords. _Rolling out._
@@ -64,7 +65,7 @@ later.
 
 **Primary market.** The surface for primary raises. A block needs a founder of
 record with a valid scoring on a Pro Data Room, and at least the Vouched trust
-level.
+level. _Opens later._
 
 **Pro trial.** Pro status for a set term on one specific room, granted by the
 operator as a Pro voucher. No card needed. _Rolling out._
@@ -81,8 +82,8 @@ out._
 reputation. Sets your reward rate.
 
 **Resident.** The market status. Reached through the waitlist with two vouches,
-the decisive one from a Resident. Gives dealflow, blocks, deal threads and the
-right to vouch.
+the decisive one from a Resident. Gives the right to vouch and free Data Rooms
+about other companies; dealflow, blocks and deal threads once the market opens.
 
 **Reward balance.** Where released referral rewards land.
 
@@ -92,14 +93,14 @@ from the same 25% cap.
 
 **Scoring.** A rubric-based evaluation of a project, built from the information in
 its Data Room and the owner's answers, on Potential (0-150) and Readiness
-(0-150). Costs $35. Labelled Beta until calibration is complete.
+(0-150). Costs $35. Labelled Beta until calibration is complete. _Rolling out._
 
 **Scoring voucher.** A prepaid scoring, valid three months, usable only in a Pro
 room. A Pro subscription gives one at the start and one with each monthly
 renewal; extra vouchers can be bought only with a Pro subscription.
 
 **Secondary market.** The surface for blocks of existing assets (secondary
-blocks, pre-IPO, OTC, M&A).
+blocks, pre-IPO, OTC, M&A). _Opens later._
 
 **Silent referral.** A member who registered after opening a link to your Data
 Room. Credited to your referral tree with no obligations on either side.

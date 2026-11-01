@@ -51,8 +51,9 @@ Join the waitlist with **Apply for Residency** and collect two vouches: the
 first from a member who passed KYC, the second, decisive one from a Resident.
 KYC for that Resident is not required _(rolling out; for now the Resident must
 have passed KYC too)_.
-Resident gives access to the dealflow, blocks, deal threads and the right to
-vouch. See [Becoming a Resident](02-user-roles-and-statuses.md#becoming-a-resident).
+Resident gives the right to vouch and free Data Rooms about other companies; it
+gives access to the dealflow, blocks and deal threads once the market opens. See
+[Becoming a Resident](02-user-roles-and-statuses.md#becoming-a-resident).
 
 **Is there another way to become a Resident?**
 Only at launch: the operator appoints the first Residents, up to 50 members with
@@ -62,8 +63,9 @@ it.
 **Do I need KYC?**
 No, not to register and not to become a Resident. KYC gives the Verified trust
 level, which adds trust in deals and unlocks selling without a guarantor, a longer
-block window and larger payouts. Your documents stay with the external provider.
-See [Trust and safety](07-trust-and-safety.md#kyc-and-identity).
+block window and larger payouts. You submit your documents to the external
+provider; GBlock receives the result and the data it needs from it, as the
+Privacy Policy describes. See [Trust and safety](07-trust-and-safety.md#kyc-and-identity).
 
 ---
 
@@ -75,8 +77,8 @@ be lost. You start with 30 points, or 40 and a vouch gift if a member invited yo
 See [Reputation economy](05-reputation-economy.md).
 
 **What does my reputation tier change?**
-It sets your reward rate (10% to 25%) and, for Residents, how many free
-secondary-market Data Rooms you get. It does not replace identity checks: those
+It sets your reward rate (10% to 25%) and, for Residents, how many free Data
+Rooms about other companies you get. It does not replace identity checks: those
 are the trust level.
 
 **What is the difference between status, trust level and tier?**
@@ -132,13 +134,13 @@ A rubric-based evaluation of a project, built from the information in its Data
 Room and the owner's answers, on Potential and Readiness, each from 0 to 150. It
 costs $35 and is ordered by the company's founder of record from a Pro
 room _(rolling out)_. The report is private by default; the owner chooses what to
-publish. It is labelled Beta until calibration is complete, and it is information,
-not advice or a guarantee.
+publish. It is labelled Beta _(rolling out)_ until calibration is complete, and it
+is information, not advice or a guarantee.
 
 **What is the difference between a Free and a Pro room?**
 Documents, teammates, access grants and the public card work in both. Scoring, the
-public project catalog, primary-market blocks and the AI data check _(rolling out)_
-need Pro. Pro currently costs $35 per
+public project catalog, primary-market blocks (once the market opens) and the AI
+data check _(rolling out)_ need Pro. Pro currently costs $35 per
 month per room and includes one scoring voucher each month _(rolling out)_. See
 [Free and Pro rooms](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms).
 
@@ -163,10 +165,17 @@ upload until you pay or unfreeze it from **Subscriptions**. See
 
 ## Deals and the market
 
+**Is the market open at launch?**
+No. At launch blocks, the Secondary Market, the Demand Board and deal threads are
+not available. The market is switched on separately after launch, and no date is
+set. Data Rooms, project scoring, the public project catalog, scoring vouchers
+and the Ambassador programme work from the first day. See
+[Not at launch](09-roadmap-and-stage.md#not-at-launch).
+
 **Who can sell a block?**
-A Resident who is the founder of record of the company, with a valid scoring on
-their own Pro Data Room, and who is either Verified (KYC) or Vouched (two
-guarantees). The operator does not approve blocks in advance and steps in after a
+Once the market opens, a Resident who is the founder of record of the company,
+with a valid scoring on their own Pro Data Room, and who is either Verified (KYC)
+or Vouched (two guarantees). The operator does not approve blocks in advance and steps in after a
 complaint or dispute. See
 [User roles and statuses](02-user-roles-and-statuses.md#trust-level).
 
@@ -177,8 +186,9 @@ comes up; a fee would apply only under separate written terms agreed with the
 operator. See [Launch scope and stage](09-roadmap-and-stage.md#not-at-launch).
 
 **Do counterparties see who I am?**
-Not before both sides agree. Names and contact details stay hidden, and the
-conversation runs inside GBlock until the contract is signed. See
+Deal threads open with the market. Names and contact details stay hidden until
+both sides agree, and the conversation runs inside GBlock until the contract is
+signed. See
 [Trust and safety](07-trust-and-safety.md#deal-threads-stay-inside-gblock).
 
 **Does GBlock hold the money or assets in a deal?**

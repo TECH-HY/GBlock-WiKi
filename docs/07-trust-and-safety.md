@@ -11,8 +11,9 @@ they mean for you.
 KYC (Know Your Customer) is the path to the **Verified** trust level. It is run
 by an external provider.
 
-- Your identity documents **never leave the provider**. GBlock does not see or
-  store them.
+- You submit your identity documents to the provider, not to GBlock. GBlock
+  receives the result and the data it needs from the check, and keeps it as the
+  [Privacy Policy](13-legal-documents.md#the-documents) describes.
 - One KYC session covers both member participation and project listing, so you do
   not repeat it for each use.
 - Verified members can sell without a guarantor and keep a block live for 72
@@ -83,6 +84,9 @@ terms see
 ---
 
 ## Deal threads stay inside GBlock
+
+_Applies from the day the market opens; deal threads are not available at
+launch._
 
 Deal threads are the governed channel between buyer and seller. Messages that
 contain direct contact details, such as emails, phone numbers or messenger

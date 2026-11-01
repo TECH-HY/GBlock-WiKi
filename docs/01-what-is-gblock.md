@@ -9,6 +9,10 @@ status) comes through vouches from existing members.
 
 > _Where your reputation becomes your strongest asset._
 
+> **The market opens later.** At launch the market is closed: blocks, the
+> Secondary Market, the Demand Board and deal threads are not available. The
+> market is switched on separately after launch; no date is set.
+
 ---
 
 ## The idea
@@ -19,8 +23,9 @@ builds that into the product:
 1. **Reputation is the currency.** Reputation unlocks higher reward rates and
    the ability to back others. It cannot be bought; it is earned and it can be
    lost.
-2. **Access is governed.** The dealflow is open to Residents only. Every
-   introduction and every Data Room grant is a deliberate, reviewable action.
+2. **Access is governed.** Once the market opens, the dealflow is open to
+   Residents only. Every introduction and every Data Room grant is a deliberate,
+   reviewable action.
 3. **Accountability is shared.** People who invite or vouch for others carry part
    of the responsibility for them. That keeps the network honest as it grows.
 
@@ -42,7 +47,7 @@ private terminal, not a public marketplace.
 | You are | What GBlock gives you |
 |---|---|
 | **A founder** | A Data Room for your company, a project scoring, and a place in the public project catalog, with full control over who sees what. |
-| **An investor or owner** | Access to private-market opportunities (primary raises, secondary blocks, pre-IPO, OTC, M&A, institutional mandates) and a Demand Board to signal what you are looking for. |
+| **An investor or owner** | The public project catalog, access to Data Rooms that founders grant you, and scoring reports. Once the market opens: private-market opportunities (primary raises, secondary blocks, pre-IPO, OTC, M&A, institutional mandates) and a Demand Board to signal what you are looking for. |
 | **An ambassador** | A way to grow the community by invitation and earn rewards from the revenue your network generates. |
 | **A guarantor or voucher** | A way to put your reputation behind someone you trust and bring them into the club. |
 

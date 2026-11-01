@@ -60,7 +60,7 @@ balance after a ban is described in
 | Room | Cost |
 |---|---|
 | Your **first** Data Room | Free |
-| **Free secondary-market rooms** | A Resident can create free rooms about companies they do not own, by reputation tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
+| **Free rooms about other companies** | A Resident can create free rooms about companies they do not own, by reputation tier: Member 1, Core 2, Principal 3, Partner 5, Vanguard 8 |
 | Every other room | **Pro subscription**, $35 per month, charged from your payment balance with any shortfall taken from your saved card |
 
 - Above the free allowance there is no unlimited tier; extra rooms are paid.
@@ -78,7 +78,7 @@ things need Pro:
 
 - ordering a scoring,
 - appearing in the public project catalog,
-- a primary-market block,
+- a primary-market block, once the market opens,
 - the monthly scoring voucher,
 - the AI data check _(rolling out)_: at the owner's request, an AI layer reads the
   documents in the room and compares the figures with those entered for a
@@ -134,11 +134,11 @@ in its Data Room and the owner's answers, on two axes: **Potential** (0-150) and
   the scoring uses, and ordering needs a Pro room _(rolling out)_.
 - **Who can order:** the company's founder of record, from a Pro room.
 - **Price:** $35, paid from your payment balance or with a scoring voucher.
-- **Beta label.** Until calibration on real rooms is complete, a scoring is
-  published with a Beta label and a disclaimer: it is generated from the
-  information in the Data Room and the answers of its owner, and may differ from
-  the actual state of the company. It is not investment advice, a valuation or a
-  forecast.
+- **Beta label _(rolling out)_.** Until calibration on real rooms is complete, a
+  scoring is published with a Beta label and a disclaimer: it is generated from
+  the information in the Data Room and the answers of its owner, and may differ
+  from the actual state of the company. It is not investment advice, a valuation
+  or a forecast.
 - **It does not expire.** If the data behind it is more than 30 days old, the
   report shows a yellow note, "may be out of date". When the scoring engine is
   updated, GBlock moves existing reports to the new version free of charge; until

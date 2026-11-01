@@ -62,8 +62,10 @@ The founder journey: present your company, get scored, be found.
 
 ## Browse the dealflow
 
-Open to Residents. Ambassadors can look at the Secondary Market and the Demand
-Board read-only.
+> **The market opens later.** This flow is not available at launch; it describes
+> how it will work once the market opens.
+
+Open to Residents.
 
 1. **Open the Dealflow.** Each card is a safe preview of a block a member placed.
 2. **Open a block** to see the preview and the terms the seller chose to show.
@@ -75,6 +77,9 @@ Board read-only.
 ---
 
 ## Place a sale block
+
+> **The market opens later.** This flow is not available at launch; it describes
+> how it will work once the market opens.
 
 For the founder of record of a company whose own Pro Data Room holds a valid
 scoring, and who is at least **Vouched** (two guarantees from Verified members)
@@ -110,6 +115,9 @@ _(rolling out; for now that Resident must have passed KYC too)_.
 ---
 
 ## Run a deal thread
+
+> **The market opens later.** This flow is not available at launch; it describes
+> how it will work once the market opens.
 
 1. After access is approved, a mediated introduction creates a private thread
    between buyer and seller. Find it under **Deals** and **Threads**.

@@ -11,7 +11,8 @@ investors and members can calibrate expectations.
 GBlock is in **pre-market testing**, a controlled phase before public launch.
 Anyone can register with an email address, while market access is earned through
 vouches. Running in this phase does not mean a market release or live commercial
-traffic.
+traffic. The market itself opens later: at launch it is closed, and it is
+switched on separately after launch.
 
 This wiki describes the product as designed for launch. Functions that are not
 yet visible to every member are marked _rolling out_. Limits and prices are the
@@ -39,14 +40,6 @@ current catalog values and can change before launch.
   subscriptions.
 - Silent referrals: every link to a Data Room can bring new members.
 
-**Market**
-
-- The dealflow, sale blocks, access requests and buyer interest.
-- The Demand Board and the Secondary Market; primary-market blocks by founders
-  of scored companies, with no operator approval step.
-- Mediated deal threads with names hidden until both sides agree to disclose
-  them, complaints and disputes.
-
 **Wallet and support**
 
 - Reward and payment balances, card top-ups and transfers with a 3% bonus.
@@ -62,7 +55,8 @@ These are confirmed parts of the launch product being switched on in stages. Som
 members may already see them; not everyone does yet.
 
 - **Free and Pro Data Rooms.** Scoring, the public catalog, primary-market
-  blocks and the AI data check need a Pro room; the first room and a Resident's free rooms stay Free.
+  blocks (from the day the market opens) and the AI data check need a Pro room;
+  the first room and a Resident's free rooms stay Free.
   See [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md#free-and-pro-rooms).
 - **Top-up bonus vouchers.** A top-up of $500 or more gives three bonus scoring
   vouchers. A refund of topped-up funds carries a 15% refund fee. See
@@ -85,6 +79,13 @@ members may already see them; not everyone does yet.
 
 ## Not at launch
 
+- **The market.** Blocks, the Secondary Market, the Demand Board and deal threads
+  are closed at launch. The market is switched on separately after launch; no
+  date is set. When it opens it brings the dealflow, sale blocks, access
+  requests and buyer interest; the Demand Board and the Secondary Market;
+  primary-market blocks by founders of scored companies, with no operator
+  approval step; and mediated deal threads with names hidden until both sides
+  agree to disclose them, complaints and disputes.
 - **English only.** The interface and documents are in English at launch.
 - **Office files for recipients.** Word, Excel and PowerPoint files can be
   uploaded, but recipients see PDF. Use PDF for anything you want investors to
