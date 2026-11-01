@@ -191,6 +191,16 @@ both sides agree, and the conversation runs inside GBlock until the contract is
 signed. See
 [Trust and safety](07-trust-and-safety.md#deal-threads-stay-inside-gblock).
 
+**What happens if a deal thread goes silent?**
+Once the market opens, both sides get reminders after 1, 2 and 3 days without
+activity and a final warning after 7 days; you can continue, close or freeze the
+thread. After 14 days without activity, and at least 7 days after the final
+warning, the deal closes automatically. The seller loses the larger of 20
+reputation points or half of their current score; the buyer is not penalized. If
+the seller reported the thread to an operator before it closed, no automatic
+penalty applies and an operator reviews the case. See
+[Deal silence penalty](05-reputation-economy.md#deal-silence-penalty).
+
 **Does GBlock hold the money or assets in a deal?**
 No. GBlock holds no assets and moves no deal funds.
 

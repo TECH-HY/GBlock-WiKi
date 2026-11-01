@@ -125,7 +125,13 @@ _(rolling out; for now that Resident must have passed KYC too)_.
    confirm what they are willing to disclose. Keep the conversation in the
    thread: messages with direct contact details are held for operator review
    until the contract is signed.
-3. The thread reaches an outcome and is archived. If something goes wrong, file a
+3. A thread that goes quiet is closed automatically. Both sides get reminders
+   after 1, 2 and 3 days without activity and a final warning after 7 days; you
+   can continue, close or freeze the thread. After 14 days without activity, and
+   at least 7 days after the final warning, the deal closes and the seller loses
+   reputation. See
+   [Deal silence penalty](05-reputation-economy.md#deal-silence-penalty).
+4. The thread reaches an outcome and is archived. If something goes wrong, file a
    complaint or open a dispute from the thread; it stays open while the operator
    looks into it.
 
