@@ -53,9 +53,10 @@ current score**. The buyer is not penalized, whichever side went quiet first.
 Because the penalty is taken from the score as it stands, it grows with your
 reputation.
 
-If the seller reported the thread to an operator before it closed, no automatic
-penalty applies and an operator reviews the case. To avoid the penalty, continue,
-close or freeze the thread before the deadline. See
+If the seller opened a dispute in the thread (the **Dispute** button) before it
+closed, no automatic penalty applies and an operator reviews the case. A report
+filed with the **Report** button does not stop the penalty. To avoid the penalty,
+continue, close or freeze the thread before the deadline. See
 [Run a deal thread](04-user-journeys.md#run-a-deal-thread).
 
 ---
