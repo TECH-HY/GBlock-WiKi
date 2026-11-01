@@ -40,6 +40,24 @@ refreshes.
 The ladder has no ceiling. _Verified_ always means the KYC trust level; the
 lowest reputation tier is called **Member**.
 
+### Deal silence penalty
+
+> **The market opens later.** Deal threads are not available at launch; this
+> describes how the rule will work once the market opens.
+
+When a deal thread goes silent, both sides get reminders after 1, 2 and 3 days
+and a final warning after 7 days. After 14 days without activity, and at least 7
+days after the final warning, the deal is closed automatically and **the
+seller** loses reputation: the larger of **20 points** or **half of their
+current score**. The buyer is not penalized, whichever side went quiet first.
+Because the penalty is taken from the score as it stands, it grows with your
+reputation.
+
+If the seller reported the thread to an operator before it closed, no automatic
+penalty applies and an operator reviews the case. To avoid the penalty, continue,
+close or freeze the thread before the deadline. See
+[Run a deal thread](04-user-journeys.md#run-a-deal-thread).
+
 ---
 
 ## Backing someone
