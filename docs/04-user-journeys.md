@@ -131,9 +131,11 @@ _(rolling out; for now that Resident must have passed KYC too)_.
    at least 7 days after the final warning, the deal closes and the seller loses
    reputation. See
    [Deal silence penalty](05-reputation-economy.md#deal-silence-penalty).
-4. The thread reaches an outcome and is archived. If something goes wrong, file a
-   complaint or open a dispute from the thread; it stays open while the operator
-   looks into it.
+4. The thread reaches an outcome and is archived. If something goes wrong, open a
+   dispute with the **Dispute** button in the thread. The dispute does not close
+   the thread, and the operator reviews it. A report filed with the **Report**
+   button is a separate complaint and does not stop the silence penalty from
+   step 3.
 
 GBlock does not settle transactions, move funds or hold assets. The thread only
 mediates the introduction and the conversation.
