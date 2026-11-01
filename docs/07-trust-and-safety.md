@@ -56,8 +56,10 @@ KYB / KYC, Misrepresentation, Off-platform, Harassment, Privacy, Fraud and Other
   verified by GBlock. Knowingly false information is a serious breach: the owner
   answers with their reputation and can face sanctions up to a
   [permanent ban](#permanent-ban).
-- Inside a deal, the thread has its own complaint and dispute actions, and
-  stays open while the operator looks into it.
+- Inside a deal, the thread has its own **Dispute** and **Report** actions. A
+  dispute goes to the operator for review and does not close the thread; it is
+  also the only action that stops the
+  [deal silence penalty](05-reputation-economy.md#deal-silence-penalty).
 
 ---
 

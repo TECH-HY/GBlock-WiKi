@@ -197,8 +197,9 @@ activity and a final warning after 7 days; you can continue, close or freeze the
 thread. After 14 days without activity, and at least 7 days after the final
 warning, the deal closes automatically. The seller loses the larger of 20
 reputation points or half of their current score; the buyer is not penalized. If
-the seller reported the thread to an operator before it closed, no automatic
-penalty applies and an operator reviews the case. See
+the seller opened a dispute in the thread (the Dispute button) before it closed,
+no automatic penalty applies and an operator reviews the case; a report filed
+with the Report button does not stop it. See
 [Deal silence penalty](05-reputation-economy.md#deal-silence-penalty).
 
 **Does GBlock hold the money or assets in a deal?**
