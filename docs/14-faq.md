@@ -277,8 +277,9 @@ A venture studio inside GBlock that helps project teams move from assessment to
 a deal-ready company. See [GBlock Labs](15-gblock-labs.md).
 
 **How do I apply?**
-Register on GBlock, run self-scoring and mark your Labs partnership interest
-when creating a Data Room _(rolling out)_. GBlock reviews projects that opt in.
+Register on GBlock, mark your Labs partnership interest when you create your
+project's Data Room _(rolling out)_, then run self-scoring from that room.
+GBlock reviews projects that opt in.
 See [GBlock Labs](15-gblock-labs.md).
 
 **What does it cost?**

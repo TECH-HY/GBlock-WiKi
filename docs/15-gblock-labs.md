@@ -10,7 +10,8 @@ stage.
 
 ## Who it is for
 
-Labs is for project teams that have registered on GBlock and run self-scoring.
+Labs is for project teams that have registered on GBlock, created a Data Room
+and run self-scoring.
 
 ---
 
@@ -19,10 +20,10 @@ Labs is for project teams that have registered on GBlock and run self-scoring.
 1. **Register on GBlock** with the single form. Every member starts as an
    Ambassador, and no invitation is needed. See
    [Getting access](03-getting-access.md).
-2. **Run self-scoring** from your cabinet. See
-   [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
-3. When you create the project's Data Room as its founder, tick the
+2. **Create your project's Data Room** as its founder and tick the
    **Labs partnership interest** _(rolling out)_.
+3. **Run self-scoring** from that Data Room. See
+   [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
 
 GBlock reviews the projects that opt in.
 

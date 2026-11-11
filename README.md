@@ -52,7 +52,7 @@ Each page stands on its own; read in order or jump to what you need.
 
 - **Founders** open a Data Room, get a project scoring and show the
   company to investors on their own terms.
-- **Project teams** can opt in to GBlock Labs after self-scoring; the Data Room
+- **Project teams** can opt in to GBlock Labs when creating their Data Room; the Data Room
   Labs partnership interest is _rolling out_. See
   [GBlock Labs](docs/15-gblock-labs.md).
 - **Investors and owners** look through the public project catalog and ask
