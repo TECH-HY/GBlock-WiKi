@@ -43,12 +43,18 @@ Pro. _Rolling out._
 **Gallery.** Your personal collection of followed Data Rooms, optionally public.
 _Rolling out._
 
+**GBlock Labs.** The venture studio inside GBlock that helps project teams build
+toward a deal-ready company. See [GBlock Labs](15-gblock-labs.md).
+
 **Guarantee.** A Verified member backs another member toward the Vouched trust
 level. Locks nothing up front, but the guarantor carries half of the ward's
 negative reputation events while it is active, during a 30-day probation.
 
 **KYC / KYB.** Identity verification of a person (KYC) or a company (KYB) by an
 external provider. KYC gives the Verified trust level.
+
+**Labs partnership interest.** The option to register interest in working with
+GBlock Labs when creating a Data Room. _Rolling out._
 
 **Mediated introduction.** The connection between buyer and seller that runs
 through GBlock. Names and contact details stay hidden until both sides agree to
