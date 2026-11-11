@@ -268,6 +268,28 @@ Open **Report** in the cabinet and pick a category, or write to
 reporter is not shown to the person you report. See
 [Report a problem](04-user-journeys.md#report-a-problem).
 
+---
+
+## GBlock Labs
+
+**What is GBlock Labs?**
+A venture studio inside GBlock that helps project teams move from assessment to
+a deal-ready company. See [GBlock Labs](15-gblock-labs.md).
+
+**How do I apply?**
+Register on GBlock, run self-scoring and mark your Labs partnership interest
+when creating a Data Room _(rolling out)_. GBlock reviews projects that opt in.
+See [GBlock Labs](15-gblock-labs.md).
+
+**What does it cost?**
+Labs works under a monthly subscription; the commercial terms are agreed
+individually for each project. There is no public price. See
+[GBlock Labs](15-gblock-labs.md).
+
+**Does Labs guarantee funding?**
+No. Labs does not guarantee funding or a transaction, and being selected is not
+guaranteed. See [GBlock Labs](15-gblock-labs.md).
+
 **Where are the terms and disclaimers?**
 On the [Legal documents](13-legal-documents.md) page, with the full texts.
 

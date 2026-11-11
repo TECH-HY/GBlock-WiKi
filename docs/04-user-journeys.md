@@ -51,6 +51,8 @@ The founder journey: present your company, get scored, be found.
 4. **Order a scoring.** The scoring rates the project on **Potential** (0-150)
    and **Readiness** (0-150). It needs a Pro room and costs $35, or one scoring
    voucher. See [Data Rooms, scoring and subscriptions](12-data-rooms-scoring-and-subscriptions.md).
+   After scoring, project teams can explore [GBlock Labs](15-gblock-labs.md) for
+   hands-on building after an offer is agreed.
 5. **Publish to the project catalog.** A room appears in the public catalog with
    a valid scoring, a completed company profile and a Pro room. Without them the
    room still works for investors you granted access to.

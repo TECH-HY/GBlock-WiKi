@@ -44,6 +44,7 @@ Each page stands on its own; read in order or jump to what you need.
 | 12 | [Data Rooms, scoring and subscriptions](docs/12-data-rooms-scoring-and-subscriptions.md) | Free and Pro rooms, scoring, vouchers and billing. |
 | 13 | [Legal documents](docs/13-legal-documents.md) | The terms, privacy and cookie policies, disclaimers and risk disclosure, and when you meet each. |
 | 14 | [FAQ](docs/14-faq.md) | Short answers to the most common questions. |
+| 15 | [GBlock Labs](docs/15-gblock-labs.md) | How Labs takes a project from assessment to deal-ready. |
 
 ---
 
@@ -51,6 +52,9 @@ Each page stands on its own; read in order or jump to what you need.
 
 - **Founders** open a Data Room, get a project scoring and show the
   company to investors on their own terms.
+- **Project teams** can opt in to GBlock Labs after self-scoring; the Data Room
+  Labs partnership interest is _rolling out_. See
+  [GBlock Labs](docs/15-gblock-labs.md).
 - **Investors and owners** look through the public project catalog and ask
   founders for access to their Data Rooms. Once the market opens, Residents also
   browse private-market opportunities and talk to counterparties through
@@ -82,7 +86,7 @@ custody of assets and no promised returns. See
 ```text
 .
 ├── README.md              this file
-├── docs/                  the guide, one topic per file (01-14)
+├── docs/                  the guide, one topic per file (01-15)
 │   └── legal/             copies of the published legal texts
 └── brand/                 logo and brand reference assets
 ```
